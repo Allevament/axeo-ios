@@ -1,0 +1,515 @@
+/* Tabs & Navigation */
+"Home" = "Inicio";
+"Exercises" = "Ejercicios";
+"Programs" = "Programas";
+"Screening" = "Detección";
+"Progress" = "Progreso";
+"Profile" = "Perfil";
+"Exercise Library" = "Biblioteca de Ejercicios";
+"Vision Screening" = "Evaluación Visual";
+"Axeo Premium" = "Axeo Premium";
+"Training Programs" = "Programas de Entrenamiento";
+"Check Your Vision" = "Revisa Tu Visión";
+"My Progress" = "Mi Progreso";
+
+/* Home View */
+"Axeo" = "Axeo";
+"Private & Secure" = "Privado y seguro";
+"Good morning, %@" = "Buenos días, %@";
+"Good afternoon, %@" = "Buenas tardes, %@";
+"Good evening, %@" = "Buenas noches, %@";
+"Hello, %@" = "Hola, %@";
+"Recommended for You" = "Recomendado para ti";
+"based on your goal & condition" = "basado en tu objetivo y condición";
+"Refresh" = "Actualizar";
+"Today's Activity" = "Actividad de hoy";
+"updates after each session" = "se actualiza después de cada sesión";
+"%d-day streak" = "racha de %d días";
+"Daily Eye Workout" = "Entrenamiento ocular diario";
+"Start Workout" = "Iniciar entrenamiento";
+"%d exercises · %d min · doctor-recommended" = "%d ejercicios · %d min · recomendado por médicos";
+"Workouts" = "Entrenamientos";
+"Focus Score" = "Puntuación de enfoque";
+"Time" = "Tiempo";
+"Done" = "Listo";
+
+/* Onboarding */
+"Skip" = "Omitir";
+"Science-Backed\nEye Training" = "Entrenamiento ocular\nbasado en ciencia";
+"17 exercises designed with AAO and COVD clinical guidelines. Train your eye muscles the way you train your body." = "17 ejercicios diseñados con guías clínicas AAO y COVD. Entrena los músculos de tus ojos como entrenas tu cuerpo.";
+"Track Your\nProgress" = "Registra tu\nprogreso";
+"Streaks, stats, and vision screening — all in one place. See your improvement over days and weeks." = "Rachas, estadísticas y detección visual — todo en un solo lugar. Observa tu mejora día a día y semana a semana.";
+"Private &\nSecure" = "Privado y\nseguro";
+"All data stays on your device. No accounts, no cloud uploads, no tracking. Your eyes, your data." = "Todos los datos permanecen en tu dispositivo. Sin cuentas, sin subidas a la nube, sin rastreo. Tus ojos, tus datos.";
+"What's your main goal?" = "¿Cuál es tu objetivo principal?";
+"We'll personalize your daily workouts" = "Personalizaremos tus entrenamientos diarios";
+"Your Name" = "Tu nombre";
+"Guest" = "Invitado";
+"Any known eye condition?" = "¿Alguna condición ocular conocida?";
+"Optional — helps us customize exercises" = "Opcional — nos ayuda a personalizar los ejercicios";
+"None" = "Ninguna";
+"Continue" = "Continuar";
+"Let's Start" = "¡Comencemos!";
+"No account needed · 100% on-device" = "Sin cuenta necesaria · 100% en el dispositivo";
+
+/* Profile */
+"Premium" = "Premium";
+"SETTINGS" = "AJUSTES";
+"Change Goal" = "Cambiar objetivo";
+"Change Diagnosis" = "Cambiar diagnóstico";
+"Upgrade to Premium" = "Mejorar a Premium";
+"Notifications" = "Notificaciones";
+"System Settings" = "Ajustes del sistema";
+"ABOUT" = "ACERCA DE";
+"Privacy Policy" = "Política de privacidad";
+"Medical Disclaimer" = "Aviso médico";
+"Rate Axeo" = "Calificar Axeo";
+"Refer a Friend" = "Recomendar a un amigo";
+"Minutes" = "Minutos";
+"Member Since" = "Miembro desde";
+"Name" = "Nombre";
+"Reset All Data" = "Restablecer todos los datos";
+"Delete Everything" = "Eliminar todo";
+"Cancel" = "Cancelar";
+"DATA" = "DATOS";
+"Reset All Data?" = "¿Restablecer todos los datos?";
+"This will permanently delete all sessions, test results, and progress. This cannot be undone." = "Esto eliminará permanentemente todas las sesiones, resultados de pruebas y progreso. Esta acción no se puede deshacer.";
+"Train your eyes daily with Axeo — science-backed eye training. https://apps.apple.com/app/axeo" = "Entrena tus ojos a diario con Axeo — entrenamiento ocular basado en ciencia. https://apps.apple.com/app/axeo";
+"Share Axeo" = "Compartir Axeo";
+
+/* Paywall */
+"Axeo Premium" = "Axeo Premium";
+"Unlock Full Vision Training" = "Desbloquea el entrenamiento visual completo";
+"17 clinical exercises across 6 categories" = "17 ejercicios clínicos en 6 categorías";
+"3 structured programs (30–45 days)" = "3 programas estructurados (30–45 días)";
+"6 vision screening tests" = "6 pruebas de detección visual";
+"ARKit eye-tracking with accuracy scoring" = "Seguimiento ocular ARKit con puntuación de precisión";
+"Smart 20-20-20 reminders" = "Recordatorios inteligentes 20-20-20";
+"New exercises & programs added regularly" = "Nuevos ejercicios y programas añadidos regularmente";
+"Weekly" = "Semanal";
+"Monthly" = "Mensual";
+"Annual" = "Anual";
+"Lifetime" = "De por vida";
+"BEST VALUE" = "MEJOR PRECIO";
+"$2.49/mo · SAVE 58%" = "$2.49/mes · AHORRA 58%";
+"7-day free trial" = "Prueba gratuita de 7 días";
+"per month" = "por mes";
+"per week" = "por semana";
+"one-time" = "pago único";
+"Start your 7-day free trial" = "Comienza tu prueba gratuita de 7 días";
+"Unlock forever" = "Desbloquear para siempre";
+"Restore Purchases" = "Restaurar compras";
+"Cancel anytime. Billed by Apple." = "Cancela en cualquier momento. Facturado por Apple.";
+
+/* Exercise Library & Detail */
+"Exercise Library" = "Biblioteca de ejercicios";
+"exercises" = "ejercicios";
+"categories" = "categorías";
+"min full set" = "min serie completa";
+"Based on AAO Clinical Guidelines & COVD Standards" = "Basado en guías clínicas AAO y estándares COVD";
+"HOW TO DO IT" = "CÓMO HACERLO";
+"WHO IT HELPS" = "A QUIÉN AYUDA";
+"Takes about %d seconds" = "Dura aproximadamente %d segundos";
+"Eye Tracking" = "Seguimiento ocular";
+"Eye Tracking Coming Soon" = "Seguimiento ocular próximamente";
+"Backed by AAO Guidelines" = "Respaldado por guías AAO";
+"Start Exercise" = "Iniciar ejercicio";
+"Based on AAO & COVD clinical guidelines. Consult an eye care professional if you have a pre-existing condition." = "Basado en guías clínicas AAO y COVD. Consulte a un profesional de la salud visual si tiene una condición preexistente.";
+
+/* Exercise Player */
+"%d of %d" = "%d de %d";
+"End Session?" = "¿Terminar sesión?";
+"Your progress in this exercise will be saved." = "Tu progreso en este ejercicio será guardado.";
+"End Session" = "Terminar sesión";
+"Great work!" = "¡Buen trabajo!";
+"Up next" = "Siguiente";
+"%d seconds" = "%d segundos";
+"Starting in 3 seconds…" = "Comenzando en 3 segundos…";
+"Paused" = "Pausado";
+"Resume" = "Reanudar";
+
+/* Session Results */
+"Great work! Workout complete." = "¡Buen trabajo! Entrenamiento completado.";
+"Your next session is ready whenever you are." = "Tu próxima sesión está lista cuando tú lo estés.";
+"Duration" = "Duración";
+"Accuracy" = "Precisión";
+"Status" = "Estado";
+"Completed" = "Completado";
+"Partial" = "Parcial";
+"EXERCISES COMPLETED" = "EJERCICIOS COMPLETADOS";
+"Set 20-20-20 Reminder (20 min)" = "Configurar recordatorio 20-20-20 (20 min)";
+"20-20-20 Reminder Set" = "Recordatorio 20-20-20 configurado";
+"Share Achievement" = "Compartir logro";
+"20-20-20 Break" = "Descanso 20-20-20";
+"Look at something 20 feet away for 20 seconds. Your eyes will thank you!" = "Mira algo a 6 metros de distancia durante 20 segundos. ¡Tus ojos te lo agradecerán!";
+
+/* Programs */
+"Training Programs" = "Programas de entrenamiento";
+"Clinically designed · Doctor-approved" = "Diseño clínico · Aprobado por médicos";
+"IN PROGRESS" = "EN PROGRESO";
+"ALL PROGRAMS" = "TODOS LOS PROGRAMAS";
+"Day %d of %d" = "Día %d de %d";
+"Continue Training" = "Continuar entrenamiento";
+"Featured" = "Destacado";
+"Start Free →" = "Empezar gratis →";
+"TODAY'S PLAN" = "PLAN DE HOY";
+"FULL SCHEDULE" = "PROGRAMA COMPLETO";
+"Start Program" = "Iniciar programa";
+"Start Day %d" = "Iniciar día %d";
+"Rest Day" = "Día de descanso";
+"Graduation Day" = "Día de graduación";
+"Day %d" = "Día %d";
+"Your eyes need recovery too. Come back tomorrow!" = "Tus ojos también necesitan descanso. ¡Vuelve mañana!";
+"Users report improved focus after Week 2" = "Los usuarios reportan mejor enfoque después de la semana 2";
+"%d exercises · ~%d min" = "%d ejercicios · ~%d min";
+"%d days" = "%d días";
+
+/* Progress Dashboard */
+"My Progress" = "Mi progreso";
+"Track your eye health progress" = "Registra el progreso de tu salud visual";
+"Start training to track your progress" = "Comienza a entrenar para registrar tu progreso";
+"Great start — %d workout(s) this week!" = "¡Gran comienzo — %d entrenamiento(s) esta semana!";
+"You've trained %d× more than last week" = "Has entrenado %d× más que la semana pasada";
+"Consistent! Same pace as last week" = "¡Consistente! Mismo ritmo que la semana pasada";
+"Keep it up — %d workout(s) this week" = "¡Sigue así — %d entrenamiento(s) esta semana!";
+"Current Streak" = "Racha actual";
+"Best Streak" = "Mejor racha";
+"day" = "día";
+"days" = "días";
+"ACTIVITY" = "ACTIVIDAD";
+"ALL TIME" = "TODO EL TIEMPO";
+"Avg Focus Score" = "Puntuación media de enfoque";
+"RECENT SESSIONS" = "SESIONES RECIENTES";
+"Quick Workout" = "Entrenamiento rápido";
+"Single Exercise" = "Ejercicio individual";
+"Program Session" = "Sesión del programa";
+"%d exercises" = "%d ejercicios";
+"SCREENING HISTORY" = "HISTORIAL DE DETECCIÓN";
+"Export Data" = "Exportar datos";
+"Week" = "Semana";
+"30 Days" = "30 días";
+"90 Days" = "90 días";
+"%d workouts" = "%d entrenamientos";
+"%d minutes" = "%d minutos";
+"%d workout" = "%d entrenamiento";
+
+/* Screening & Tests */
+"Vision Screening" = "Detección visual";
+"Check Your Vision" = "Revisa tu visión";
+"6 standardized screening tests" = "6 pruebas de detección estandarizadas";
+"These are screening tools, not medical diagnoses. See an eye care professional for a comprehensive exam." = "Estas son herramientas de detección, no diagnósticos médicos. Consulte a un profesional de la salud visual para un examen completo.";
+"TEST HISTORY" = "HISTORIAL DE PRUEBAS";
+"Normal" = "Normal";
+"Review" = "Revisar";
+"Start Test" = "Iniciar prueba";
+"Results Look Normal" = "Los resultados parecen normales";
+"We Recommend a Professional Check" = "Recomendamos una revisión profesional";
+"This screening is not a substitute for a professional eye exam." = "Esta detección no sustituye un examen ocular profesional.";
+"Row %d of %d" = "Fila %d de %d";
+"Type the letters you see" = "Escribe las letras que ves";
+"Can't See" = "No puedo ver";
+"Submit" = "Enviar";
+"Hold at arm's length (20 inches)" = "Sostener a la distancia del brazo (50 cm)";
+"Plate %d of %d" = "Lámina %d de %d";
+"What number do you see?" = "¿Qué número ves?";
+"I don't see a number" = "No veo ningún número";
+"Tap any lines that appear bolder or darker" = "Toca las líneas que parezcan más gruesas u oscuras";
+"All Lines Look the Same" = "Todas las líneas se ven igual";
+"Submit (%d selected)" = "Enviar (%d seleccionadas)";
+"Cover one eye. Look at the center of the dial. Do any lines appear darker, bolder, or more defined than others?" = "Cubre un ojo. Mira al centro del dial. ¿Alguna línea parece más oscura, gruesa o definida que las demás?";
+"I'm Ready" = "Estoy listo";
+"Mild reduction" = "Reducción leve";
+"Below normal" = "Por debajo de lo normal";
+
+/* Shared & Disclaimers */
+"Health Disclaimer" = "Aviso de salud";
+"Axeo provides educational eye exercises based on AAO and COVD clinical guidelines. It is not a medical device and does not diagnose, treat, or replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition." = "Axeo proporciona ejercicios oculares educativos basados en guías clínicas AAO y COVD. No es un dispositivo médico y no diagnostica, trata ni reemplaza la atención ocular profesional. Consulte a un oftalmólogo u optometrista antes de iniciar cualquier programa de ejercicios — especialmente si tiene una condición preexistente.";
+"AAO" = "AAO";
+"COVD" = "COVD";
+"TFOS DEWS II" = "TFOS DEWS II";
+"I Understand — Let's Start" = "Entiendo — ¡Comencemos!";
+"E Y E   T R A I N I N G" = "E N T R E N A M I E N T O   O C U L A R";
+
+/* Exercise Names */
+"Focus Shift" = "Cambio de enfoque";
+"Figure Eight" = "Figura de ocho";
+"Palming" = "Palmeo";
+"Saccades" = "Sacadas";
+"Blinking" = "Parpadeo";
+"Window Dot" = "Punto en la ventana";
+"Convergence" = "Convergencia";
+"Square Tracing" = "Trazado cuadrado";
+"Vertical & Horizontal" = "Vertical y horizontal";
+"Warm Compress" = "Compresa caliente";
+"Stereogram" = "Estereograma";
+"Image Fusion" = "Fusión de imágenes";
+"Breath + Gaze" = "Respiración + mirada";
+"20-20-20 Rule" = "Regla 20-20-20";
+"Lid Massage" = "Masaje de párpados";
+"Lid Gym" = "Gimnasia de párpados";
+"Tear Film" = "Película lagrimal";
+
+/* Exercise Hints */
+"Keep the phone at arm's length. Focus on the dot for 3 seconds, then shift your gaze to a distant object (across the room). Head stays still throughout." = "Mantén el teléfono a la distancia del brazo. Enfoca el punto durante 3 segundos, luego cambia la mirada a un objeto lejano (al otro lado de la habitación). La cabeza debe permanecer quieta.";
+"Follow the moving dot along the figure-eight path with your eyes only. Keep smooth, continuous movement — don't jump ahead." = "Sigue el punto en movimiento a lo largo del camino en forma de ocho solo con los ojos. Mantén un movimiento suave y continuo — no te adelantes.";
+"Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Breathe slowly and let your eyes relax in total darkness." = "Frota las palmas hasta que estén calientes, luego colócalas suavemente sobre los ojos cerrados. Sin presión sobre los globos oculares. Respira lentamente y deja que tus ojos se relajen en la oscuridad total.";
+"A dot lights up in one of 9 positions — jump your gaze to it immediately and hold for 2.5 seconds. Keep your head still; only move your eyes." = "Un punto se ilumina en una de 9 posiciones — dirige tu mirada hacia él inmediatamente y mantén durante 2.5 segundos. Mantén la cabeza quieta; solo mueve los ojos.";
+"Look straight ahead, face relaxed. Slowly close eyelids fully — no squinting. Hold 1 second. Open slowly. Repeat every 5 seconds." = "Mira al frente, con la cara relajada. Cierra los párpados lentamente — sin entrecerrar. Mantén 1 segundo. Abre lentamente. Repite cada 5 segundos.";
+"Place a small sticker on a window at eye level. Stand arm's length away. Focus on the dot for 10 seconds, then shift to a distant object outside for 10 seconds." = "Coloca una pequeña pegatina en una ventana a la altura de los ojos. Párate a la distancia del brazo. Enfoca el punto durante 10 segundos, luego cambia a un objeto lejano afuera durante 10 segundos.";
+"Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out." = "Sostén el teléfono a la distancia del brazo, enfoca el punto central. Acércalo lentamente hacia tu nariz, manteniendo el punto único y claro. Cuando se duplique, aléjalo.";
+"Follow the dot as it traces a square with your eyes. Direction alternates clockwise then counterclockwise each lap." = "Sigue el punto mientras traza un cuadrado con tus ojos. La dirección alterna entre sentido horario y antihorario en cada vuelta.";
+"Follow the dot: slowly up — pause — down — pause. 10 repetitions. Then left — pause — right — pause. 10 repetitions." = "Sigue el punto: lentamente arriba — pausa — abajo — pausa. 10 repeticiones. Luego izquierda — pausa — derecha — pausa. 10 repeticiones.";
+"Apply a warm, damp cloth over closed eyes. The heat helps open oil glands in your eyelids. Breathe deeply and relax for 3 minutes." = "Aplica un paño tibio y húmedo sobre los ojos cerrados. El calor ayuda a abrir las glándulas sebáceas de los párpados. Respira profundamente y relájate durante 3 minutos.";
+"Two circles will appear side by side. Relax your eyes and let them slowly merge into one. When you see a single circle, hold your focus." = "Dos círculos aparecerán uno al lado del otro. Relaja los ojos y déjalos fusionarse lentamente en uno. Cuando veas un solo círculo, mantén el enfoque.";
+"Similar to stereogram, but the circles move apart and back together. Try to maintain fusion (single image) as long as possible." = "Similar al estereograma, pero los círculos se separan y vuelven a juntarse. Intenta mantener la fusión (imagen única) el mayor tiempo posible.";
+"Sit upright, relax shoulders. Inhale 6 seconds — slowly raise your gaze. Hold 2 seconds at top. Exhale 7 seconds — lower your gaze. Repeat." = "Siéntate erguido, relaja los hombros. Inhala 6 segundos — eleva lentamente la mirada. Mantén 2 segundos arriba. Exhala 7 segundos — baja la mirada. Repite.";
+"Every 20 minutes, look at something 20 feet away for 20 seconds. This exercise is a single guided 20-second break." = "Cada 20 minutos, mira algo a 6 metros de distancia durante 20 segundos. Este ejercicio es una pausa guiada de 20 segundos.";
+"Using a fingertip, gently massage your upper eyelid from the temple toward the nose. Then do the same on the lower lid. Light pressure only." = "Con la punta del dedo, masajea suavemente el párpado superior desde la sien hacia la nariz. Luego haz lo mismo en el párpado inferior. Solo presión ligera.";
+"Squeeze your eyes shut firmly for 2 seconds, then open wide for 2 seconds. This strengthens orbicularis and levator muscles." = "Cierra los ojos con fuerza durante 2 segundos, luego ábrelos ampliamente durante 2 segundos. Esto fortalece los músculos orbicular y elevador.";
+"Perform a slow, complete blink — close fully, hold 1 second, open. Then look at a distant point for 4 seconds. Repeat." = "Realiza un parpadeo lento y completo — cierra totalmente, mantén 1 segundo, abre. Luego mira a un punto lejano durante 4 segundos. Repite.";
+
+/* Exercise Indications */
+"Great for people who work at a screen 6+ hours/day. Helps with nearsightedness prevention, eye focusing fatigue, and Computer Vision Syndrome." = "Ideal para personas que trabajan frente a una pantalla 6+ horas/día. Ayuda con la prevención de la miopía, la fatiga de enfoque ocular y el Síndrome Visual Informático.";
+"Improves eye mobility and coordination. Helpful for people with restricted eye movement, or those recovering after eye muscle procedures." = "Mejora la movilidad y coordinación ocular. Útil para personas con movimiento ocular restringido o en recuperación después de procedimientos musculares oculares.";
+"Instant relief for tired, overworked eyes. Recommended after long screen sessions or any time your eyes feel strained." = "Alivio inmediato para ojos cansados y sobreexigidos. Recomendado después de sesiones largas frente a la pantalla o cuando sientas tensión ocular.";
+"Helps with reading speed and accuracy. Useful for anyone who loses their place while reading or has trouble with quick eye movements." = "Ayuda con la velocidad y precisión de lectura. Útil para quienes pierden el lugar al leer o tienen dificultad con movimientos oculares rápidos.";
+"Restores your natural blink rate, which drops 60% during screen use. Helps with dry, irritated eyes and eye fatigue." = "Restaura tu frecuencia natural de parpadeo, que disminuye un 60% durante el uso de pantallas. Ayuda con ojos secos, irritados y fatiga ocular.";
+"Classic optometry exercise for focusing flexibility. Great for people with accommodative insufficiency or early presbyopia symptoms." = "Ejercicio clásico de optometría para flexibilidad de enfoque. Ideal para personas con insuficiencia acomodativa o síntomas tempranos de presbicia.";
+"Strengthens eye teaming. Helps with convergence insufficiency — common in people who get headaches or double vision while reading." = "Fortalece el trabajo en equipo de los ojos. Ayuda con la insuficiencia de convergencia — común en personas que sufren dolores de cabeza o visión doble al leer.";
+"Strengthens all six eye muscles evenly. Especially helpful for people with eye movement asymmetry or post-surgical recovery." = "Fortalece los seis músculos oculares de manera uniforme. Especialmente útil para personas con asimetría en el movimiento ocular o recuperación postquirúrgica.";
+"Builds range of motion in all four cardinal directions. Good for people with restricted gaze or neck tension from screen use." = "Desarrolla el rango de movimiento en las cuatro direcciones cardinales. Bueno para personas con mirada restringida o tensión cervical por uso de pantallas.";
+"Recommended by ophthalmologists for dry eye and meibomian gland dysfunction. The heat liquefies blocked oils to restore your tear film." = "Recomendado por oftalmólogos para ojo seco y disfunción de las glándulas de Meibomio. El calor licúa los aceites bloqueados para restaurar la película lagrimal.";
+"Trains your brain to fuse images from both eyes. Helps develop stereoscopic depth perception and binocular vision." = "Entrena tu cerebro para fusionar imágenes de ambos ojos. Ayuda a desarrollar la percepción de profundidad estereoscópica y la visión binocular.";
+"Advanced binocular training. Builds flexible vergence — the ability to maintain single vision at changing distances." = "Entrenamiento binocular avanzado. Desarrolla la vergencia flexible — la capacidad de mantener visión única a distancias cambiantes.";
+"Combines eye movement with breathing rhythm. Reduces overall tension, lowers intraocular pressure, and calms the nervous system." = "Combina el movimiento ocular con el ritmo respiratorio. Reduce la tensión general, disminuye la presión intraocular y calma el sistema nervioso.";
+"The AAO's #1 recommendation for screen users. Prevents accommodative spasm and reduces digital eye strain." = "La recomendación #1 de la AAO para usuarios de pantallas. Previene el espasmo acomodativo y reduce la fatiga visual digital.";
+"Stimulates meibomian glands to produce healthy oils. Based on TFOS DEWS II dry eye management guidelines." = "Estimula las glándulas de Meibomio para producir aceites saludables. Basado en las guías de manejo de ojo seco TFOS DEWS II.";
+"Builds eyelid muscle tone for better blink quality. Recommended for incomplete blinkers and people with lagophthalmos risk." = "Desarrolla el tono muscular del párpado para mejor calidad de parpadeo. Recomendado para personas con parpadeo incompleto y riesgo de lagoftalmos.";
+"Restores tear film stability. Combines intentional blinking with distance relaxation, per TFOS DEWS II guidelines." = "Restaura la estabilidad de la película lagrimal. Combina parpadeo intencional con relajación a distancia, según las guías TFOS DEWS II.";
+
+/* Exercise Steps */
+"Hold phone at arm's length" = "Sostén el teléfono a la distancia del brazo";
+"Focus on the on-screen dot for 3 seconds" = "Enfoca el punto en la pantalla durante 3 segundos";
+"Shift gaze to a distant object across the room" = "Cambia la mirada a un objeto lejano al otro lado de la habitación";
+"Hold distant focus for 3 seconds" = "Mantén el enfoque lejano durante 3 segundos";
+"Keep your head still — only your eyes move" = "Mantén la cabeza quieta — solo se mueven los ojos";
+"Look straight ahead and relax your eyes" = "Mira al frente y relaja los ojos";
+"Trace a figure-eight pattern in the air with your eyes" = "Traza un patrón de ocho en el aire con los ojos";
+"Keep the movement smooth and controlled" = "Mantén el movimiento suave y controlado";
+"Reverse the direction halfway through" = "Invierte la dirección a la mitad";
+"Keep your head still — only your eyes should move" = "Mantén la cabeza quieta — solo deben moverse los ojos";
+"Rub your palms together until warm" = "Frota las palmas hasta que estén calientes";
+"Cup warm palms gently over closed eyes" = "Coloca las palmas calientes suavemente sobre los ojos cerrados";
+"No pressure on the eyeballs" = "Sin presión sobre los globos oculares";
+"Breathe slowly and deeply" = "Respira lenta y profundamente";
+"Let your eyes relax in total darkness" = "Deja que tus ojos se relajen en oscuridad total";
+"Keep your head still, face the screen" = "Mantén la cabeza quieta, mira la pantalla";
+"A dot will appear in one of 9 positions" = "Un punto aparecerá en una de 9 posiciones";
+"Jump your gaze to the dot immediately" = "Dirige la mirada al punto inmediatamente";
+"Hold focus on the dot for 2.5 seconds" = "Mantén el enfoque en el punto durante 2.5 segundos";
+"Wait for the next dot position" = "Espera la siguiente posición del punto";
+"Look straight ahead, face relaxed" = "Mira al frente, cara relajada";
+"Slowly close your eyelids fully — no squinting" = "Cierra los párpados lentamente — sin entrecerrar";
+"Hold closed for 1 second" = "Mantén cerrado durante 1 segundo";
+"Open slowly and gently" = "Abre lenta y suavemente";
+"Repeat every 5 seconds" = "Repite cada 5 segundos";
+"Place a small dot or sticker on a window at eye level" = "Coloca un punto o pegatina en una ventana a la altura de los ojos";
+"Stand at arm's length from the window" = "Párate a la distancia del brazo de la ventana";
+"Focus on the dot for 10 seconds" = "Enfoca el punto durante 10 segundos";
+"Shift focus to a distant object outside" = "Cambia el enfoque a un objeto lejano afuera";
+"Hold distant focus for 10 seconds" = "Mantén el enfoque lejano durante 10 segundos";
+"Hold phone at arm's length, focus on center dot" = "Sostén el teléfono a la distancia del brazo, enfoca el punto central";
+"Slowly bring the phone toward your nose" = "Acerca lentamente el teléfono hacia tu nariz";
+"Keep the dot single and clear" = "Mantén el punto único y claro";
+"When the dot doubles, move the phone back" = "Cuando el punto se duplique, aleja el teléfono";
+"Repeat the approach slowly" = "Repite el acercamiento lentamente";
+"Follow the dot as it traces a square path" = "Sigue el punto mientras traza un camino cuadrado";
+"Keep your eyes on the dot at all times" = "Mantén los ojos en el punto en todo momento";
+"Direction alternates each lap" = "La dirección alterna en cada vuelta";
+"Keep your head completely still" = "Mantén la cabeza completamente quieta";
+"Follow the dot as it moves up and down" = "Sigue el punto mientras se mueve arriba y abajo";
+"Pause briefly at each end position" = "Pausa brevemente en cada posición final";
+"After 10 reps, follow left and right" = "Después de 10 repeticiones, sigue izquierda y derecha";
+"Keep your head still throughout" = "Mantén la cabeza quieta todo el tiempo";
+"Apply a warm, damp cloth over closed eyes" = "Aplica un paño tibio y húmedo sobre los ojos cerrados";
+"The warmth opens oil glands in your eyelids" = "El calor abre las glándulas sebáceas de los párpados";
+"Breathe deeply and relax" = "Respira profundamente y relájate";
+"Maintain for the full 3 minutes" = "Mantén durante los 3 minutos completos";
+"Two circles appear side by side" = "Dos círculos aparecen uno al lado del otro";
+"Relax your eyes — let focus go soft" = "Relaja los ojos — deja que el enfoque se suavice";
+"Allow the circles to slowly merge into one" = "Permite que los círculos se fusionen lentamente en uno";
+"Hold the fused single circle as long as possible" = "Mantén el círculo fusionado el mayor tiempo posible";
+"Watch the two circles on screen" = "Observa los dos círculos en la pantalla";
+"As they move apart, try to maintain single vision" = "Cuando se separen, intenta mantener visión única";
+"When they come back together, maintain fusion" = "Cuando vuelvan a juntarse, mantén la fusión";
+"Relax your eyes if you see double" = "Relaja los ojos si ves doble";
+"Sit upright, relax your shoulders" = "Siéntate erguido, relaja los hombros";
+"Inhale for 6 seconds — slowly raise your gaze" = "Inhala durante 6 segundos — eleva lentamente la mirada";
+"Hold at the top for 2 seconds" = "Mantén arriba durante 2 segundos";
+"Exhale for 7 seconds — lower your gaze" = "Exhala durante 7 segundos — baja la mirada";
+"Repeat the breathing cycle" = "Repite el ciclo de respiración";
+"Look away from your screen" = "Aparta la mirada de tu pantalla";
+"Find an object at least 20 feet away" = "Encuentra un objeto a al menos 6 metros";
+"Focus on it for 20 seconds" = "Enfócalo durante 20 segundos";
+"Let your eye muscles fully relax" = "Deja que los músculos de tus ojos se relajen completamente";
+"Close your eyes gently" = "Cierra los ojos suavemente";
+"Using a fingertip, massage upper lid temple-to-nose" = "Con la punta del dedo, masajea el párpado superior de la sien a la nariz";
+"Use light pressure only" = "Usa solo presión ligera";
+"Repeat on the lower lid" = "Repite en el párpado inferior";
+"Continue alternating for 60 seconds" = "Continúa alternando durante 60 segundos";
+"Squeeze your eyes shut firmly for 2 seconds" = "Cierra los ojos con fuerza durante 2 segundos";
+"Open your eyes wide for 2 seconds" = "Abre los ojos ampliamente durante 2 segundos";
+"Keep the rhythm steady" = "Mantén el ritmo constante";
+"Focus on complete, firm closures" = "Concéntrate en cierres completos y firmes";
+"Perform a slow, complete blink" = "Realiza un parpadeo lento y completo";
+"Close fully and hold for 1 second" = "Cierra completamente y mantén durante 1 segundo";
+"Open and look at a distant point" = "Abre y mira a un punto lejano";
+"Hold distant focus for 4 seconds" = "Mantén el enfoque lejano durante 4 segundos";
+"Repeat the cycle" = "Repite el ciclo";
+
+/* Exercise Categories */
+"Accommodation" = "Acomodación";
+"Eye Movement" = "Movimiento ocular";
+"Relaxation" = "Relajación";
+"Binocular" = "Binocular";
+"Breathing" = "Respiración";
+"Dry Eye Relief" = "Alivio de ojo seco";
+"Ciliary muscle training — myopia prevention & accommodation relief" = "Entrenamiento del músculo ciliar — prevención de miopía y alivio acomodativo";
+"Extraocular muscle training — all 6 directions of gaze" = "Entrenamiento de músculos extraoculares — las 6 direcciones de mirada";
+"Muscle and visual tension relief — 20-20-20 rule" = "Alivio de tensión muscular y visual — regla 20-20-20";
+"Teamwork of both eyes — stereovision development" = "Trabajo en equipo de ambos ojos — desarrollo de estereovisión";
+"Breathing synchronized with eye movement — WHO protocol" = "Respiración sincronizada con movimiento ocular — protocolo OMS";
+"Tear film stabilization & eyelid health — TFOS DEWS II" = "Estabilización de película lagrimal y salud del párpado — TFOS DEWS II";
+
+/* Vision Test Definitions */
+"Visual Acuity" = "Agudeza visual";
+"Astigmatism Check" = "Prueba de astigmatismo";
+"Color Vision" = "Visión del color";
+"Contrast Sensitivity" = "Sensibilidad al contraste";
+"Amsler Grid" = "Rejilla de Amsler";
+"Dry Eye Assessment" = "Evaluación de ojo seco";
+"Snellen chart — read progressively smaller letters" = "Tabla de Snellen — lee letras progresivamente más pequeñas";
+"Fan/clock dial — check for directional blur" = "Dial de abanico/reloj — verifica borrosidad direccional";
+"Ishihara-style plates — detect color deficiency" = "Láminas tipo Ishihara — detecta deficiencia de color";
+"Fading letters — check low-contrast vision" = "Letras desvanecidas — verifica visión de bajo contraste";
+"Grid distortion — screen for macular issues" = "Distorsión de rejilla — detección de problemas maculares";
+"OSDI questionnaire — rate your dry eye symptoms" = "Cuestionario OSDI — evalúa tus síntomas de ojo seco";
+"~2 min" = "~2 min";
+"~1 min" = "~1 min";
+"~3 min" = "~3 min";
+"This is a screening tool, not a medical diagnosis. Consult an eye care professional for a comprehensive exam." = "Esta es una herramienta de detección, no un diagnóstico médico. Consulte a un profesional de la salud visual para un examen completo.";
+
+/* User Enums */
+"No known condition" = "Sin condición conocida";
+"Nearsightedness" = "Miopía";
+"Farsightedness" = "Hipermetropía";
+"Astigmatism" = "Astigmatismo";
+"Presbyopia" = "Presbicia";
+"Dry Eye" = "Ojo seco";
+"Other" = "Otro";
+"Prevention" = "Prevención";
+"Correction" = "Corrección";
+"Keep your vision sharp and prevent future problems" = "Mantén tu visión nítida y previene problemas futuros";
+"Strengthen eye muscles and improve focus" = "Fortalece los músculos oculares y mejora el enfoque";
+"Reduce eye strain and digital fatigue" = "Reduce la fatiga ocular y la fatiga digital";
+
+/* Course Data */
+"Digital Eye Relief" = "Alivio ocular digital";
+"30-Day Digital Eye Strain Program" = "Programa de 30 días para la fatiga visual digital";
+"Designed for people who spend 6+ hours a day at a screen. Combines accommodation training, relaxation, and the 20-20-20 rule to reduce digital eye strain and prevent long-term damage." = "Diseñado para personas que pasan 6+ horas al día frente a una pantalla. Combina entrenamiento acomodativo, relajación y la regla 20-20-20 para reducir la fatiga visual digital y prevenir daños a largo plazo.";
+"Vision After 40" = "Visión después de los 40";
+"45-Day Full Eye Fitness Program" = "Programa de 45 días de fitness ocular completo";
+"A comprehensive program that progressively trains all six eye muscles, binocular vision, and accommodation. Based on AAO exercise therapy protocols for convergence insufficiency and accommodative dysfunction." = "Un programa integral que entrena progresivamente los seis músculos oculares, la visión binocular y la acomodación. Basado en protocolos de terapia de ejercicios AAO para insuficiencia de convergencia y disfunción acomodativa.";
+"30-Day Tear Film Restoration Program" = "Programa de 30 días de restauración de película lagrimal";
+"Follows TFOS DEWS II guidelines to restore tear film stability. Combines lid massage, warm compresses, intentional blinking, and relaxation exercises to manage dry eye symptoms." = "Sigue las guías TFOS DEWS II para restaurar la estabilidad de la película lagrimal. Combina masaje de párpados, compresas calientes, parpadeo intencional y ejercicios de relajación para manejar los síntomas de ojo seco.";
+"AAO Recommends" = "Recomendado por AAO";
+"Office Workers" = "Trabajadores de oficina";
+"Beginner" = "Principiante";
+"Intermediate" = "Intermedio";
+"Advanced" = "Avanzado";
+
+/* Profile — new */
+"Language" = "Idioma";
+"Change profile photo" = "Cambiar foto de perfil";
+"The app will restart to apply the new language." = "La app se reiniciará para aplicar el nuevo idioma.";
+"Permanently deletes all sessions, test results, and progress" = "Elimina permanentemente todas las sesiones, resultados y progreso";
+"Reset all data" = "Restablecer todos los datos";
+
+/* Amsler Grid Test */
+"Cover your LEFT eye. Focus on the center dot with your RIGHT eye. Note if any lines appear wavy, broken, or missing." = "Cubre tu ojo IZQUIERDO. Enfoca el punto central con tu ojo DERECHO. Observa si alguna línea aparece ondulada, rota o faltante.";
+"Start — Right Eye First" = "Comenzar — Ojo derecho primero";
+"Focus only on the center dot" = "Enfoca solo en el punto central";
+"All Lines Straight — No Issues" = "Todas las líneas rectas — Sin problemas";
+"I See Distortion or Missing Areas" = "Veo distorsión o áreas faltantes";
+
+/* Contrast Test extra */
+"Next" = "Siguiente";
+"What letter do you see?" = "¿Qué letra ves?";
+
+/* Paywall extra */
+"Full access to 17 exercises, all programs, and premium features" = "Acceso completo a 17 ejercicios, todos los programas y funciones premium";
+"Payment is charged to your Apple ID account. Subscription auto-renews unless cancelled at least 24 hours before the current period ends." = "El pago se carga a tu cuenta de Apple ID. La suscripción se renueva automáticamente a menos que se cancele al menos 24 horas antes del fin del período actual.";
+
+/* Exercise Renderer Strings */
+"Focus on the dot" = "Enfoca el punto";
+"Look at a distant object" = "Mira un objeto lejano";
+"Hold for 3 seconds" = "Mantén durante 3 segundos";
+"Relax your focus" = "Relaja tu enfoque";
+"Follow the dot with your eyes" = "Sigue el punto con los ojos";
+"Breathe in…" = "Inhala…";
+"Breathe out…" = "Exhala…";
+"Cup warm palms over closed eyes" = "Coloca las palmas calientes sobre los ojos cerrados";
+"Snap your gaze to the dot" = "Dirige la mirada al punto";
+"Eyes open — relax" = "Ojos abiertos — relaja";
+"Slowly close…" = "Cierra lentamente…";
+"Slowly open…" = "Abre lentamente…";
+"Slow, deliberate blinks" = "Parpadeos lentos y deliberados";
+"Focus on something far away" = "Enfoca algo lejano";
+"s remaining" = "s restantes";
+"Keep the dot single and clear" = "Mantén el punto único y claro";
+"Slowly moving away…" = "Alejando lentamente…";
+"If it doubles, relax your eyes" = "Si se duplica, relaja los ojos";
+"Follow the dot smoothly" = "Sigue el punto suavemente";
+"Up and down" = "Arriba y abajo";
+"Left and right" = "Izquierda y derecha";
+"Keep your head still" = "Mantén la cabeza quieta";
+"Keep the warm cloth over closed eyes" = "Mantén el paño tibio sobre los ojos cerrados";
+"Relax your eyes — let the circles merge" = "Relaja los ojos — deja que los círculos se fusionen";
+"Don't force it — let focus go soft" = "No fuerces — deja que el enfoque se suavice";
+"Good — maintain fusion!" = "¡Bien — mantén la fusión!";
+"Keep both circles as one" = "Mantén ambos círculos como uno";
+"Relax if you see double" = "Relaja si ves doble";
+"Breathe in ↑" = "Inhala ↑";
+"Hold…" = "Mantén…";
+"Breathe out ↓" = "Exhala ↓";
+"Follow the dot with your gaze" = "Sigue el punto con la mirada";
+"seconds" = "segundos";
+"Look at something 20 feet away" = "Mira algo a 6 metros";
+"Let your eye muscles fully relax" = "Deja que los músculos de tus ojos se relajen";
+"Upper lid" = "Párpado superior";
+"Lower lid" = "Párpado inferior";
+"Massage gently, temple to nose" = "Masajea suavemente, de la sien a la nariz";
+"Light pressure only" = "Solo presión ligera";
+"Squeeze shut!" = "¡Cierra con fuerza!";
+"Open wide!" = "¡Abre ampliamente!";
+"Keep the rhythm steady" = "Mantén el ritmo constante";
+"Close slowly…" = "Cierra lentamente…";
+"Hold closed — tears spreading" = "Mantén cerrado — lágrimas extendiéndose";
+"Open gently…" = "Abre suavemente…";
+"Look at something distant" = "Mira algo lejano";
+"Restoring tear film stability" = "Restaurando estabilidad de película lagrimal";
+
+// MARK: – Missing keys
+"Days" = "Días";
+"Full session" = "Sesión completa";
+"Partial session" = "Sesión parcial";
+"Just completed an Axeo eye workout!" = "¡Acabo de completar un entrenamiento ocular en Axeo!";
+"Train your eyes daily with Axeo — science-backed eye training." = "Entrena tus ojos diariamente con Axeo — entrenamiento ocular con respaldo científico.";
+"%dm %ds" = "%dm %ds";
+"m" = "m";
+
+/* Theme / Appearance */
+"Appearance" = "Apariencia";
+"System" = "Sistema";
+"Dark" = "Oscuro";
+"Light" = "Claro";

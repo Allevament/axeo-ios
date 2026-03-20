@@ -1,0 +1,515 @@
+/* Tabs & Navigation */
+"Home" = "Home";
+"Exercises" = "Exercises";
+"Programs" = "Programs";
+"Screening" = "Screening";
+"Progress" = "Progress";
+"Profile" = "Profile";
+"Exercise Library" = "Exercise Library";
+"Vision Screening" = "Vision Screening";
+"Axeo Premium" = "Axeo Premium";
+"Training Programs" = "Training Programs";
+"Check Your Vision" = "Check Your Vision";
+"My Progress" = "My Progress";
+
+/* Home View */
+"Axeo" = "Axeo";
+"Private & Secure" = "Private & Secure";
+"Good morning, %@" = "Good morning, %@";
+"Good afternoon, %@" = "Good afternoon, %@";
+"Good evening, %@" = "Good evening, %@";
+"Hello, %@" = "Hello, %@";
+"Recommended for You" = "Recommended for You";
+"based on your goal & condition" = "based on your goal & condition";
+"Refresh" = "Refresh";
+"Today's Activity" = "Today's Activity";
+"updates after each session" = "updates after each session";
+"%d-day streak" = "%d-day streak";
+"Daily Eye Workout" = "Daily Eye Workout";
+"Start Workout" = "Start Workout";
+"%d exercises · %d min · doctor-recommended" = "%d exercises · %d min · doctor-recommended";
+"Workouts" = "Workouts";
+"Focus Score" = "Focus Score";
+"Time" = "Time";
+"Done" = "Done";
+
+/* Onboarding */
+"Skip" = "Skip";
+"Science-Backed\nEye Training" = "Science-Backed\nEye Training";
+"17 exercises designed with AAO and COVD clinical guidelines. Train your eye muscles the way you train your body." = "17 exercises designed with AAO and COVD clinical guidelines. Train your eye muscles the way you train your body.";
+"Track Your\nProgress" = "Track Your\nProgress";
+"Streaks, stats, and vision screening — all in one place. See your improvement over days and weeks." = "Streaks, stats, and vision screening — all in one place. See your improvement over days and weeks.";
+"Private &\nSecure" = "Private &\nSecure";
+"All data stays on your device. No accounts, no cloud uploads, no tracking. Your eyes, your data." = "All data stays on your device. No accounts, no cloud uploads, no tracking. Your eyes, your data.";
+"What's your main goal?" = "What's your main goal?";
+"We'll personalize your daily workouts" = "We'll personalize your daily workouts";
+"Your Name" = "Your Name";
+"Guest" = "Guest";
+"Any known eye condition?" = "Any known eye condition?";
+"Optional — helps us customize exercises" = "Optional — helps us customize exercises";
+"None" = "None";
+"Continue" = "Continue";
+"Let's Start" = "Let's Start";
+"No account needed · 100% on-device" = "No account needed · 100% on-device";
+
+/* Profile */
+"Premium" = "Premium";
+"SETTINGS" = "SETTINGS";
+"Change Goal" = "Change Goal";
+"Change Diagnosis" = "Change Diagnosis";
+"Upgrade to Premium" = "Upgrade to Premium";
+"Notifications" = "Notifications";
+"System Settings" = "System Settings";
+"ABOUT" = "ABOUT";
+"Privacy Policy" = "Privacy Policy";
+"Medical Disclaimer" = "Medical Disclaimer";
+"Rate Axeo" = "Rate Axeo";
+"Refer a Friend" = "Refer a Friend";
+"Minutes" = "Minutes";
+"Member Since" = "Member Since";
+"Name" = "Name";
+"Reset All Data" = "Reset All Data";
+"Delete Everything" = "Delete Everything";
+"Cancel" = "Cancel";
+"DATA" = "DATA";
+"Reset All Data?" = "Reset All Data?";
+"This will permanently delete all sessions, test results, and progress. This cannot be undone." = "This will permanently delete all sessions, test results, and progress. This cannot be undone.";
+"Train your eyes daily with Axeo — science-backed eye training. https://apps.apple.com/app/axeo" = "Train your eyes daily with Axeo — science-backed eye training. https://apps.apple.com/app/axeo";
+"Share Axeo" = "Share Axeo";
+
+/* Paywall */
+"Axeo Premium" = "Axeo Premium";
+"Unlock Full Vision Training" = "Unlock Full Vision Training";
+"17 clinical exercises across 6 categories" = "17 clinical exercises across 6 categories";
+"3 structured programs (30–45 days)" = "3 structured programs (30–45 days)";
+"6 vision screening tests" = "6 vision screening tests";
+"ARKit eye-tracking with accuracy scoring" = "ARKit eye-tracking with accuracy scoring";
+"Smart 20-20-20 reminders" = "Smart 20-20-20 reminders";
+"New exercises & programs added regularly" = "New exercises & programs added regularly";
+"Weekly" = "Weekly";
+"Monthly" = "Monthly";
+"Annual" = "Annual";
+"Lifetime" = "Lifetime";
+"BEST VALUE" = "BEST VALUE";
+"$2.49/mo · SAVE 58%" = "$2.49/mo · SAVE 58%";
+"7-day free trial" = "7-day free trial";
+"per month" = "per month";
+"per week" = "per week";
+"one-time" = "one-time";
+"Start your 7-day free trial" = "Start your 7-day free trial";
+"Unlock forever" = "Unlock forever";
+"Restore Purchases" = "Restore Purchases";
+"Cancel anytime. Billed by Apple." = "Cancel anytime. Billed by Apple.";
+
+/* Exercise Library & Detail */
+"Exercise Library" = "Exercise Library";
+"exercises" = "exercises";
+"categories" = "categories";
+"min full set" = "min full set";
+"Based on AAO Clinical Guidelines & COVD Standards" = "Based on AAO Clinical Guidelines & COVD Standards";
+"HOW TO DO IT" = "HOW TO DO IT";
+"WHO IT HELPS" = "WHO IT HELPS";
+"Takes about %d seconds" = "Takes about %d seconds";
+"Eye Tracking" = "Eye Tracking";
+"Eye Tracking Coming Soon" = "Eye Tracking Coming Soon";
+"Backed by AAO Guidelines" = "Backed by AAO Guidelines";
+"Start Exercise" = "Start Exercise";
+"Based on AAO & COVD clinical guidelines. Consult an eye care professional if you have a pre-existing condition." = "Based on AAO & COVD clinical guidelines. Consult an eye care professional if you have a pre-existing condition.";
+
+/* Exercise Player */
+"%d of %d" = "%d of %d";
+"End Session?" = "End Session?";
+"Your progress in this exercise will be saved." = "Your progress in this exercise will be saved.";
+"End Session" = "End Session";
+"Great work!" = "Great work!";
+"Up next" = "Up next";
+"%d seconds" = "%d seconds";
+"Starting in 3 seconds…" = "Starting in 3 seconds…";
+"Paused" = "Paused";
+"Resume" = "Resume";
+
+/* Session Results */
+"Great work! Workout complete." = "Great work! Workout complete.";
+"Your next session is ready whenever you are." = "Your next session is ready whenever you are.";
+"Duration" = "Duration";
+"Accuracy" = "Accuracy";
+"Status" = "Status";
+"Completed" = "Completed";
+"Partial" = "Partial";
+"EXERCISES COMPLETED" = "EXERCISES COMPLETED";
+"Set 20-20-20 Reminder (20 min)" = "Set 20-20-20 Reminder (20 min)";
+"20-20-20 Reminder Set" = "20-20-20 Reminder Set";
+"Share Achievement" = "Share Achievement";
+"20-20-20 Break" = "20-20-20 Break";
+"Look at something 20 feet away for 20 seconds. Your eyes will thank you!" = "Look at something 20 feet away for 20 seconds. Your eyes will thank you!";
+
+/* Programs */
+"Training Programs" = "Training Programs";
+"Clinically designed · Doctor-approved" = "Clinically designed · Doctor-approved";
+"IN PROGRESS" = "IN PROGRESS";
+"ALL PROGRAMS" = "ALL PROGRAMS";
+"Day %d of %d" = "Day %d of %d";
+"Continue Training" = "Continue Training";
+"Featured" = "Featured";
+"Start Free →" = "Start Free →";
+"TODAY'S PLAN" = "TODAY'S PLAN";
+"FULL SCHEDULE" = "FULL SCHEDULE";
+"Start Program" = "Start Program";
+"Start Day %d" = "Start Day %d";
+"Rest Day" = "Rest Day";
+"Graduation Day" = "Graduation Day";
+"Day %d" = "Day %d";
+"Your eyes need recovery too. Come back tomorrow!" = "Your eyes need recovery too. Come back tomorrow!";
+"Users report improved focus after Week 2" = "Users report improved focus after Week 2";
+"%d exercises · ~%d min" = "%d exercises · ~%d min";
+"%d days" = "%d days";
+
+/* Progress Dashboard */
+"My Progress" = "My Progress";
+"Track your eye health progress" = "Track your eye health progress";
+"Start training to track your progress" = "Start training to track your progress";
+"Great start — %d workout(s) this week!" = "Great start — %d workout(s) this week!";
+"You've trained %d× more than last week" = "You've trained %d× more than last week";
+"Consistent! Same pace as last week" = "Consistent! Same pace as last week";
+"Keep it up — %d workout(s) this week" = "Keep it up — %d workout(s) this week";
+"Current Streak" = "Current Streak";
+"Best Streak" = "Best Streak";
+"day" = "day";
+"days" = "days";
+"ACTIVITY" = "ACTIVITY";
+"ALL TIME" = "ALL TIME";
+"Avg Focus Score" = "Avg Focus Score";
+"RECENT SESSIONS" = "RECENT SESSIONS";
+"Quick Workout" = "Quick Workout";
+"Single Exercise" = "Single Exercise";
+"Program Session" = "Program Session";
+"%d exercises" = "%d exercises";
+"SCREENING HISTORY" = "SCREENING HISTORY";
+"Export Data" = "Export Data";
+"Week" = "Week";
+"30 Days" = "30 Days";
+"90 Days" = "90 Days";
+"%d workouts" = "%d workouts";
+"%d minutes" = "%d minutes";
+"%d workout" = "%d workout";
+
+/* Screening & Tests */
+"Vision Screening" = "Vision Screening";
+"Check Your Vision" = "Check Your Vision";
+"6 standardized screening tests" = "6 standardized screening tests";
+"These are screening tools, not medical diagnoses. See an eye care professional for a comprehensive exam." = "These are screening tools, not medical diagnoses. See an eye care professional for a comprehensive exam.";
+"TEST HISTORY" = "TEST HISTORY";
+"Normal" = "Normal";
+"Review" = "Review";
+"Start Test" = "Start Test";
+"Results Look Normal" = "Results Look Normal";
+"We Recommend a Professional Check" = "We Recommend a Professional Check";
+"This screening is not a substitute for a professional eye exam." = "This screening is not a substitute for a professional eye exam.";
+"Row %d of %d" = "Row %d of %d";
+"Type the letters you see" = "Type the letters you see";
+"Can't See" = "Can't See";
+"Submit" = "Submit";
+"Hold at arm's length (20 inches)" = "Hold at arm's length (20 inches)";
+"Plate %d of %d" = "Plate %d of %d";
+"What number do you see?" = "What number do you see?";
+"I don't see a number" = "I don't see a number";
+"Tap any lines that appear bolder or darker" = "Tap any lines that appear bolder or darker";
+"All Lines Look the Same" = "All Lines Look the Same";
+"Submit (%d selected)" = "Submit (%d selected)";
+"Cover one eye. Look at the center of the dial. Do any lines appear darker, bolder, or more defined than others?" = "Cover one eye. Look at the center of the dial. Do any lines appear darker, bolder, or more defined than others?";
+"I'm Ready" = "I'm Ready";
+"Mild reduction" = "Mild reduction";
+"Below normal" = "Below normal";
+
+/* Shared & Disclaimers */
+"Health Disclaimer" = "Health Disclaimer";
+"Axeo provides educational eye exercises based on AAO and COVD clinical guidelines. It is not a medical device and does not diagnose, treat, or replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition." = "Axeo provides educational eye exercises based on AAO and COVD clinical guidelines. It is not a medical device and does not diagnose, treat, or replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition.";
+"AAO" = "AAO";
+"COVD" = "COVD";
+"TFOS DEWS II" = "TFOS DEWS II";
+"I Understand — Let's Start" = "I Understand — Let's Start";
+"E Y E   T R A I N I N G" = "E Y E   T R A I N I N G";
+
+/* Exercise Names */
+"Focus Shift" = "Focus Shift";
+"Figure Eight" = "Figure Eight";
+"Palming" = "Palming";
+"Saccades" = "Saccades";
+"Blinking" = "Blinking";
+"Window Dot" = "Window Dot";
+"Convergence" = "Convergence";
+"Square Tracing" = "Square Tracing";
+"Vertical & Horizontal" = "Vertical & Horizontal";
+"Warm Compress" = "Warm Compress";
+"Stereogram" = "Stereogram";
+"Image Fusion" = "Image Fusion";
+"Breath + Gaze" = "Breath + Gaze";
+"20-20-20 Rule" = "20-20-20 Rule";
+"Lid Massage" = "Lid Massage";
+"Lid Gym" = "Lid Gym";
+"Tear Film" = "Tear Film";
+
+/* Exercise Hints */
+"Keep the phone at arm's length. Focus on the dot for 3 seconds, then shift your gaze to a distant object (across the room). Head stays still throughout." = "Keep the phone at arm's length. Focus on the dot for 3 seconds, then shift your gaze to a distant object (across the room). Head stays still throughout.";
+"Follow the moving dot along the figure-eight path with your eyes only. Keep smooth, continuous movement — don't jump ahead." = "Follow the moving dot along the figure-eight path with your eyes only. Keep smooth, continuous movement — don't jump ahead.";
+"Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Breathe slowly and let your eyes relax in total darkness." = "Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Breathe slowly and let your eyes relax in total darkness.";
+"A dot lights up in one of 9 positions — jump your gaze to it immediately and hold for 2.5 seconds. Keep your head still; only move your eyes." = "A dot lights up in one of 9 positions — jump your gaze to it immediately and hold for 2.5 seconds. Keep your head still; only move your eyes.";
+"Look straight ahead, face relaxed. Slowly close eyelids fully — no squinting. Hold 1 second. Open slowly. Repeat every 5 seconds." = "Look straight ahead, face relaxed. Slowly close eyelids fully — no squinting. Hold 1 second. Open slowly. Repeat every 5 seconds.";
+"Place a small sticker on a window at eye level. Stand arm's length away. Focus on the dot for 10 seconds, then shift to a distant object outside for 10 seconds." = "Place a small sticker on a window at eye level. Stand arm's length away. Focus on the dot for 10 seconds, then shift to a distant object outside for 10 seconds.";
+"Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out." = "Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out.";
+"Follow the dot as it traces a square with your eyes. Direction alternates clockwise then counterclockwise each lap." = "Follow the dot as it traces a square with your eyes. Direction alternates clockwise then counterclockwise each lap.";
+"Follow the dot: slowly up — pause — down — pause. 10 repetitions. Then left — pause — right — pause. 10 repetitions." = "Follow the dot: slowly up — pause — down — pause. 10 repetitions. Then left — pause — right — pause. 10 repetitions.";
+"Apply a warm, damp cloth over closed eyes. The heat helps open oil glands in your eyelids. Breathe deeply and relax for 3 minutes." = "Apply a warm, damp cloth over closed eyes. The heat helps open oil glands in your eyelids. Breathe deeply and relax for 3 minutes.";
+"Two circles will appear side by side. Relax your eyes and let them slowly merge into one. When you see a single circle, hold your focus." = "Two circles will appear side by side. Relax your eyes and let them slowly merge into one. When you see a single circle, hold your focus.";
+"Similar to stereogram, but the circles move apart and back together. Try to maintain fusion (single image) as long as possible." = "Similar to stereogram, but the circles move apart and back together. Try to maintain fusion (single image) as long as possible.";
+"Sit upright, relax shoulders. Inhale 6 seconds — slowly raise your gaze. Hold 2 seconds at top. Exhale 7 seconds — lower your gaze. Repeat." = "Sit upright, relax shoulders. Inhale 6 seconds — slowly raise your gaze. Hold 2 seconds at top. Exhale 7 seconds — lower your gaze. Repeat.";
+"Every 20 minutes, look at something 20 feet away for 20 seconds. This exercise is a single guided 20-second break." = "Every 20 minutes, look at something 20 feet away for 20 seconds. This exercise is a single guided 20-second break.";
+"Using a fingertip, gently massage your upper eyelid from the temple toward the nose. Then do the same on the lower lid. Light pressure only." = "Using a fingertip, gently massage your upper eyelid from the temple toward the nose. Then do the same on the lower lid. Light pressure only.";
+"Squeeze your eyes shut firmly for 2 seconds, then open wide for 2 seconds. This strengthens orbicularis and levator muscles." = "Squeeze your eyes shut firmly for 2 seconds, then open wide for 2 seconds. This strengthens orbicularis and levator muscles.";
+"Perform a slow, complete blink — close fully, hold 1 second, open. Then look at a distant point for 4 seconds. Repeat." = "Perform a slow, complete blink — close fully, hold 1 second, open. Then look at a distant point for 4 seconds. Repeat.";
+
+/* Exercise Indications */
+"Great for people who work at a screen 6+ hours/day. Helps with nearsightedness prevention, eye focusing fatigue, and Computer Vision Syndrome." = "Great for people who work at a screen 6+ hours/day. Helps with nearsightedness prevention, eye focusing fatigue, and Computer Vision Syndrome.";
+"Improves eye mobility and coordination. Helpful for people with restricted eye movement, or those recovering after eye muscle procedures." = "Improves eye mobility and coordination. Helpful for people with restricted eye movement, or those recovering after eye muscle procedures.";
+"Instant relief for tired, overworked eyes. Recommended after long screen sessions or any time your eyes feel strained." = "Instant relief for tired, overworked eyes. Recommended after long screen sessions or any time your eyes feel strained.";
+"Helps with reading speed and accuracy. Useful for anyone who loses their place while reading or has trouble with quick eye movements." = "Helps with reading speed and accuracy. Useful for anyone who loses their place while reading or has trouble with quick eye movements.";
+"Restores your natural blink rate, which drops 60% during screen use. Helps with dry, irritated eyes and eye fatigue." = "Restores your natural blink rate, which drops 60% during screen use. Helps with dry, irritated eyes and eye fatigue.";
+"Classic optometry exercise for focusing flexibility. Great for people with accommodative insufficiency or early presbyopia symptoms." = "Classic optometry exercise for focusing flexibility. Great for people with accommodative insufficiency or early presbyopia symptoms.";
+"Strengthens eye teaming. Helps with convergence insufficiency — common in people who get headaches or double vision while reading." = "Strengthens eye teaming. Helps with convergence insufficiency — common in people who get headaches or double vision while reading.";
+"Strengthens all six eye muscles evenly. Especially helpful for people with eye movement asymmetry or post-surgical recovery." = "Strengthens all six eye muscles evenly. Especially helpful for people with eye movement asymmetry or post-surgical recovery.";
+"Builds range of motion in all four cardinal directions. Good for people with restricted gaze or neck tension from screen use." = "Builds range of motion in all four cardinal directions. Good for people with restricted gaze or neck tension from screen use.";
+"Recommended by ophthalmologists for dry eye and meibomian gland dysfunction. The heat liquefies blocked oils to restore your tear film." = "Recommended by ophthalmologists for dry eye and meibomian gland dysfunction. The heat liquefies blocked oils to restore your tear film.";
+"Trains your brain to fuse images from both eyes. Helps develop stereoscopic depth perception and binocular vision." = "Trains your brain to fuse images from both eyes. Helps develop stereoscopic depth perception and binocular vision.";
+"Advanced binocular training. Builds flexible vergence — the ability to maintain single vision at changing distances." = "Advanced binocular training. Builds flexible vergence — the ability to maintain single vision at changing distances.";
+"Combines eye movement with breathing rhythm. Reduces overall tension, lowers intraocular pressure, and calms the nervous system." = "Combines eye movement with breathing rhythm. Reduces overall tension, lowers intraocular pressure, and calms the nervous system.";
+"The AAO's #1 recommendation for screen users. Prevents accommodative spasm and reduces digital eye strain." = "The AAO's #1 recommendation for screen users. Prevents accommodative spasm and reduces digital eye strain.";
+"Stimulates meibomian glands to produce healthy oils. Based on TFOS DEWS II dry eye management guidelines." = "Stimulates meibomian glands to produce healthy oils. Based on TFOS DEWS II dry eye management guidelines.";
+"Builds eyelid muscle tone for better blink quality. Recommended for incomplete blinkers and people with lagophthalmos risk." = "Builds eyelid muscle tone for better blink quality. Recommended for incomplete blinkers and people with lagophthalmos risk.";
+"Restores tear film stability. Combines intentional blinking with distance relaxation, per TFOS DEWS II guidelines." = "Restores tear film stability. Combines intentional blinking with distance relaxation, per TFOS DEWS II guidelines.";
+
+/* Exercise Steps */
+"Hold phone at arm's length" = "Hold phone at arm's length";
+"Focus on the on-screen dot for 3 seconds" = "Focus on the on-screen dot for 3 seconds";
+"Shift gaze to a distant object across the room" = "Shift gaze to a distant object across the room";
+"Hold distant focus for 3 seconds" = "Hold distant focus for 3 seconds";
+"Keep your head still — only your eyes move" = "Keep your head still — only your eyes move";
+"Look straight ahead and relax your eyes" = "Look straight ahead and relax your eyes";
+"Trace a figure-eight pattern in the air with your eyes" = "Trace a figure-eight pattern in the air with your eyes";
+"Keep the movement smooth and controlled" = "Keep the movement smooth and controlled";
+"Reverse the direction halfway through" = "Reverse the direction halfway through";
+"Keep your head still — only your eyes should move" = "Keep your head still — only your eyes should move";
+"Rub your palms together until warm" = "Rub your palms together until warm";
+"Cup warm palms gently over closed eyes" = "Cup warm palms gently over closed eyes";
+"No pressure on the eyeballs" = "No pressure on the eyeballs";
+"Breathe slowly and deeply" = "Breathe slowly and deeply";
+"Let your eyes relax in total darkness" = "Let your eyes relax in total darkness";
+"Keep your head still, face the screen" = "Keep your head still, face the screen";
+"A dot will appear in one of 9 positions" = "A dot will appear in one of 9 positions";
+"Jump your gaze to the dot immediately" = "Jump your gaze to the dot immediately";
+"Hold focus on the dot for 2.5 seconds" = "Hold focus on the dot for 2.5 seconds";
+"Wait for the next dot position" = "Wait for the next dot position";
+"Look straight ahead, face relaxed" = "Look straight ahead, face relaxed";
+"Slowly close your eyelids fully — no squinting" = "Slowly close your eyelids fully — no squinting";
+"Hold closed for 1 second" = "Hold closed for 1 second";
+"Open slowly and gently" = "Open slowly and gently";
+"Repeat every 5 seconds" = "Repeat every 5 seconds";
+"Place a small dot or sticker on a window at eye level" = "Place a small dot or sticker on a window at eye level";
+"Stand at arm's length from the window" = "Stand at arm's length from the window";
+"Focus on the dot for 10 seconds" = "Focus on the dot for 10 seconds";
+"Shift focus to a distant object outside" = "Shift focus to a distant object outside";
+"Hold distant focus for 10 seconds" = "Hold distant focus for 10 seconds";
+"Hold phone at arm's length, focus on center dot" = "Hold phone at arm's length, focus on center dot";
+"Slowly bring the phone toward your nose" = "Slowly bring the phone toward your nose";
+"Keep the dot single and clear" = "Keep the dot single and clear";
+"When the dot doubles, move the phone back" = "When the dot doubles, move the phone back";
+"Repeat the approach slowly" = "Repeat the approach slowly";
+"Follow the dot as it traces a square path" = "Follow the dot as it traces a square path";
+"Keep your eyes on the dot at all times" = "Keep your eyes on the dot at all times";
+"Direction alternates each lap" = "Direction alternates each lap";
+"Keep your head completely still" = "Keep your head completely still";
+"Follow the dot as it moves up and down" = "Follow the dot as it moves up and down";
+"Pause briefly at each end position" = "Pause briefly at each end position";
+"After 10 reps, follow left and right" = "After 10 reps, follow left and right";
+"Keep your head still throughout" = "Keep your head still throughout";
+"Apply a warm, damp cloth over closed eyes" = "Apply a warm, damp cloth over closed eyes";
+"The warmth opens oil glands in your eyelids" = "The warmth opens oil glands in your eyelids";
+"Breathe deeply and relax" = "Breathe deeply and relax";
+"Maintain for the full 3 minutes" = "Maintain for the full 3 minutes";
+"Two circles appear side by side" = "Two circles appear side by side";
+"Relax your eyes — let focus go soft" = "Relax your eyes — let focus go soft";
+"Allow the circles to slowly merge into one" = "Allow the circles to slowly merge into one";
+"Hold the fused single circle as long as possible" = "Hold the fused single circle as long as possible";
+"Watch the two circles on screen" = "Watch the two circles on screen";
+"As they move apart, try to maintain single vision" = "As they move apart, try to maintain single vision";
+"When they come back together, maintain fusion" = "When they come back together, maintain fusion";
+"Relax your eyes if you see double" = "Relax your eyes if you see double";
+"Sit upright, relax your shoulders" = "Sit upright, relax your shoulders";
+"Inhale for 6 seconds — slowly raise your gaze" = "Inhale for 6 seconds — slowly raise your gaze";
+"Hold at the top for 2 seconds" = "Hold at the top for 2 seconds";
+"Exhale for 7 seconds — lower your gaze" = "Exhale for 7 seconds — lower your gaze";
+"Repeat the breathing cycle" = "Repeat the breathing cycle";
+"Look away from your screen" = "Look away from your screen";
+"Find an object at least 20 feet away" = "Find an object at least 20 feet away";
+"Focus on it for 20 seconds" = "Focus on it for 20 seconds";
+"Let your eye muscles fully relax" = "Let your eye muscles fully relax";
+"Close your eyes gently" = "Close your eyes gently";
+"Using a fingertip, massage upper lid temple-to-nose" = "Using a fingertip, massage upper lid temple-to-nose";
+"Use light pressure only" = "Use light pressure only";
+"Repeat on the lower lid" = "Repeat on the lower lid";
+"Continue alternating for 60 seconds" = "Continue alternating for 60 seconds";
+"Squeeze your eyes shut firmly for 2 seconds" = "Squeeze your eyes shut firmly for 2 seconds";
+"Open your eyes wide for 2 seconds" = "Open your eyes wide for 2 seconds";
+"Keep the rhythm steady" = "Keep the rhythm steady";
+"Focus on complete, firm closures" = "Focus on complete, firm closures";
+"Perform a slow, complete blink" = "Perform a slow, complete blink";
+"Close fully and hold for 1 second" = "Close fully and hold for 1 second";
+"Open and look at a distant point" = "Open and look at a distant point";
+"Hold distant focus for 4 seconds" = "Hold distant focus for 4 seconds";
+"Repeat the cycle" = "Repeat the cycle";
+
+/* Exercise Categories */
+"Accommodation" = "Accommodation";
+"Eye Movement" = "Eye Movement";
+"Relaxation" = "Relaxation";
+"Binocular" = "Binocular";
+"Breathing" = "Breathing";
+"Dry Eye Relief" = "Dry Eye Relief";
+"Ciliary muscle training — myopia prevention & accommodation relief" = "Ciliary muscle training — myopia prevention & accommodation relief";
+"Extraocular muscle training — all 6 directions of gaze" = "Extraocular muscle training — all 6 directions of gaze";
+"Muscle and visual tension relief — 20-20-20 rule" = "Muscle and visual tension relief — 20-20-20 rule";
+"Teamwork of both eyes — stereovision development" = "Teamwork of both eyes — stereovision development";
+"Breathing synchronized with eye movement — WHO protocol" = "Breathing synchronized with eye movement — WHO protocol";
+"Tear film stabilization & eyelid health — TFOS DEWS II" = "Tear film stabilization & eyelid health — TFOS DEWS II";
+
+/* Vision Test Definitions */
+"Visual Acuity" = "Visual Acuity";
+"Astigmatism Check" = "Astigmatism Check";
+"Color Vision" = "Color Vision";
+"Contrast Sensitivity" = "Contrast Sensitivity";
+"Amsler Grid" = "Amsler Grid";
+"Dry Eye Assessment" = "Dry Eye Assessment";
+"Snellen chart — read progressively smaller letters" = "Snellen chart — read progressively smaller letters";
+"Fan/clock dial — check for directional blur" = "Fan/clock dial — check for directional blur";
+"Ishihara-style plates — detect color deficiency" = "Ishihara-style plates — detect color deficiency";
+"Fading letters — check low-contrast vision" = "Fading letters — check low-contrast vision";
+"Grid distortion — screen for macular issues" = "Grid distortion — screen for macular issues";
+"OSDI questionnaire — rate your dry eye symptoms" = "OSDI questionnaire — rate your dry eye symptoms";
+"~2 min" = "~2 min";
+"~1 min" = "~1 min";
+"~3 min" = "~3 min";
+"This is a screening tool, not a medical diagnosis. Consult an eye care professional for a comprehensive exam." = "This is a screening tool, not a medical diagnosis. Consult an eye care professional for a comprehensive exam.";
+
+/* User Enums */
+"No known condition" = "No known condition";
+"Nearsightedness" = "Nearsightedness";
+"Farsightedness" = "Farsightedness";
+"Astigmatism" = "Astigmatism";
+"Presbyopia" = "Presbyopia";
+"Dry Eye" = "Dry Eye";
+"Other" = "Other";
+"Prevention" = "Prevention";
+"Correction" = "Correction";
+"Keep your vision sharp and prevent future problems" = "Keep your vision sharp and prevent future problems";
+"Strengthen eye muscles and improve focus" = "Strengthen eye muscles and improve focus";
+"Reduce eye strain and digital fatigue" = "Reduce eye strain and digital fatigue";
+
+/* Course Data */
+"Digital Eye Relief" = "Digital Eye Relief";
+"30-Day Digital Eye Strain Program" = "30-Day Digital Eye Strain Program";
+"Designed for people who spend 6+ hours a day at a screen. Combines accommodation training, relaxation, and the 20-20-20 rule to reduce digital eye strain and prevent long-term damage." = "Designed for people who spend 6+ hours a day at a screen. Combines accommodation training, relaxation, and the 20-20-20 rule to reduce digital eye strain and prevent long-term damage.";
+"Vision After 40" = "Vision After 40";
+"45-Day Full Eye Fitness Program" = "45-Day Full Eye Fitness Program";
+"A comprehensive program that progressively trains all six eye muscles, binocular vision, and accommodation. Based on AAO exercise therapy protocols for convergence insufficiency and accommodative dysfunction." = "A comprehensive program that progressively trains all six eye muscles, binocular vision, and accommodation. Based on AAO exercise therapy protocols for convergence insufficiency and accommodative dysfunction.";
+"30-Day Tear Film Restoration Program" = "30-Day Tear Film Restoration Program";
+"Follows TFOS DEWS II guidelines to restore tear film stability. Combines lid massage, warm compresses, intentional blinking, and relaxation exercises to manage dry eye symptoms." = "Follows TFOS DEWS II guidelines to restore tear film stability. Combines lid massage, warm compresses, intentional blinking, and relaxation exercises to manage dry eye symptoms.";
+"AAO Recommends" = "AAO Recommends";
+"Office Workers" = "Office Workers";
+"Beginner" = "Beginner";
+"Intermediate" = "Intermediate";
+"Advanced" = "Advanced";
+
+/* Profile — new */
+"Language" = "Language";
+"Change profile photo" = "Change profile photo";
+"The app will restart to apply the new language." = "The app will restart to apply the new language.";
+"Permanently deletes all sessions, test results, and progress" = "Permanently deletes all sessions, test results, and progress";
+"Reset all data" = "Reset all data";
+
+/* Amsler Grid Test */
+"Cover your LEFT eye. Focus on the center dot with your RIGHT eye. Note if any lines appear wavy, broken, or missing." = "Cover your LEFT eye. Focus on the center dot with your RIGHT eye. Note if any lines appear wavy, broken, or missing.";
+"Start — Right Eye First" = "Start — Right Eye First";
+"Focus only on the center dot" = "Focus only on the center dot";
+"All Lines Straight — No Issues" = "All Lines Straight — No Issues";
+"I See Distortion or Missing Areas" = "I See Distortion or Missing Areas";
+
+/* Contrast Test extra */
+"Next" = "Next";
+"What letter do you see?" = "What letter do you see?";
+
+/* Paywall extra */
+"Full access to 17 exercises, all programs, and premium features" = "Full access to 17 exercises, all programs, and premium features";
+"Payment is charged to your Apple ID account. Subscription auto-renews unless cancelled at least 24 hours before the current period ends." = "Payment is charged to your Apple ID account. Subscription auto-renews unless cancelled at least 24 hours before the current period ends.";
+
+/* Exercise Renderer Strings */
+"Focus on the dot" = "Focus on the dot";
+"Look at a distant object" = "Look at a distant object";
+"Hold for 3 seconds" = "Hold for 3 seconds";
+"Relax your focus" = "Relax your focus";
+"Follow the dot with your eyes" = "Follow the dot with your eyes";
+"Breathe in…" = "Breathe in…";
+"Breathe out…" = "Breathe out…";
+"Cup warm palms over closed eyes" = "Cup warm palms over closed eyes";
+"Snap your gaze to the dot" = "Snap your gaze to the dot";
+"Eyes open — relax" = "Eyes open — relax";
+"Slowly close…" = "Slowly close…";
+"Slowly open…" = "Slowly open…";
+"Slow, deliberate blinks" = "Slow, deliberate blinks";
+"Focus on something far away" = "Focus on something far away";
+"s remaining" = "s remaining";
+"Keep the dot single and clear" = "Keep the dot single and clear";
+"Slowly moving away…" = "Slowly moving away…";
+"If it doubles, relax your eyes" = "If it doubles, relax your eyes";
+"Follow the dot smoothly" = "Follow the dot smoothly";
+"Up and down" = "Up and down";
+"Left and right" = "Left and right";
+"Keep your head still" = "Keep your head still";
+"Keep the warm cloth over closed eyes" = "Keep the warm cloth over closed eyes";
+"Relax your eyes — let the circles merge" = "Relax your eyes — let the circles merge";
+"Don't force it — let focus go soft" = "Don't force it — let focus go soft";
+"Good — maintain fusion!" = "Good — maintain fusion!";
+"Keep both circles as one" = "Keep both circles as one";
+"Relax if you see double" = "Relax if you see double";
+"Breathe in ↑" = "Breathe in ↑";
+"Hold…" = "Hold…";
+"Breathe out ↓" = "Breathe out ↓";
+"Follow the dot with your gaze" = "Follow the dot with your gaze";
+"seconds" = "seconds";
+"Look at something 20 feet away" = "Look at something 20 feet away";
+"Let your eye muscles fully relax" = "Let your eye muscles fully relax";
+"Upper lid" = "Upper lid";
+"Lower lid" = "Lower lid";
+"Massage gently, temple to nose" = "Massage gently, temple to nose";
+"Light pressure only" = "Light pressure only";
+"Squeeze shut!" = "Squeeze shut!";
+"Open wide!" = "Open wide!";
+"Keep the rhythm steady" = "Keep the rhythm steady";
+"Close slowly…" = "Close slowly…";
+"Hold closed — tears spreading" = "Hold closed — tears spreading";
+"Open gently…" = "Open gently…";
+"Look at something distant" = "Look at something distant";
+"Restoring tear film stability" = "Restoring tear film stability";
+
+// MARK: – Missing keys
+"Days" = "Days";
+"Full session" = "Full session";
+"Partial session" = "Partial session";
+"Just completed an Axeo eye workout!" = "Just completed an Axeo eye workout!";
+"Train your eyes daily with Axeo — science-backed eye training." = "Train your eyes daily with Axeo — science-backed eye training.";
+"%dm %ds" = "%dm %ds";
+"m" = "m";
+
+/* Theme / Appearance */
+"Appearance" = "Appearance";
+"System" = "System";
+"Dark" = "Dark";
+"Light" = "Light";

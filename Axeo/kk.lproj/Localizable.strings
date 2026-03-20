@@ -1,0 +1,515 @@
+/* Tabs & Navigation */
+"Home" = "Басты бет";
+"Exercises" = "Жаттығулар";
+"Programs" = "Бағдарламалар";
+"Screening" = "Тексеру";
+"Progress" = "Прогресс";
+"Profile" = "Профиль";
+"Exercise Library" = "Жаттығулар кітапханасы";
+"Vision Screening" = "Көру тексерісі";
+"Axeo Premium" = "Axeo Premium";
+"Training Programs" = "Жаттығу бағдарламалары";
+"Check Your Vision" = "Көруді тексеріңіз";
+"My Progress" = "Менің прогрессім";
+
+/* Home View */
+"Axeo" = "Axeo";
+"Private & Secure" = "Құпия және қауіпсіз";
+"Good morning, %@" = "Қайырлы таң, %@";
+"Good afternoon, %@" = "Қайырлы күн, %@";
+"Good evening, %@" = "Қайырлы кеш, %@";
+"Hello, %@" = "Сәлем, %@";
+"Recommended for You" = "Сізге ұсынылады";
+"based on your goal & condition" = "мақсатыңыз бен жағдайыңызға сәйкес";
+"Refresh" = "Жаңарту";
+"Today's Activity" = "Бүгінгі белсенділік";
+"updates after each session" = "әр сеанстан кейін жаңарады";
+"%d-day streak" = "%d күндік серия";
+"Daily Eye Workout" = "Күнделікті көз жаттығуы";
+"Start Workout" = "Жаттығуды бастау";
+"%d exercises · %d min · doctor-recommended" = "%d жаттығу · %d мин · дәрігер ұсынады";
+"Workouts" = "Жаттығулар";
+"Focus Score" = "Фокус ұпайы";
+"Time" = "Уақыт";
+"Done" = "Дайын";
+
+/* Onboarding */
+"Skip" = "Өткізіп жіберу";
+"Science-Backed\nEye Training" = "Ғылыми негізделген\nкөз жаттығуы";
+"17 exercises designed with AAO and COVD clinical guidelines. Train your eye muscles the way you train your body." = "AAO және COVD клиникалық нұсқаулықтарына сәйкес жасалған 17 жаттығу. Көз бұлшықеттеріңізді дене бұлшықеттеріңіздей жаттықтырыңыз.";
+"Track Your\nProgress" = "Прогрессіңізді\nқадағалаңыз";
+"Streaks, stats, and vision screening — all in one place. See your improvement over days and weeks." = "Серия, статистика және көру тексеруі — бәрі бір жерде. Күндер мен апталар бойынша жақсаруыңызды көріңіз.";
+"Private &\nSecure" = "Құпия және\nқауіпсіз";
+"All data stays on your device. No accounts, no cloud uploads, no tracking. Your eyes, your data." = "Барлық деректер құрылғыңызда сақталады. Тіркелгі жоқ, бұлтқа жүктеу жоқ, бақылау жоқ. Сіздің көздеріңіз, сіздің деректеріңіз.";
+"What's your main goal?" = "Сіздің басты мақсатыңыз не?";
+"We'll personalize your daily workouts" = "Күнделікті жаттығуларыңызды жекелендіреміз";
+"Your Name" = "Сіздің атыңыз";
+"Guest" = "Қонақ";
+"Any known eye condition?" = "Белгілі көз ауруы бар ма?";
+"Optional — helps us customize exercises" = "Міндетті емес — жаттығуларды бейімдеуге көмектеседі";
+"None" = "Жоқ";
+"Continue" = "Жалғастыру";
+"Let's Start" = "Бастайық";
+"No account needed · 100% on-device" = "Тіркелгі қажет емес · 100% құрылғыда";
+
+/* Profile */
+"Premium" = "Премиум";
+"SETTINGS" = "ПАРАМЕТРЛЕР";
+"Change Goal" = "Мақсатты өзгерту";
+"Change Diagnosis" = "Диагнозды өзгерту";
+"Upgrade to Premium" = "Премиумға көшу";
+"Notifications" = "Хабарландырулар";
+"System Settings" = "Жүйе параметрлері";
+"ABOUT" = "АҚПАРАТ";
+"Privacy Policy" = "Құпиялылық саясаты";
+"Medical Disclaimer" = "Медициналық ескерту";
+"Rate Axeo" = "Axeo-ны бағалау";
+"Refer a Friend" = "Досыңызға ұсыну";
+"Minutes" = "Минут";
+"Member Since" = "Мүше болған күн";
+"Name" = "Аты";
+"Reset All Data" = "Барлық деректерді қалпына келтіру";
+"Delete Everything" = "Бәрін жою";
+"Cancel" = "Бас тарту";
+"DATA" = "ДЕРЕКТЕР";
+"Reset All Data?" = "Барлық деректерді қалпына келтіру керек пе?";
+"This will permanently delete all sessions, test results, and progress. This cannot be undone." = "Бұл барлық сеанстарды, тест нәтижелерін және прогресті біржола жояды. Бұл әрекетті қайтару мүмкін емес.";
+"Train your eyes daily with Axeo — science-backed eye training. https://apps.apple.com/app/axeo" = "Axeo көмегімен күнделікті көз жаттығуларын жасаңыз — ғылыми негізделген көз жаттығуы. https://apps.apple.com/app/axeo";
+"Share Axeo" = "Axeo-мен бөлісу";
+
+/* Paywall */
+"Axeo Premium" = "Axeo Премиум";
+"Unlock Full Vision Training" = "Толық көру жаттығуын ашу";
+"17 clinical exercises across 6 categories" = "6 санаттағы 17 клиникалық жаттығу";
+"3 structured programs (30–45 days)" = "3 құрылымдық бағдарлама (30–45 күн)";
+"6 vision screening tests" = "6 көру тексеру тесті";
+"ARKit eye-tracking with accuracy scoring" = "ARKit көз қадағалау дәлдік бағасымен";
+"Smart 20-20-20 reminders" = "Ақылды 20-20-20 еске салу";
+"New exercises & programs added regularly" = "Жаңа жаттығулар мен бағдарламалар үнемі қосылады";
+"Weekly" = "Апта сайын";
+"Monthly" = "Ай сайын";
+"Annual" = "Жыл сайын";
+"Lifetime" = "Мәңгілік";
+"BEST VALUE" = "ЕҢ ТИІМДІ";
+"$2.49/mo · SAVE 58%" = "$2.49/ай · 58% ҮНЕМДЕҢІЗ";
+"7-day free trial" = "7 күндік тегін сынақ";
+"per month" = "айына";
+"per week" = "аптасына";
+"one-time" = "бір реттік";
+"Start your 7-day free trial" = "7 күндік тегін сынақты бастаңыз";
+"Unlock forever" = "Мәңгілікке ашу";
+"Restore Purchases" = "Сатып алуларды қалпына келтіру";
+"Cancel anytime. Billed by Apple." = "Кез келген уақытта бас тартуға болады. Apple арқылы төленеді.";
+
+/* Exercise Library & Detail */
+"Exercise Library" = "Жаттығулар кітапханасы";
+"exercises" = "жаттығу";
+"categories" = "санат";
+"min full set" = "мин толық жинақ";
+"Based on AAO Clinical Guidelines & COVD Standards" = "AAO клиникалық нұсқаулықтары мен COVD стандарттарына негізделген";
+"HOW TO DO IT" = "ҚАЛАЙ ОРЫНДАУ КЕРЕК";
+"WHO IT HELPS" = "КІМГЕ КӨМЕКТЕСЕДІ";
+"Takes about %d seconds" = "Шамамен %d секунд";
+"Eye Tracking" = "Көзді бақылау";
+"Eye Tracking Coming Soon" = "Көзді бақылау жақында қосылады";
+"Backed by AAO Guidelines" = "AAO нұсқаулықтарымен расталған";
+"Start Exercise" = "Жаттығуды бастау";
+"Based on AAO & COVD clinical guidelines. Consult an eye care professional if you have a pre-existing condition." = "AAO және COVD клиникалық нұсқаулықтарына негізделген. Бұрыннан бар ауруыңыз болса, көз дәрігерімен кеңесіңіз.";
+
+/* Exercise Player */
+"%d of %d" = "%d / %d";
+"End Session?" = "Сеансты аяқтау керек пе?";
+"Your progress in this exercise will be saved." = "Бұл жаттығудағы прогрессіңіз сақталады.";
+"End Session" = "Сеансты аяқтау";
+"Great work!" = "Керемет жұмыс!";
+"Up next" = "Келесі";
+"%d seconds" = "%d секунд";
+"Starting in 3 seconds…" = "3 секундтан кейін басталады…";
+"Paused" = "Тоқтатылды";
+"Resume" = "Жалғастыру";
+
+/* Session Results */
+"Great work! Workout complete." = "Керемет жұмыс! Жаттығу аяқталды.";
+"Your next session is ready whenever you are." = "Келесі сеанс сіз дайын болғанда басталады.";
+"Duration" = "Ұзақтық";
+"Accuracy" = "Дәлдік";
+"Status" = "Күй";
+"Completed" = "Аяқталды";
+"Partial" = "Жартылай";
+"EXERCISES COMPLETED" = "АЯҚТАЛҒАН ЖАТТЫҒУЛАР";
+"Set 20-20-20 Reminder (20 min)" = "20-20-20 еске салуды орнату (20 мин)";
+"20-20-20 Reminder Set" = "20-20-20 еске салу орнатылды";
+"Share Achievement" = "Жетістікпен бөлісу";
+"20-20-20 Break" = "20-20-20 үзіліс";
+"Look at something 20 feet away for 20 seconds. Your eyes will thank you!" = "20 фут қашықтықтағы нәрсеге 20 секунд қараңыз. Көздеріңіз алғыс айтады!";
+
+/* Programs */
+"Training Programs" = "Жаттығу бағдарламалары";
+"Clinically designed · Doctor-approved" = "Клиникалық негізделген · Дәрігер мақұлдаған";
+"IN PROGRESS" = "ОРЫНДАЛУДА";
+"ALL PROGRAMS" = "БАРЛЫҚ БАҒДАРЛАМАЛАР";
+"Day %d of %d" = "%d / %d күн";
+"Continue Training" = "Жаттығуды жалғастыру";
+"Featured" = "Таңдаулы";
+"Start Free →" = "Тегін бастау →";
+"TODAY'S PLAN" = "БҮГІНГІ ЖОСПАР";
+"FULL SCHEDULE" = "ТОЛЫҚ КЕСТЕ";
+"Start Program" = "Бағдарламаны бастау";
+"Start Day %d" = "%d-күнді бастау";
+"Rest Day" = "Демалыс күні";
+"Graduation Day" = "Бітіру күні";
+"Day %d" = "%d-күн";
+"Your eyes need recovery too. Come back tomorrow!" = "Көздеріңізге де демалыс керек. Ертең оралыңыз!";
+"Users report improved focus after Week 2" = "Пайдаланушылар 2-аптадан кейін фокустың жақсарғанын айтады";
+"%d exercises · ~%d min" = "%d жаттығу · ~%d мин";
+"%d days" = "%d күн";
+
+/* Progress Dashboard */
+"My Progress" = "Менің прогрессім";
+"Track your eye health progress" = "Көз денсаулығыңыздың прогресін қадағалаңыз";
+"Start training to track your progress" = "Прогрессіңізді қадағалау үшін жаттығуды бастаңыз";
+"Great start — %d workout(s) this week!" = "Тамаша бастама — осы аптада %d жаттығу!";
+"You've trained %d× more than last week" = "Өткен аптаға қарағанда %d есе көп жаттықтыңыз";
+"Consistent! Same pace as last week" = "Тұрақты! Өткен аптамен бірдей қарқын";
+"Keep it up — %d workout(s) this week" = "Жалғастырыңыз — осы аптада %d жаттығу";
+"Current Streak" = "Ағымдағы серия";
+"Best Streak" = "Ең жақсы серия";
+"day" = "күн";
+"days" = "күн";
+"ACTIVITY" = "БЕЛСЕНДІЛІК";
+"ALL TIME" = "БАРЛЫҚ УАҚЫТ";
+"Avg Focus Score" = "Орташа фокус ұпайы";
+"RECENT SESSIONS" = "СОҢҒЫ СЕАНСТАР";
+"Quick Workout" = "Жылдам жаттығу";
+"Single Exercise" = "Жалғыз жаттығу";
+"Program Session" = "Бағдарлама сеансы";
+"%d exercises" = "%d жаттығу";
+"SCREENING HISTORY" = "ТЕКСЕРУ ТАРИХЫ";
+"Export Data" = "Деректерді экспорттау";
+"Week" = "Апта";
+"30 Days" = "30 күн";
+"90 Days" = "90 күн";
+"%d workouts" = "%d жаттығу";
+"%d minutes" = "%d минут";
+"%d workout" = "%d жаттығу";
+
+/* Screening & Tests */
+"Vision Screening" = "Көру тексеруі";
+"Check Your Vision" = "Көруіңізді тексеріңіз";
+"6 standardized screening tests" = "6 стандартталған тексеру тесті";
+"These are screening tools, not medical diagnoses. See an eye care professional for a comprehensive exam." = "Бұлар тексеру құралдары, медициналық диагноз емес. Толық тексеру үшін көз дәрігеріне хабарласыңыз.";
+"TEST HISTORY" = "ТЕСТ ТАРИХЫ";
+"Normal" = "Қалыпты";
+"Review" = "Тексеру";
+"Start Test" = "Тестті бастау";
+"Results Look Normal" = "Нәтижелер қалыпты көрінеді";
+"We Recommend a Professional Check" = "Мамандық тексеруді ұсынамыз";
+"This screening is not a substitute for a professional eye exam." = "Бұл тексеру кәсіби көз тексеруін алмастырмайды.";
+"Row %d of %d" = "%d / %d қатар";
+"Type the letters you see" = "Көрген әріптеріңізді теріңіз";
+"Can't See" = "Көрінбейді";
+"Submit" = "Жіберу";
+"Hold at arm's length (20 inches)" = "Қол созым қашықтықта ұстаңыз (20 дюйм)";
+"Plate %d of %d" = "%d / %d тақта";
+"What number do you see?" = "Қай санды көріп тұрсыз?";
+"I don't see a number" = "Сан көрінбейді";
+"Tap any lines that appear bolder or darker" = "Қалыңырақ немесе қараңғырақ көрінетін сызықтарды басыңыз";
+"All Lines Look the Same" = "Барлық сызықтар бірдей көрінеді";
+"Submit (%d selected)" = "Жіберу (%d таңдалды)";
+"Cover one eye. Look at the center of the dial. Do any lines appear darker, bolder, or more defined than others?" = "Бір көзіңізді жабыңыз. Циферблаттың ортасына қараңыз. Кейбір сызықтар басқаларға қарағанда қараңғырақ, қалыңырақ немесе айқынырақ көрінеді ме?";
+"I'm Ready" = "Мен дайынмын";
+"Mild reduction" = "Аздаған төмендеу";
+"Below normal" = "Қалыптыдан төмен";
+
+/* Shared & Disclaimers */
+"Health Disclaimer" = "Денсаулық ескертуі";
+"Axeo provides educational eye exercises based on AAO and COVD clinical guidelines. It is not a medical device and does not diagnose, treat, or replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition." = "Axeo AAO және COVD клиникалық нұсқаулықтарына негізделген білім беру мақсатындағы көз жаттығуларын ұсынады. Бұл медициналық құрылғы емес және кәсіби көз күтімін диагностикаламайды, емдемейді немесе алмастырмайды. Кез келген жаттығу бағдарламасын бастамас бұрын лицензиялы офтальмологпен немесе оптометристпен кеңесіңіз — әсіресе бұрыннан бар ауруыңыз болса.";
+"AAO" = "AAO";
+"COVD" = "COVD";
+"TFOS DEWS II" = "TFOS DEWS II";
+"I Understand — Let's Start" = "Түсінікті — Бастайық";
+"E Y E   T R A I N I N G" = "К Ө З   Ж А Т Т Ы Ғ У";
+
+/* Exercise Names */
+"Focus Shift" = "Фокусты ауыстыру";
+"Figure Eight" = "Сегіздік";
+"Palming" = "Алақанмен жабу";
+"Saccades" = "Саккадалар";
+"Blinking" = "Көз қағу";
+"Window Dot" = "Терезедегі нүкте";
+"Convergence" = "Конвергенция";
+"Square Tracing" = "Шаршы сызу";
+"Vertical & Horizontal" = "Тік және көлденең";
+"Warm Compress" = "Жылы компресс";
+"Stereogram" = "Стереограмма";
+"Image Fusion" = "Бейне біріктіру";
+"Breath + Gaze" = "Тыныс + Көзқарас";
+"20-20-20 Rule" = "20-20-20 ережесі";
+"Lid Massage" = "Қабақ массажы";
+"Lid Gym" = "Қабақ жаттығуы";
+"Tear Film" = "Жас қабықшасы";
+
+/* Exercise Hints */
+"Keep the phone at arm's length. Focus on the dot for 3 seconds, then shift your gaze to a distant object (across the room). Head stays still throughout." = "Телефонды қол созым қашықтықта ұстаңыз. 3 секунд нүктеге фокустаңыз, содан кейін көзіңізді алыстағы нысанға (бөлменің арғы жағына) аударыңыз. Бас бүкіл уақыт бойы қозғалмайды.";
+"Follow the moving dot along the figure-eight path with your eyes only. Keep smooth, continuous movement — don't jump ahead." = "Қозғалатын нүктені сегіздік бойынша тек көзіңізбен бақылаңыз. Тегіс, үздіксіз қозғалысты сақтаңыз — алға секірмеңіз.";
+"Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Breathe slowly and let your eyes relax in total darkness." = "Алақаныңызды жылы болғанша бір-біріне ысқылаңыз, содан кейін жұмулы көздеріңізге ақырын қойыңыз. Көз алмасына қысым түсірмеңіз. Баяу тыныс алыңыз және көздеріңіздің толық қараңғылықта демалуына мүмкіндік беріңіз.";
+"A dot lights up in one of 9 positions — jump your gaze to it immediately and hold for 2.5 seconds. Keep your head still; only move your eyes." = "9 позицияның бірінде нүкте жанады — көзіңізді дереу оған аударыңыз және 2,5 секунд ұстаңыз. Басыңызды қозғалтпаңыз; тек көздеріңізді қозғаңыз.";
+"Look straight ahead, face relaxed. Slowly close eyelids fully — no squinting. Hold 1 second. Open slowly. Repeat every 5 seconds." = "Тура алға қараңыз, бет босаңсыған. Қабақтарыңызды баяу толық жұмыңыз — қысылмаңыз. 1 секунд ұстаңыз. Баяу ашыңыз. Әр 5 секунд сайын қайталаңыз.";
+"Place a small sticker on a window at eye level. Stand arm's length away. Focus on the dot for 10 seconds, then shift to a distant object outside for 10 seconds." = "Терезеге көз деңгейінде кішкентай жапсырма жабыстырыңыз. Қол созым қашықтықта тұрыңыз. 10 секунд нүктеге фокустаңыз, содан кейін 10 секунд сырттағы алыс нысанға ауысыңыз.";
+"Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out." = "Телефонды қол созым қашықтықта ұстап, ортаңғы нүктеге фокустаңыз. Нүктені жалғыз және анық сақтай отырып, телефонды мұрныңызға баяу жақындатыңыз. Екі болып көрінгенде, кейін жылжытыңыз.";
+"Follow the dot as it traces a square with your eyes. Direction alternates clockwise then counterclockwise each lap." = "Нүкте шаршы сызған кезде оны көзіңізбен бақылаңыз. Бағыт әр айналымда сағат тілі бойынша, содан кейін сағат тіліне қарсы ауысады.";
+"Follow the dot: slowly up — pause — down — pause. 10 repetitions. Then left — pause — right — pause. 10 repetitions." = "Нүктені бақылаңыз: баяу жоғары — тоқтау — төмен — тоқтау. 10 қайталау. Содан кейін солға — тоқтау — оңға — тоқтау. 10 қайталау.";
+"Apply a warm, damp cloth over closed eyes. The heat helps open oil glands in your eyelids. Breathe deeply and relax for 3 minutes." = "Жұмулы көздеріңізге жылы, дымқыл мата қойыңыз. Жылу қабақтардағы май бездерін ашуға көмектеседі. Терең тыныс алыңыз және 3 минут демалыңыз.";
+"Two circles will appear side by side. Relax your eyes and let them slowly merge into one. When you see a single circle, hold your focus." = "Екі шеңбер қатар пайда болады. Көздеріңізді босаңсытыңыз және олардың баяу бір шеңберге бірігуіне мүмкіндік беріңіз. Жалғыз шеңберді көргенде, фокусты ұстаңыз.";
+"Similar to stereogram, but the circles move apart and back together. Try to maintain fusion (single image) as long as possible." = "Стереограммаға ұқсас, бірақ шеңберлер алшақтап, қайта жақындайды. Біріктіруді (жалғыз бейне) мүмкіндігінше ұзақ ұстауға тырысыңыз.";
+"Sit upright, relax shoulders. Inhale 6 seconds — slowly raise your gaze. Hold 2 seconds at top. Exhale 7 seconds — lower your gaze. Repeat." = "Тік отырыңыз, иықтарыңызды босаңсытыңыз. 6 секунд дем алыңыз — көзіңізді баяу жоғары көтеріңіз. Жоғарыда 2 секунд ұстаңыз. 7 секунд дем шығарыңыз — көзіңізді төмен түсіріңіз. Қайталаңыз.";
+"Every 20 minutes, look at something 20 feet away for 20 seconds. This exercise is a single guided 20-second break." = "Әр 20 минут сайын 20 фут қашықтықтағы нәрсеге 20 секунд қараңыз. Бұл жаттығу — бір басшылықпен жүргізілетін 20 секундтық үзіліс.";
+"Using a fingertip, gently massage your upper eyelid from the temple toward the nose. Then do the same on the lower lid. Light pressure only." = "Саусақ ұшымен жоғарғы қабағыңызды шекеден мұрынға қарай ақырын массаждаңыз. Содан кейін төменгі қабақпен де солай жасаңыз. Тек жеңіл қысым.";
+"Squeeze your eyes shut firmly for 2 seconds, then open wide for 2 seconds. This strengthens orbicularis and levator muscles." = "Көздеріңізді 2 секунд мықтап жұмыңыз, содан кейін 2 секунд кең ашыңыз. Бұл orbicularis және levator бұлшықеттерін нығайтады.";
+"Perform a slow, complete blink — close fully, hold 1 second, open. Then look at a distant point for 4 seconds. Repeat." = "Баяу, толық көз қағуды орындаңыз — толық жұмыңыз, 1 секунд ұстаңыз, ашыңыз. Содан кейін 4 секунд алыстағы нүктеге қараңыз. Қайталаңыз.";
+
+/* Exercise Indications */
+"Great for people who work at a screen 6+ hours/day. Helps with nearsightedness prevention, eye focusing fatigue, and Computer Vision Syndrome." = "Экран алдында күніне 6+ сағат жұмыс істейтін адамдар үшін тамаша. Алыстан көрмеушіліктің алдын алу, көзді фокустау шаршауы және компьютерлік көру синдромына көмектеседі.";
+"Improves eye mobility and coordination. Helpful for people with restricted eye movement, or those recovering after eye muscle procedures." = "Көздің қозғалғыштығы мен үйлесімділігін жақсартады. Көз қозғалысы шектеулі адамдарға немесе көз бұлшықеті операциясынан кейін қалпына келіп жатқандарға пайдалы.";
+"Instant relief for tired, overworked eyes. Recommended after long screen sessions or any time your eyes feel strained." = "Шаршаған, артық жүктелген көздерге лезде жеңілдік. Ұзақ экран сеанстарынан кейін немесе көздеріңіз керіліс сезінген кез келген уақытта ұсынылады.";
+"Helps with reading speed and accuracy. Useful for anyone who loses their place while reading or has trouble with quick eye movements." = "Оқу жылдамдығы мен дәлдігіне көмектеседі. Оқу кезінде орнын жоғалтатын немесе жылдам көз қозғалыстарында қиындық сезетін кез келген адамға пайдалы.";
+"Restores your natural blink rate, which drops 60% during screen use. Helps with dry, irritated eyes and eye fatigue." = "Экранды пайдалану кезінде 60% төмендейтін табиғи көз қағу жиілігін қалпына келтіреді. Құрғақ, тітіркенген көздер мен көз шаршауына көмектеседі.";
+"Classic optometry exercise for focusing flexibility. Great for people with accommodative insufficiency or early presbyopia symptoms." = "Фокустау икемділігіне арналған классикалық оптометрия жаттығуы. Аккомодация жеткіліксіздігі немесе ерте пресбиопия белгілері бар адамдар үшін тамаша.";
+"Strengthens eye teaming. Helps with convergence insufficiency — common in people who get headaches or double vision while reading." = "Көздердің бірлесіп жұмыс істеуін нығайтады. Конвергенция жеткіліксіздігіне көмектеседі — оқу кезінде бас ауруы немесе қос көру пайда болатын адамдарда жиі кездеседі.";
+"Strengthens all six eye muscles evenly. Especially helpful for people with eye movement asymmetry or post-surgical recovery." = "Барлық алты көз бұлшықетін біркелкі нығайтады. Көз қозғалысы асимметриясы бар немесе операциядан кейінгі қалпына келу кезеңіндегі адамдар үшін әсіресе пайдалы.";
+"Builds range of motion in all four cardinal directions. Good for people with restricted gaze or neck tension from screen use." = "Барлық төрт негізгі бағытта қозғалыс ауқымын арттырады. Шектеулі көзқарасы бар немесе экранды пайдаланудан мойын қысылуы бар адамдар үшін жақсы.";
+"Recommended by ophthalmologists for dry eye and meibomian gland dysfunction. The heat liquefies blocked oils to restore your tear film." = "Офтальмологтар құрғақ көз және мейбомиев безінің дисфункциясы үшін ұсынады. Жылу бітелген майларды ерітіп, жас қабықшаңызды қалпына келтіреді.";
+"Trains your brain to fuse images from both eyes. Helps develop stereoscopic depth perception and binocular vision." = "Миыңызды екі көздің бейнелерін біріктіруге жаттықтырады. Стереоскопиялық тереңдік қабылдауын және бинокулярлық көруді дамытуға көмектеседі.";
+"Advanced binocular training. Builds flexible vergence — the ability to maintain single vision at changing distances." = "Жетілдірілген бинокулярлық жаттығу. Икемді вергенцияны дамытады — өзгеретін қашықтықтарда бірыңғай көруді сақтау қабілеті.";
+"Combines eye movement with breathing rhythm. Reduces overall tension, lowers intraocular pressure, and calms the nervous system." = "Көз қозғалысын тыныс алу ырғағымен біріктіреді. Жалпы кернеуді азайтады, көзішілік қысымды төмендетеді және жүйке жүйесін тыныштандырады.";
+"The AAO's #1 recommendation for screen users. Prevents accommodative spasm and reduces digital eye strain." = "AAO-ның экран пайдаланушыларға №1 ұсынысы. Аккомодация спазмінің алдын алады және сандық көз кернеуін азайтады.";
+"Stimulates meibomian glands to produce healthy oils. Based on TFOS DEWS II dry eye management guidelines." = "Мейбомиев бездерін сау майлар шығаруға ынталандырады. TFOS DEWS II құрғақ көзді басқару нұсқаулықтарына негізделген.";
+"Builds eyelid muscle tone for better blink quality. Recommended for incomplete blinkers and people with lagophthalmos risk." = "Көз қағудың сапасын жақсарту үшін қабақ бұлшықетінің тонусын арттырады. Толық емес көз қағу және лагофтальмос қаупі бар адамдарға ұсынылады.";
+"Restores tear film stability. Combines intentional blinking with distance relaxation, per TFOS DEWS II guidelines." = "Жас қабықшасының тұрақтылығын қалпына келтіреді. TFOS DEWS II нұсқаулықтарына сәйкес әдейі көз қағуды қашықтық релаксациясымен біріктіреді.";
+
+/* Exercise Steps */
+"Hold phone at arm's length" = "Телефонды қол созым қашықтықта ұстаңыз";
+"Focus on the on-screen dot for 3 seconds" = "Экрандағы нүктеге 3 секунд фокустаңыз";
+"Shift gaze to a distant object across the room" = "Көзіңізді бөлменің арғы жағындағы алыс нысанға аударыңыз";
+"Hold distant focus for 3 seconds" = "Алыс фокусты 3 секунд ұстаңыз";
+"Keep your head still — only your eyes move" = "Басыңызды қозғалтпаңыз — тек көздеріңіз қозғалады";
+"Look straight ahead and relax your eyes" = "Тура алға қараңыз және көздеріңізді босаңсытыңыз";
+"Trace a figure-eight pattern in the air with your eyes" = "Ауада сегіздік пішінін көздеріңізбен сызыңыз";
+"Keep the movement smooth and controlled" = "Қозғалысты тегіс және бақылаулы ұстаңыз";
+"Reverse the direction halfway through" = "Жартысында бағытты өзгертіңіз";
+"Keep your head still — only your eyes should move" = "Басыңызды қозғалтпаңыз — тек көздеріңіз қозғалуы керек";
+"Rub your palms together until warm" = "Алақаныңызды жылы болғанша бір-біріне ысқылаңыз";
+"Cup warm palms gently over closed eyes" = "Жылы алақаныңызды жұмулы көздеріңізге ақырын қойыңыз";
+"No pressure on the eyeballs" = "Көз алмасына қысым түсірмеңіз";
+"Breathe slowly and deeply" = "Баяу және терең тыныс алыңыз";
+"Let your eyes relax in total darkness" = "Көздеріңіздің толық қараңғылықта демалуына мүмкіндік беріңіз";
+"Keep your head still, face the screen" = "Басыңызды қозғалтпаңыз, экранға қараңыз";
+"A dot will appear in one of 9 positions" = "9 позицияның бірінде нүкте пайда болады";
+"Jump your gaze to the dot immediately" = "Көзіңізді дереу нүктеге аударыңыз";
+"Hold focus on the dot for 2.5 seconds" = "Нүктеге фокусты 2,5 секунд ұстаңыз";
+"Wait for the next dot position" = "Келесі нүкте позициясын күтіңіз";
+"Look straight ahead, face relaxed" = "Тура алға қараңыз, бет босаңсыған";
+"Slowly close your eyelids fully — no squinting" = "Қабақтарыңызды баяу толық жұмыңыз — қысылмаңыз";
+"Hold closed for 1 second" = "Жұмулы күйде 1 секунд ұстаңыз";
+"Open slowly and gently" = "Баяу және ақырын ашыңыз";
+"Repeat every 5 seconds" = "Әр 5 секунд сайын қайталаңыз";
+"Place a small dot or sticker on a window at eye level" = "Терезеге көз деңгейінде кішкентай нүкте немесе жапсырма қойыңыз";
+"Stand at arm's length from the window" = "Терезеден қол созым қашықтықта тұрыңыз";
+"Focus on the dot for 10 seconds" = "Нүктеге 10 секунд фокустаңыз";
+"Shift focus to a distant object outside" = "Фокусты сырттағы алыс нысанға ауыстырыңыз";
+"Hold distant focus for 10 seconds" = "Алыс фокусты 10 секунд ұстаңыз";
+"Hold phone at arm's length, focus on center dot" = "Телефонды қол созым қашықтықта ұстап, ортаңғы нүктеге фокустаңыз";
+"Slowly bring the phone toward your nose" = "Телефонды мұрныңызға баяу жақындатыңыз";
+"Keep the dot single and clear" = "Нүктені жалғыз және анық сақтаңыз";
+"When the dot doubles, move the phone back" = "Нүкте екі болып көрінгенде, телефонды кейін жылжытыңыз";
+"Repeat the approach slowly" = "Жақындатуды баяу қайталаңыз";
+"Follow the dot as it traces a square path" = "Нүкте шаршы жолды сызған кезде оны бақылаңыз";
+"Keep your eyes on the dot at all times" = "Көзіңізді нүктеден барлық уақытта алмаңыз";
+"Direction alternates each lap" = "Бағыт әр айналымда ауысады";
+"Keep your head completely still" = "Басыңызды мүлде қозғалтпаңыз";
+"Follow the dot as it moves up and down" = "Нүкте жоғары-төмен қозғалған кезде оны бақылаңыз";
+"Pause briefly at each end position" = "Әр шеткі позицияда қысқаша тоқтаңыз";
+"After 10 reps, follow left and right" = "10 қайталаудан кейін солға және оңға бақылаңыз";
+"Keep your head still throughout" = "Бүкіл уақыт бойы басыңызды қозғалтпаңыз";
+"Apply a warm, damp cloth over closed eyes" = "Жұмулы көздеріңізге жылы, дымқыл мата қойыңыз";
+"The warmth opens oil glands in your eyelids" = "Жылу қабақтардағы май бездерін ашады";
+"Breathe deeply and relax" = "Терең тыныс алыңыз және босаңсыңыз";
+"Maintain for the full 3 minutes" = "Толық 3 минут бойы ұстаңыз";
+"Two circles appear side by side" = "Екі шеңбер қатар пайда болады";
+"Relax your eyes — let focus go soft" = "Көздеріңізді босаңсытыңыз — фокусты жұмсартыңыз";
+"Allow the circles to slowly merge into one" = "Шеңберлердің баяу біріне бірігуіне мүмкіндік беріңіз";
+"Hold the fused single circle as long as possible" = "Біріккен жалғыз шеңберді мүмкіндігінше ұзақ ұстаңыз";
+"Watch the two circles on screen" = "Экрандағы екі шеңберді бақылаңыз";
+"As they move apart, try to maintain single vision" = "Олар алшақтаған кезде бірыңғай көруді сақтауға тырысыңыз";
+"When they come back together, maintain fusion" = "Олар қайта жақындағанда біріктіруді сақтаңыз";
+"Relax your eyes if you see double" = "Қос көрсеңіз көздеріңізді босаңсытыңыз";
+"Sit upright, relax your shoulders" = "Тік отырыңыз, иықтарыңызды босаңсытыңыз";
+"Inhale for 6 seconds — slowly raise your gaze" = "6 секунд дем алыңыз — көзіңізді баяу жоғары көтеріңіз";
+"Hold at the top for 2 seconds" = "Жоғарыда 2 секунд ұстаңыз";
+"Exhale for 7 seconds — lower your gaze" = "7 секунд дем шығарыңыз — көзіңізді төмен түсіріңіз";
+"Repeat the breathing cycle" = "Тыныс алу циклін қайталаңыз";
+"Look away from your screen" = "Экраннан көзіңізді алыңыз";
+"Find an object at least 20 feet away" = "Кем дегенде 20 фут қашықтықтағы нысанды табыңыз";
+"Focus on it for 20 seconds" = "Оған 20 секунд фокустаңыз";
+"Let your eye muscles fully relax" = "Көз бұлшықеттеріңіздің толық босаңсуына мүмкіндік беріңіз";
+"Close your eyes gently" = "Көздеріңізді ақырын жұмыңыз";
+"Using a fingertip, massage upper lid temple-to-nose" = "Саусақ ұшымен жоғарғы қабақты шекеден мұрынға қарай массаждаңыз";
+"Use light pressure only" = "Тек жеңіл қысым қолданыңыз";
+"Repeat on the lower lid" = "Төменгі қабақта қайталаңыз";
+"Continue alternating for 60 seconds" = "60 секунд бойы кезектестіруді жалғастырыңыз";
+"Squeeze your eyes shut firmly for 2 seconds" = "Көздеріңізді 2 секунд мықтап жұмыңыз";
+"Open your eyes wide for 2 seconds" = "Көздеріңізді 2 секунд кең ашыңыз";
+"Keep the rhythm steady" = "Ырғақты тұрақты ұстаңыз";
+"Focus on complete, firm closures" = "Толық, мықты жұмуға назар аударыңыз";
+"Perform a slow, complete blink" = "Баяу, толық көз қағуды орындаңыз";
+"Close fully and hold for 1 second" = "Толық жұмыңыз және 1 секунд ұстаңыз";
+"Open and look at a distant point" = "Ашыңыз және алыстағы нүктеге қараңыз";
+"Hold distant focus for 4 seconds" = "Алыс фокусты 4 секунд ұстаңыз";
+"Repeat the cycle" = "Циклді қайталаңыз";
+
+/* Exercise Categories */
+"Accommodation" = "Аккомодация";
+"Eye Movement" = "Көз қозғалысы";
+"Relaxation" = "Релаксация";
+"Binocular" = "Бинокулярлық";
+"Breathing" = "Тыныс алу";
+"Dry Eye Relief" = "Құрғақ көзді жеңілдету";
+"Ciliary muscle training — myopia prevention & accommodation relief" = "Цилиарлы бұлшықет жаттығуы — миопия алдын алу және аккомодация жеңілдету";
+"Extraocular muscle training — all 6 directions of gaze" = "Экстраокулярлы бұлшықет жаттығуы — көзқарастың барлық 6 бағыты";
+"Muscle and visual tension relief — 20-20-20 rule" = "Бұлшықет және көру кернеуін жеңілдету — 20-20-20 ережесі";
+"Teamwork of both eyes — stereovision development" = "Екі көздің бірлесіп жұмысы — стереокөру дамыту";
+"Breathing synchronized with eye movement — WHO protocol" = "Көз қозғалысымен синхрондалған тыныс алу — ДДҰ хаттамасы";
+"Tear film stabilization & eyelid health — TFOS DEWS II" = "Жас қабықшасын тұрақтандыру және қабақ денсаулығы — TFOS DEWS II";
+
+/* Vision Test Definitions */
+"Visual Acuity" = "Көру өткірлігі";
+"Astigmatism Check" = "Астигматизм тексеруі";
+"Color Vision" = "Түсті көру";
+"Contrast Sensitivity" = "Контраст сезімталдығы";
+"Amsler Grid" = "Амслер торы";
+"Dry Eye Assessment" = "Құрғақ көзді бағалау";
+"Snellen chart — read progressively smaller letters" = "Снеллен кестесі — бірте-бірте кішірейетін әріптерді оқыңыз";
+"Fan/clock dial — check for directional blur" = "Желдеткіш/сағат циферблаты — бағыттық бұлдырлықты тексеру";
+"Ishihara-style plates — detect color deficiency" = "Ишихара үлгісіндегі тақталар — түс жетіспеушілігін анықтау";
+"Fading letters — check low-contrast vision" = "Өңсізденетін әріптер — төмен контрастты көруді тексеру";
+"Grid distortion — screen for macular issues" = "Тор бұрмалануы — макулярлық мәселелерді тексеру";
+"OSDI questionnaire — rate your dry eye symptoms" = "OSDI сауалнамасы — құрғақ көз белгілерін бағалау";
+"~2 min" = "~2 мин";
+"~1 min" = "~1 мин";
+"~3 min" = "~3 мин";
+"This is a screening tool, not a medical diagnosis. Consult an eye care professional for a comprehensive exam." = "Бұл тексеру құралы, медициналық диагноз емес. Толық тексеру үшін көз дәрігеріне хабарласыңыз.";
+
+/* User Enums */
+"No known condition" = "Белгілі ауру жоқ";
+"Nearsightedness" = "Алыстан көрмеушілік";
+"Farsightedness" = "Жақыннан көрмеушілік";
+"Astigmatism" = "Астигматизм";
+"Presbyopia" = "Пресбиопия";
+"Dry Eye" = "Құрғақ көз";
+"Other" = "Басқа";
+"Prevention" = "Алдын алу";
+"Correction" = "Түзету";
+"Keep your vision sharp and prevent future problems" = "Көруіңізді өткір сақтаңыз және болашақ мәселелердің алдын алыңыз";
+"Strengthen eye muscles and improve focus" = "Көз бұлшықеттерін нығайтыңыз және фокусты жақсартыңыз";
+"Reduce eye strain and digital fatigue" = "Көз кернеуін және сандық шаршауды азайтыңыз";
+
+/* Course Data */
+"Digital Eye Relief" = "Сандық көз жеңілдігі";
+"30-Day Digital Eye Strain Program" = "30 күндік сандық көз кернеуі бағдарламасы";
+"Designed for people who spend 6+ hours a day at a screen. Combines accommodation training, relaxation, and the 20-20-20 rule to reduce digital eye strain and prevent long-term damage." = "Күніне 6+ сағат экран алдында өткізетін адамдарға арналған. Сандық көз кернеуін азайту және ұзақ мерзімді зақымның алдын алу үшін аккомодация жаттығуын, релаксацияны және 20-20-20 ережесін біріктіреді.";
+"Vision After 40" = "40-тан кейінгі көру";
+"45-Day Full Eye Fitness Program" = "45 күндік толық көз фитнесі бағдарламасы";
+"A comprehensive program that progressively trains all six eye muscles, binocular vision, and accommodation. Based on AAO exercise therapy protocols for convergence insufficiency and accommodative dysfunction." = "Барлық алты көз бұлшықетін, бинокулярлық көруді және аккомодацияны біртіндеп жаттықтыратын кешенді бағдарлама. Конвергенция жеткіліксіздігі мен аккомодациялық дисфункция үшін AAO жаттығу терапиясы хаттамаларына негізделген.";
+"30-Day Tear Film Restoration Program" = "30 күндік жас қабықшасын қалпына келтіру бағдарламасы";
+"Follows TFOS DEWS II guidelines to restore tear film stability. Combines lid massage, warm compresses, intentional blinking, and relaxation exercises to manage dry eye symptoms." = "Жас қабықшасының тұрақтылығын қалпына келтіру үшін TFOS DEWS II нұсқаулықтарын ұстанады. Құрғақ көз белгілерін басқару үшін қабақ массажын, жылы компресстерді, әдейі көз қағуды және релаксация жаттығуларын біріктіреді.";
+"AAO Recommends" = "AAO ұсынады";
+"Office Workers" = "Кеңсе қызметкерлері";
+"Beginner" = "Бастауыш";
+"Intermediate" = "Орта";
+"Advanced" = "Жетілдірілген";
+
+/* Profile — new */
+"Language" = "Тіл";
+"Change profile photo" = "Профиль фотосын өзгерту";
+"The app will restart to apply the new language." = "Жаңа тілді қолдану үшін қолданба қайта іске қосылады.";
+"Permanently deletes all sessions, test results, and progress" = "Барлық сеанстарды, тест нәтижелерін және прогресті біржола жояды";
+"Reset all data" = "Барлық деректерді қалпына келтіру";
+
+/* Amsler Grid Test */
+"Cover your LEFT eye. Focus on the center dot with your RIGHT eye. Note if any lines appear wavy, broken, or missing." = "СОЛ көзіңізді жабыңыз. ОҢ көзіңізбен ортаңғы нүктеге фокустаңыз. Сызықтар толқынды, үзілген немесе жоқ болып көрінетінін бақылаңыз.";
+"Start — Right Eye First" = "Бастау — Алдымен оң көз";
+"Focus only on the center dot" = "Тек ортаңғы нүктеге фокустаңыз";
+"All Lines Straight — No Issues" = "Барлық сызықтар түзу — Мәселе жоқ";
+"I See Distortion or Missing Areas" = "Бұрмалану немесе жоқ аймақтарды көремін";
+
+/* Contrast Test extra */
+"Next" = "Келесі";
+"What letter do you see?" = "Қай әріпті көріп тұрсыз?";
+
+/* Paywall extra */
+"Full access to 17 exercises, all programs, and premium features" = "17 жаттығуға, барлық бағдарламаларға және премиум мүмкіндіктерге толық қол жетімділік";
+"Payment is charged to your Apple ID account. Subscription auto-renews unless cancelled at least 24 hours before the current period ends." = "Төлем Apple ID есептік жазбаңыздан алынады. Ағымдағы кезең аяқталғанға дейін кем дегенде 24 сағат бұрын бас тартпасаңыз, жазылым автоматты түрде жаңартылады.";
+
+/* Exercise Renderer Strings */
+"Focus on the dot" = "Нүктеге фокустаңыз";
+"Look at a distant object" = "Алыстағы нысанға қараңыз";
+"Hold for 3 seconds" = "3 секунд ұстаңыз";
+"Relax your focus" = "Фокусыңызды босаңсытыңыз";
+"Follow the dot with your eyes" = "Нүктені көзіңізбен бақылаңыз";
+"Breathe in…" = "Дем алыңыз…";
+"Breathe out…" = "Дем шығарыңыз…";
+"Cup warm palms over closed eyes" = "Жылы алақанды жұмулы көзге қойыңыз";
+"Snap your gaze to the dot" = "Көзіңізді дереу нүктеге аударыңыз";
+"Eyes open — relax" = "Көздер ашық — босаңсыңыз";
+"Slowly close…" = "Баяу жұмыңыз…";
+"Slowly open…" = "Баяу ашыңыз…";
+"Slow, deliberate blinks" = "Баяу, саналы көз қағу";
+"Focus on something far away" = "Алыстағы нәрсеге фокустаңыз";
+"s remaining" = "с қалды";
+"Keep the dot single and clear" = "Нүктені жалғыз және анық сақтаңыз";
+"Slowly moving away…" = "Баяу алшақтауда…";
+"If it doubles, relax your eyes" = "Екі болса, көздеріңізді босаңсытыңыз";
+"Follow the dot smoothly" = "Нүктені тегіс бақылаңыз";
+"Up and down" = "Жоғары және төмен";
+"Left and right" = "Солға және оңға";
+"Keep your head still" = "Басыңызды қозғалтпаңыз";
+"Keep the warm cloth over closed eyes" = "Жылы матаны жұмулы көзде ұстаңыз";
+"Relax your eyes — let the circles merge" = "Көздеріңізді босаңсытыңыз — шеңберлердің бірігуіне мүмкіндік беріңіз";
+"Don't force it — let focus go soft" = "Мәжбүрлемеңіз — фокусты жұмсартыңыз";
+"Good — maintain fusion!" = "Жақсы — біріктіруді ұстаңыз!";
+"Keep both circles as one" = "Екі шеңберді бір ретінде ұстаңыз";
+"Relax if you see double" = "Қос көрсеңіз босаңсыңыз";
+"Breathe in ↑" = "Дем алыңыз ↑";
+"Hold…" = "Ұстаңыз…";
+"Breathe out ↓" = "Дем шығарыңыз ↓";
+"Follow the dot with your gaze" = "Нүктені көзқарасыңызбен бақылаңыз";
+"seconds" = "секунд";
+"Look at something 20 feet away" = "20 фут қашықтықтағы нәрсеге қараңыз";
+"Let your eye muscles fully relax" = "Көз бұлшықеттеріңіздің толық босаңсуына мүмкіндік беріңіз";
+"Upper lid" = "Жоғарғы қабақ";
+"Lower lid" = "Төменгі қабақ";
+"Massage gently, temple to nose" = "Шекеден мұрынға қарай ақырын массаждаңыз";
+"Light pressure only" = "Тек жеңіл қысым";
+"Squeeze shut!" = "Мықтап жұмыңыз!";
+"Open wide!" = "Кең ашыңыз!";
+"Keep the rhythm steady" = "Ырғақты тұрақты ұстаңыз";
+"Close slowly…" = "Баяу жұмыңыз…";
+"Hold closed — tears spreading" = "Жұмулы ұстаңыз — жастар таралуда";
+"Open gently…" = "Ақырын ашыңыз…";
+"Look at something distant" = "Алыстағы нәрсеге қараңыз";
+"Restoring tear film stability" = "Жас қабықшасының тұрақтылығын қалпына келтіру";
+
+// MARK: – Missing keys
+"Days" = "Күн";
+"Full session" = "Толық сеанс";
+"Partial session" = "Жартылай сеанс";
+"Just completed an Axeo eye workout!" = "Axeo-да көз жаттығуын аяқтадым!";
+"Train your eyes daily with Axeo — science-backed eye training." = "Axeo-мен көздеріңізді күнделікті жаттықтырыңыз — ғылымға негізделген көз жаттығулары.";
+"%dm %ds" = "%dм %dс";
+"m" = "м";
+
+/* Theme / Appearance */
+"Appearance" = "Көрініс";
+"System" = "Жүйелік";
+"Dark" = "Қараңғы";
+"Light" = "Жарық";

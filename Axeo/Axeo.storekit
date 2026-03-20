@@ -1,0 +1,210 @@
+{
+  "identifier" : "com.allevamentum.axeo.storekit",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "79.99",
+      "familyShareable" : false,
+      "internalID" : "D2A3F001",
+      "localizations" : [
+        {
+          "description" : "Unlock all exercises, programs, and features forever.",
+          "displayName" : "Axeo Premium — Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.allevamentum.axeo.premium.lifetime",
+      "referenceName" : "Axeo Premium Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "B1C2D3E4",
+      "localizations" : [
+
+      ],
+      "name" : "Axeo Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A1B2C001",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "A1B2C001_TRIAL",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Full access to 17 exercises, all programs, and premium features.",
+              "displayName" : "Axeo Premium — Annual",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.allevamentum.axeo.premium.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Axeo Premium Annual",
+          "subscriptionGroupID" : "B1C2D3E4",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A1B2C002",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "A1B2C002_TRIAL",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Full access to 17 exercises, all programs, and premium features.",
+              "displayName" : "Axeo Premium — Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.allevamentum.axeo.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Axeo Premium Monthly",
+          "subscriptionGroupID" : "B1C2D3E4",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A1B2C003",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "A1B2C003_TRIAL",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Full access to 17 exercises, all programs, and premium features.",
+              "displayName" : "Axeo Premium — Weekly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.allevamentum.axeo.premium.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Axeo Premium Weekly",
+          "subscriptionGroupID" : "B1C2D3E4",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

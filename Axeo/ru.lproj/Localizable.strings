@@ -1,0 +1,515 @@
+/* Tabs & Navigation */
+"Home" = "Главная";
+"Exercises" = "Упражнения";
+"Programs" = "Программы";
+"Screening" = "Проверка";
+"Progress" = "Прогресс";
+"Profile" = "Профиль";
+"Exercise Library" = "Библиотека упражнений";
+"Vision Screening" = "Проверка зрения";
+"Axeo Premium" = "Axeo Premium";
+"Training Programs" = "Программы тренировок";
+"Check Your Vision" = "Проверьте ваше зрение";
+"My Progress" = "Мой прогресс";
+
+/* Home View */
+"Axeo" = "Axeo";
+"Private & Secure" = "Конфиденциально и безопасно";
+"Good morning, %@" = "Доброе утро, %@";
+"Good afternoon, %@" = "Добрый день, %@";
+"Good evening, %@" = "Добрый вечер, %@";
+"Hello, %@" = "Привет, %@";
+"Recommended for You" = "Рекомендовано для вас";
+"based on your goal & condition" = "на основе вашей цели и состояния";
+"Refresh" = "Обновить";
+"Today's Activity" = "Активность за сегодня";
+"updates after each session" = "обновляется после каждого занятия";
+"%d-day streak" = "%d дн. подряд";
+"Daily Eye Workout" = "Ежедневная тренировка глаз";
+"Start Workout" = "Начать тренировку";
+"%d exercises · %d min · doctor-recommended" = "%d упражнений · %d мин · рекомендовано врачами";
+"Workouts" = "Тренировки";
+"Focus Score" = "Оценка фокуса";
+"Time" = "Время";
+"Done" = "Готово";
+
+/* Onboarding */
+"Skip" = "Пропустить";
+"Science-Backed\nEye Training" = "Научно обоснованная\nтренировка глаз";
+"17 exercises designed with AAO and COVD clinical guidelines. Train your eye muscles the way you train your body." = "17 упражнений, разработанных на основе клинических рекомендаций AAO и COVD. Тренируйте мышцы глаз так же, как тренируете тело.";
+"Track Your\nProgress" = "Отслеживайте\nсвой прогресс";
+"Streaks, stats, and vision screening — all in one place. See your improvement over days and weeks." = "Серии, статистика и проверка зрения — всё в одном месте. Наблюдайте за улучшениями день за днём.";
+"Private &\nSecure" = "Конфиденциально\nи безопасно";
+"All data stays on your device. No accounts, no cloud uploads, no tracking. Your eyes, your data." = "Все данные остаются на вашем устройстве. Без аккаунтов, без облака, без отслеживания. Ваши глаза — ваши данные.";
+"What's your main goal?" = "Какова ваша главная цель?";
+"We'll personalize your daily workouts" = "Мы подберём ежедневные тренировки для вас";
+"Your Name" = "Ваше имя";
+"Guest" = "Гость";
+"Any known eye condition?" = "Есть ли заболевания глаз?";
+"Optional — helps us customize exercises" = "Необязательно — помогает подобрать упражнения";
+"None" = "Нет";
+"Continue" = "Продолжить";
+"Let's Start" = "Начнём";
+"No account needed · 100% on-device" = "Без регистрации · 100% на устройстве";
+
+/* Profile */
+"Premium" = "Премиум";
+"SETTINGS" = "НАСТРОЙКИ";
+"Change Goal" = "Изменить цель";
+"Change Diagnosis" = "Изменить диагноз";
+"Upgrade to Premium" = "Перейти на Премиум";
+"Notifications" = "Уведомления";
+"System Settings" = "Системные настройки";
+"ABOUT" = "О ПРИЛОЖЕНИИ";
+"Privacy Policy" = "Политика конфиденциальности";
+"Medical Disclaimer" = "Медицинский отказ от ответственности";
+"Rate Axeo" = "Оценить Axeo";
+"Refer a Friend" = "Пригласить друга";
+"Minutes" = "Минуты";
+"Member Since" = "Участник с";
+"Name" = "Имя";
+"Reset All Data" = "Сбросить все данные";
+"Delete Everything" = "Удалить всё";
+"Cancel" = "Отмена";
+"DATA" = "ДАННЫЕ";
+"Reset All Data?" = "Сбросить все данные?";
+"This will permanently delete all sessions, test results, and progress. This cannot be undone." = "Все занятия, результаты тестов и прогресс будут безвозвратно удалены. Это действие нельзя отменить.";
+"Train your eyes daily with Axeo — science-backed eye training. https://apps.apple.com/app/axeo" = "Тренируйте глаза каждый день с Axeo — научно обоснованная тренировка зрения. https://apps.apple.com/app/axeo";
+"Share Axeo" = "Поделиться Axeo";
+
+/* Paywall */
+"Axeo Premium" = "Axeo Премиум";
+"Unlock Full Vision Training" = "Откройте полную тренировку зрения";
+"17 clinical exercises across 6 categories" = "17 клинических упражнений в 6 категориях";
+"3 structured programs (30–45 days)" = "3 структурированные программы (30–45 дней)";
+"6 vision screening tests" = "6 тестов проверки зрения";
+"ARKit eye-tracking with accuracy scoring" = "Отслеживание глаз ARKit с оценкой точности";
+"Smart 20-20-20 reminders" = "Умные напоминания 20-20-20";
+"New exercises & programs added regularly" = "Регулярное добавление новых упражнений и программ";
+"Weekly" = "Еженедельно";
+"Monthly" = "Ежемесячно";
+"Annual" = "Ежегодно";
+"Lifetime" = "Навсегда";
+"BEST VALUE" = "ЛУЧШАЯ ЦЕНА";
+"$2.49/mo · SAVE 58%" = "$2.49/мес · СКИДКА 58%";
+"7-day free trial" = "7 дней бесплатно";
+"per month" = "в месяц";
+"per week" = "в неделю";
+"one-time" = "разовый платёж";
+"Start your 7-day free trial" = "Начните 7-дневный бесплатный период";
+"Unlock forever" = "Открыть навсегда";
+"Restore Purchases" = "Восстановить покупки";
+"Cancel anytime. Billed by Apple." = "Отмена в любое время. Оплата через Apple.";
+
+/* Exercise Library & Detail */
+"Exercise Library" = "Библиотека упражнений";
+"exercises" = "упражнения";
+"categories" = "категории";
+"min full set" = "мин полный комплекс";
+"Based on AAO Clinical Guidelines & COVD Standards" = "На основе клинических рекомендаций AAO и стандартов COVD";
+"HOW TO DO IT" = "КАК ВЫПОЛНЯТЬ";
+"WHO IT HELPS" = "КОМУ ПОМОЖЕТ";
+"Takes about %d seconds" = "Займёт около %d секунд";
+"Eye Tracking" = "Отслеживание глаз";
+"Eye Tracking Coming Soon" = "Отслеживание глаз скоро";
+"Backed by AAO Guidelines" = "На основе рекомендаций AAO";
+"Start Exercise" = "Начать упражнение";
+"Based on AAO & COVD clinical guidelines. Consult an eye care professional if you have a pre-existing condition." = "На основе клинических рекомендаций AAO и COVD. Проконсультируйтесь с офтальмологом при наличии заболеваний глаз.";
+
+/* Exercise Player */
+"%d of %d" = "%d из %d";
+"End Session?" = "Завершить занятие?";
+"Your progress in this exercise will be saved." = "Ваш прогресс в этом упражнении будет сохранён.";
+"End Session" = "Завершить занятие";
+"Great work!" = "Отличная работа!";
+"Up next" = "Далее";
+"%d seconds" = "%d секунд";
+"Starting in 3 seconds…" = "Начало через 3 секунды…";
+"Paused" = "Пауза";
+"Resume" = "Продолжить";
+
+/* Session Results */
+"Great work! Workout complete." = "Отличная работа! Тренировка завершена.";
+"Your next session is ready whenever you are." = "Следующее занятие готово, когда вы будете.";
+"Duration" = "Длительность";
+"Accuracy" = "Точность";
+"Status" = "Статус";
+"Completed" = "Завершено";
+"Partial" = "Частично";
+"EXERCISES COMPLETED" = "УПРАЖНЕНИЯ ВЫПОЛНЕНЫ";
+"Set 20-20-20 Reminder (20 min)" = "Установить напоминание 20-20-20 (20 мин)";
+"20-20-20 Reminder Set" = "Напоминание 20-20-20 установлено";
+"Share Achievement" = "Поделиться достижением";
+"20-20-20 Break" = "Перерыв 20-20-20";
+"Look at something 20 feet away for 20 seconds. Your eyes will thank you!" = "Посмотрите на объект на расстоянии 6 метров в течение 20 секунд. Ваши глаза скажут вам спасибо!";
+
+/* Programs */
+"Training Programs" = "Программы тренировок";
+"Clinically designed · Doctor-approved" = "Клинически разработаны · Одобрены врачами";
+"IN PROGRESS" = "В ПРОЦЕССЕ";
+"ALL PROGRAMS" = "ВСЕ ПРОГРАММЫ";
+"Day %d of %d" = "День %d из %d";
+"Continue Training" = "Продолжить тренировку";
+"Featured" = "Рекомендуемые";
+"Start Free →" = "Начать бесплатно →";
+"TODAY'S PLAN" = "ПЛАН НА СЕГОДНЯ";
+"FULL SCHEDULE" = "ПОЛНОЕ РАСПИСАНИЕ";
+"Start Program" = "Начать программу";
+"Start Day %d" = "Начать день %d";
+"Rest Day" = "День отдыха";
+"Graduation Day" = "День завершения";
+"Day %d" = "День %d";
+"Your eyes need recovery too. Come back tomorrow!" = "Вашим глазам тоже нужен отдых. Возвращайтесь завтра!";
+"Users report improved focus after Week 2" = "Пользователи отмечают улучшение фокуса после 2-й недели";
+"%d exercises · ~%d min" = "%d упражнений · ~%d мин";
+"%d days" = "%d дней";
+
+/* Progress Dashboard */
+"My Progress" = "Мой прогресс";
+"Track your eye health progress" = "Отслеживайте прогресс здоровья глаз";
+"Start training to track your progress" = "Начните тренировки, чтобы отслеживать прогресс";
+"Great start — %d workout(s) this week!" = "Отличное начало — %d тренировок на этой неделе!";
+"You've trained %d× more than last week" = "Вы тренировались в %d раз больше, чем на прошлой неделе";
+"Consistent! Same pace as last week" = "Стабильно! Тот же темп, что и на прошлой неделе";
+"Keep it up — %d workout(s) this week" = "Так держать — %d тренировок на этой неделе";
+"Current Streak" = "Текущая серия";
+"Best Streak" = "Лучшая серия";
+"day" = "день";
+"days" = "дней";
+"ACTIVITY" = "АКТИВНОСТЬ";
+"ALL TIME" = "ЗА ВСЁ ВРЕМЯ";
+"Avg Focus Score" = "Средняя оценка фокуса";
+"RECENT SESSIONS" = "ПОСЛЕДНИЕ ЗАНЯТИЯ";
+"Quick Workout" = "Быстрая тренировка";
+"Single Exercise" = "Одно упражнение";
+"Program Session" = "Занятие по программе";
+"%d exercises" = "%d упражнений";
+"SCREENING HISTORY" = "ИСТОРИЯ ПРОВЕРОК";
+"Export Data" = "Экспорт данных";
+"Week" = "Неделя";
+"30 Days" = "30 дней";
+"90 Days" = "90 дней";
+"%d workouts" = "%d тренировок";
+"%d minutes" = "%d минут";
+"%d workout" = "%d тренировка";
+
+/* Screening & Tests */
+"Vision Screening" = "Проверка зрения";
+"Check Your Vision" = "Проверьте своё зрение";
+"6 standardized screening tests" = "6 стандартизированных тестов";
+"These are screening tools, not medical diagnoses. See an eye care professional for a comprehensive exam." = "Это инструменты скрининга, а не медицинские диагнозы. Обратитесь к офтальмологу для полного обследования.";
+"TEST HISTORY" = "ИСТОРИЯ ТЕСТОВ";
+"Normal" = "Норма";
+"Review" = "Требует внимания";
+"Start Test" = "Начать тест";
+"Results Look Normal" = "Результаты в норме";
+"We Recommend a Professional Check" = "Мы рекомендуем профессиональную проверку";
+"This screening is not a substitute for a professional eye exam." = "Этот скрининг не заменяет профессиональное обследование глаз.";
+"Row %d of %d" = "Строка %d из %d";
+"Type the letters you see" = "Введите буквы, которые видите";
+"Can't See" = "Не вижу";
+"Submit" = "Отправить";
+"Hold at arm's length (20 inches)" = "Держите на расстоянии вытянутой руки (50 см)";
+"Plate %d of %d" = "Таблица %d из %d";
+"What number do you see?" = "Какое число вы видите?";
+"I don't see a number" = "Я не вижу числа";
+"Tap any lines that appear bolder or darker" = "Нажмите на линии, которые выглядят жирнее или темнее";
+"All Lines Look the Same" = "Все линии выглядят одинаково";
+"Submit (%d selected)" = "Отправить (%d выбрано)";
+"Cover one eye. Look at the center of the dial. Do any lines appear darker, bolder, or more defined than others?" = "Закройте один глаз. Смотрите в центр циферблата. Какие-либо линии выглядят темнее, жирнее или чётче остальных?";
+"I'm Ready" = "Я готов";
+"Mild reduction" = "Лёгкое снижение";
+"Below normal" = "Ниже нормы";
+
+/* Shared & Disclaimers */
+"Health Disclaimer" = "Медицинское уведомление";
+"Axeo provides educational eye exercises based on AAO and COVD clinical guidelines. It is not a medical device and does not diagnose, treat, or replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition." = "Axeo предоставляет обучающие упражнения для глаз на основе клинических рекомендаций AAO и COVD. Это не медицинское устройство, оно не ставит диагнозы, не лечит и не заменяет профессиональную офтальмологическую помощь. Проконсультируйтесь с лицензированным офтальмологом или оптометристом перед началом любой программы упражнений — особенно при наличии заболеваний.";
+"AAO" = "AAO";
+"COVD" = "COVD";
+"TFOS DEWS II" = "TFOS DEWS II";
+"I Understand — Let's Start" = "Понятно — начнём";
+"E Y E   T R A I N I N G" = "Т Р Е Н И Р О В К А   Г Л А З";
+
+/* Exercise Names */
+"Focus Shift" = "Смена фокуса";
+"Figure Eight" = "Восьмёрка";
+"Palming" = "Пальминг";
+"Saccades" = "Саккады";
+"Blinking" = "Моргание";
+"Window Dot" = "Точка на окне";
+"Convergence" = "Конвергенция";
+"Square Tracing" = "Обведение квадрата";
+"Vertical & Horizontal" = "Вертикаль и горизонталь";
+"Warm Compress" = "Тёплый компресс";
+"Stereogram" = "Стереограмма";
+"Image Fusion" = "Слияние изображений";
+"Breath + Gaze" = "Дыхание + взгляд";
+"20-20-20 Rule" = "Правило 20-20-20";
+"Lid Massage" = "Массаж век";
+"Lid Gym" = "Гимнастика век";
+"Tear Film" = "Слёзная плёнка";
+
+/* Exercise Hints */
+"Keep the phone at arm's length. Focus on the dot for 3 seconds, then shift your gaze to a distant object (across the room). Head stays still throughout." = "Держите телефон на расстоянии вытянутой руки. Сфокусируйтесь на точке на 3 секунды, затем переведите взгляд на дальний объект (через комнату). Голова остаётся неподвижной.";
+"Follow the moving dot along the figure-eight path with your eyes only. Keep smooth, continuous movement — don't jump ahead." = "Следите за движущейся точкой по траектории восьмёрки только глазами. Движение должно быть плавным и непрерывным — не забегайте вперёд.";
+"Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Breathe slowly and let your eyes relax in total darkness." = "Потрите ладони друг о друга до тепла, затем мягко приложите их к закрытым глазам. Не давите на глазные яблоки. Дышите медленно и дайте глазам расслабиться в полной темноте.";
+"A dot lights up in one of 9 positions — jump your gaze to it immediately and hold for 2.5 seconds. Keep your head still; only move your eyes." = "Точка загорается в одной из 9 позиций — мгновенно переведите на неё взгляд и удерживайте 2,5 секунды. Голова неподвижна — двигаются только глаза.";
+"Look straight ahead, face relaxed. Slowly close eyelids fully — no squinting. Hold 1 second. Open slowly. Repeat every 5 seconds." = "Смотрите прямо перед собой, лицо расслаблено. Медленно полностью закройте веки — не щурьтесь. Удерживайте 1 секунду. Медленно откройте. Повторяйте каждые 5 секунд.";
+"Place a small sticker on a window at eye level. Stand arm's length away. Focus on the dot for 10 seconds, then shift to a distant object outside for 10 seconds." = "Приклейте маленькую наклейку на окно на уровне глаз. Встаньте на расстоянии вытянутой руки. Сфокусируйтесь на точке на 10 секунд, затем переведите взгляд на дальний объект за окном на 10 секунд.";
+"Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out." = "Держите телефон на расстоянии вытянутой руки, фокусируйтесь на центральной точке. Медленно приближайте к носу, удерживая точку единой и чёткой. Когда она раздвоится, отодвиньте обратно.";
+"Follow the dot as it traces a square with your eyes. Direction alternates clockwise then counterclockwise each lap." = "Следите глазами за точкой, которая обводит квадрат. Направление чередуется: по часовой стрелке, затем против.";
+"Follow the dot: slowly up — pause — down — pause. 10 repetitions. Then left — pause — right — pause. 10 repetitions." = "Следите за точкой: медленно вверх — пауза — вниз — пауза. 10 повторений. Затем влево — пауза — вправо — пауза. 10 повторений.";
+"Apply a warm, damp cloth over closed eyes. The heat helps open oil glands in your eyelids. Breathe deeply and relax for 3 minutes." = "Приложите тёплую влажную ткань к закрытым глазам. Тепло помогает открыть сальные железы в веках. Дышите глубоко и расслабьтесь на 3 минуты.";
+"Two circles will appear side by side. Relax your eyes and let them slowly merge into one. When you see a single circle, hold your focus." = "Два круга появятся рядом друг с другом. Расслабьте глаза и позвольте им медленно слиться в один. Когда увидите один круг, удерживайте фокус.";
+"Similar to stereogram, but the circles move apart and back together. Try to maintain fusion (single image) as long as possible." = "Похоже на стереограмму, но круги расходятся и сходятся обратно. Старайтесь удерживать слияние (единое изображение) как можно дольше.";
+"Sit upright, relax shoulders. Inhale 6 seconds — slowly raise your gaze. Hold 2 seconds at top. Exhale 7 seconds — lower your gaze. Repeat." = "Сядьте прямо, расслабьте плечи. Вдох 6 секунд — медленно поднимайте взгляд. Задержка 2 секунды наверху. Выдох 7 секунд — опускайте взгляд. Повторите.";
+"Every 20 minutes, look at something 20 feet away for 20 seconds. This exercise is a single guided 20-second break." = "Каждые 20 минут смотрите на объект на расстоянии 6 метров в течение 20 секунд. Это упражнение — один управляемый 20-секундный перерыв.";
+"Using a fingertip, gently massage your upper eyelid from the temple toward the nose. Then do the same on the lower lid. Light pressure only." = "Кончиком пальца мягко массируйте верхнее веко от виска к носу. Затем повторите на нижнем веке. Только лёгкое нажатие.";
+"Squeeze your eyes shut firmly for 2 seconds, then open wide for 2 seconds. This strengthens orbicularis and levator muscles." = "Крепко зажмурьте глаза на 2 секунды, затем широко откройте на 2 секунды. Это укрепляет круговую и поднимающую мышцы.";
+"Perform a slow, complete blink — close fully, hold 1 second, open. Then look at a distant point for 4 seconds. Repeat." = "Выполните медленное, полное моргание — закройте полностью, удерживайте 1 секунду, откройте. Затем смотрите на дальнюю точку 4 секунды. Повторите.";
+
+/* Exercise Indications */
+"Great for people who work at a screen 6+ hours/day. Helps with nearsightedness prevention, eye focusing fatigue, and Computer Vision Syndrome." = "Отлично подходит тем, кто работает за экраном 6+ часов в день. Помогает при профилактике близорукости, усталости фокусировки и синдроме компьютерного зрения.";
+"Improves eye mobility and coordination. Helpful for people with restricted eye movement, or those recovering after eye muscle procedures." = "Улучшает подвижность и координацию глаз. Полезно при ограниченной подвижности глаз или в период восстановления после операций на глазных мышцах.";
+"Instant relief for tired, overworked eyes. Recommended after long screen sessions or any time your eyes feel strained." = "Мгновенное облегчение для уставших, перенапряжённых глаз. Рекомендуется после долгой работы за экраном или при любом напряжении глаз.";
+"Helps with reading speed and accuracy. Useful for anyone who loses their place while reading or has trouble with quick eye movements." = "Помогает со скоростью и точностью чтения. Полезно тем, кто теряет место при чтении или испытывает трудности с быстрыми движениями глаз.";
+"Restores your natural blink rate, which drops 60% during screen use. Helps with dry, irritated eyes and eye fatigue." = "Восстанавливает естественную частоту моргания, которая падает на 60% при работе за экраном. Помогает при сухости, раздражении и усталости глаз.";
+"Classic optometry exercise for focusing flexibility. Great for people with accommodative insufficiency or early presbyopia symptoms." = "Классическое офтальмологическое упражнение для гибкости фокусировки. Отлично подходит при аккомодационной недостаточности или ранних симптомах пресбиопии.";
+"Strengthens eye teaming. Helps with convergence insufficiency — common in people who get headaches or double vision while reading." = "Укрепляет совместную работу глаз. Помогает при недостаточности конвергенции — частой у людей с головными болями или двоением при чтении.";
+"Strengthens all six eye muscles evenly. Especially helpful for people with eye movement asymmetry or post-surgical recovery." = "Равномерно укрепляет все шесть глазных мышц. Особенно полезно при асимметрии движений глаз или послеоперационном восстановлении.";
+"Builds range of motion in all four cardinal directions. Good for people with restricted gaze or neck tension from screen use." = "Развивает диапазон движения во всех четырёх основных направлениях. Полезно при ограниченном взгляде или напряжении шеи от работы за экраном.";
+"Recommended by ophthalmologists for dry eye and meibomian gland dysfunction. The heat liquefies blocked oils to restore your tear film." = "Рекомендовано офтальмологами при сухости глаз и дисфункции мейбомиевых желёз. Тепло разжижает застоявшиеся масла для восстановления слёзной плёнки.";
+"Trains your brain to fuse images from both eyes. Helps develop stereoscopic depth perception and binocular vision." = "Тренирует мозг сливать изображения обоих глаз. Помогает развивать стереоскопическое восприятие глубины и бинокулярное зрение.";
+"Advanced binocular training. Builds flexible vergence — the ability to maintain single vision at changing distances." = "Продвинутая бинокулярная тренировка. Развивает гибкую вергенцию — способность удерживать единое зрение при изменении расстояния.";
+"Combines eye movement with breathing rhythm. Reduces overall tension, lowers intraocular pressure, and calms the nervous system." = "Сочетает движение глаз с ритмом дыхания. Снижает общее напряжение, внутриглазное давление и успокаивает нервную систему.";
+"The AAO's #1 recommendation for screen users. Prevents accommodative spasm and reduces digital eye strain." = "Рекомендация №1 от AAO для пользователей экранов. Предотвращает спазм аккомодации и снижает цифровую усталость глаз.";
+"Stimulates meibomian glands to produce healthy oils. Based on TFOS DEWS II dry eye management guidelines." = "Стимулирует мейбомиевые железы к выработке здоровых масел. На основе рекомендаций TFOS DEWS II по лечению сухости глаз.";
+"Builds eyelid muscle tone for better blink quality. Recommended for incomplete blinkers and people with lagophthalmos risk." = "Укрепляет тонус мышц век для лучшего качества моргания. Рекомендуется при неполном моргании и риске лагофтальма.";
+"Restores tear film stability. Combines intentional blinking with distance relaxation, per TFOS DEWS II guidelines." = "Восстанавливает стабильность слёзной плёнки. Сочетает осознанное моргание с расслаблением на дальних объектах по рекомендациям TFOS DEWS II.";
+
+/* Exercise Steps */
+"Hold phone at arm's length" = "Держите телефон на расстоянии вытянутой руки";
+"Focus on the on-screen dot for 3 seconds" = "Сфокусируйтесь на точке на экране на 3 секунды";
+"Shift gaze to a distant object across the room" = "Переведите взгляд на дальний объект через комнату";
+"Hold distant focus for 3 seconds" = "Удерживайте фокус на дальнем объекте 3 секунды";
+"Keep your head still — only your eyes move" = "Голова неподвижна — двигаются только глаза";
+"Look straight ahead and relax your eyes" = "Смотрите прямо перед собой и расслабьте глаза";
+"Trace a figure-eight pattern in the air with your eyes" = "Обведите глазами восьмёрку в воздухе";
+"Keep the movement smooth and controlled" = "Движение должно быть плавным и контролируемым";
+"Reverse the direction halfway through" = "На середине смените направление";
+"Keep your head still — only your eyes should move" = "Голова неподвижна — двигаться должны только глаза";
+"Rub your palms together until warm" = "Потрите ладони друг о друга до тепла";
+"Cup warm palms gently over closed eyes" = "Мягко приложите тёплые ладони к закрытым глазам";
+"No pressure on the eyeballs" = "Не давите на глазные яблоки";
+"Breathe slowly and deeply" = "Дышите медленно и глубоко";
+"Let your eyes relax in total darkness" = "Дайте глазам расслабиться в полной темноте";
+"Keep your head still, face the screen" = "Голова неподвижна, лицо к экрану";
+"A dot will appear in one of 9 positions" = "Точка появится в одной из 9 позиций";
+"Jump your gaze to the dot immediately" = "Мгновенно переведите взгляд на точку";
+"Hold focus on the dot for 2.5 seconds" = "Удерживайте фокус на точке 2,5 секунды";
+"Wait for the next dot position" = "Ждите следующую позицию точки";
+"Look straight ahead, face relaxed" = "Смотрите прямо, лицо расслаблено";
+"Slowly close your eyelids fully — no squinting" = "Медленно полностью закройте веки — не щурьтесь";
+"Hold closed for 1 second" = "Удерживайте закрытыми 1 секунду";
+"Open slowly and gently" = "Откройте медленно и мягко";
+"Repeat every 5 seconds" = "Повторяйте каждые 5 секунд";
+"Place a small dot or sticker on a window at eye level" = "Приклейте маленькую точку или наклейку на окно на уровне глаз";
+"Stand at arm's length from the window" = "Встаньте на расстоянии вытянутой руки от окна";
+"Focus on the dot for 10 seconds" = "Сфокусируйтесь на точке на 10 секунд";
+"Shift focus to a distant object outside" = "Переведите фокус на дальний объект за окном";
+"Hold distant focus for 10 seconds" = "Удерживайте фокус на дальнем объекте 10 секунд";
+"Hold phone at arm's length, focus on center dot" = "Держите телефон на расстоянии вытянутой руки, фокус на центральной точке";
+"Slowly bring the phone toward your nose" = "Медленно приближайте телефон к носу";
+"Keep the dot single and clear" = "Удерживайте точку единой и чёткой";
+"When the dot doubles, move the phone back" = "Когда точка раздвоится, отодвиньте телефон";
+"Repeat the approach slowly" = "Медленно повторите приближение";
+"Follow the dot as it traces a square path" = "Следите за точкой, обводящей квадрат";
+"Keep your eyes on the dot at all times" = "Не отводите взгляд от точки";
+"Direction alternates each lap" = "Направление чередуется каждый круг";
+"Keep your head completely still" = "Голова полностью неподвижна";
+"Follow the dot as it moves up and down" = "Следите за точкой, движущейся вверх и вниз";
+"Pause briefly at each end position" = "Кратко задержитесь в каждой крайней позиции";
+"After 10 reps, follow left and right" = "После 10 повторений следите влево и вправо";
+"Keep your head still throughout" = "Голова неподвижна на протяжении всего упражнения";
+"Apply a warm, damp cloth over closed eyes" = "Приложите тёплую влажную ткань к закрытым глазам";
+"The warmth opens oil glands in your eyelids" = "Тепло открывает сальные железы в веках";
+"Breathe deeply and relax" = "Дышите глубоко и расслабьтесь";
+"Maintain for the full 3 minutes" = "Продолжайте все 3 минуты";
+"Two circles appear side by side" = "Два круга появятся рядом";
+"Relax your eyes — let focus go soft" = "Расслабьте глаза — пусть фокус станет мягким";
+"Allow the circles to slowly merge into one" = "Позвольте кругам медленно слиться в один";
+"Hold the fused single circle as long as possible" = "Удерживайте слитый круг как можно дольше";
+"Watch the two circles on screen" = "Смотрите на два круга на экране";
+"As they move apart, try to maintain single vision" = "Когда они расходятся, старайтесь удерживать единое изображение";
+"When they come back together, maintain fusion" = "Когда они сходятся, удерживайте слияние";
+"Relax your eyes if you see double" = "Расслабьте глаза, если видите двоение";
+"Sit upright, relax your shoulders" = "Сядьте прямо, расслабьте плечи";
+"Inhale for 6 seconds — slowly raise your gaze" = "Вдох 6 секунд — медленно поднимайте взгляд";
+"Hold at the top for 2 seconds" = "Задержка наверху на 2 секунды";
+"Exhale for 7 seconds — lower your gaze" = "Выдох 7 секунд — опускайте взгляд";
+"Repeat the breathing cycle" = "Повторите дыхательный цикл";
+"Look away from your screen" = "Отведите взгляд от экрана";
+"Find an object at least 20 feet away" = "Найдите объект на расстоянии не менее 6 метров";
+"Focus on it for 20 seconds" = "Сфокусируйтесь на нём на 20 секунд";
+"Let your eye muscles fully relax" = "Дайте глазным мышцам полностью расслабиться";
+"Close your eyes gently" = "Мягко закройте глаза";
+"Using a fingertip, massage upper lid temple-to-nose" = "Кончиком пальца массируйте верхнее веко от виска к носу";
+"Use light pressure only" = "Только лёгкое нажатие";
+"Repeat on the lower lid" = "Повторите на нижнем веке";
+"Continue alternating for 60 seconds" = "Продолжайте чередовать 60 секунд";
+"Squeeze your eyes shut firmly for 2 seconds" = "Крепко зажмурьте глаза на 2 секунды";
+"Open your eyes wide for 2 seconds" = "Широко откройте глаза на 2 секунды";
+"Keep the rhythm steady" = "Сохраняйте ровный ритм";
+"Focus on complete, firm closures" = "Сосредоточьтесь на полном, крепком закрытии";
+"Perform a slow, complete blink" = "Выполните медленное, полное моргание";
+"Close fully and hold for 1 second" = "Полностью закройте и удерживайте 1 секунду";
+"Open and look at a distant point" = "Откройте и посмотрите на дальнюю точку";
+"Hold distant focus for 4 seconds" = "Удерживайте фокус на дальнем объекте 4 секунды";
+"Repeat the cycle" = "Повторите цикл";
+
+/* Exercise Categories */
+"Accommodation" = "Аккомодация";
+"Eye Movement" = "Движение глаз";
+"Relaxation" = "Расслабление";
+"Binocular" = "Бинокулярное зрение";
+"Breathing" = "Дыхание";
+"Dry Eye Relief" = "Помощь при сухости глаз";
+"Ciliary muscle training — myopia prevention & accommodation relief" = "Тренировка цилиарной мышцы — профилактика миопии и снятие аккомодации";
+"Extraocular muscle training — all 6 directions of gaze" = "Тренировка экстраокулярных мышц — все 6 направлений взгляда";
+"Muscle and visual tension relief — 20-20-20 rule" = "Снятие мышечного и зрительного напряжения — правило 20-20-20";
+"Teamwork of both eyes — stereovision development" = "Совместная работа обоих глаз — развитие стереозрения";
+"Breathing synchronized with eye movement — WHO protocol" = "Дыхание, синхронизированное с движением глаз — протокол ВОЗ";
+"Tear film stabilization & eyelid health — TFOS DEWS II" = "Стабилизация слёзной плёнки и здоровье век — TFOS DEWS II";
+
+/* Vision Test Definitions */
+"Visual Acuity" = "Острота зрения";
+"Astigmatism Check" = "Проверка астигматизма";
+"Color Vision" = "Цветовое зрение";
+"Contrast Sensitivity" = "Контрастная чувствительность";
+"Amsler Grid" = "Сетка Амслера";
+"Dry Eye Assessment" = "Оценка сухости глаз";
+"Snellen chart — read progressively smaller letters" = "Таблица Снеллена — чтение постепенно уменьшающихся букв";
+"Fan/clock dial — check for directional blur" = "Веерный/часовой циферблат — проверка направленного размытия";
+"Ishihara-style plates — detect color deficiency" = "Таблицы Исихара — выявление цветовой недостаточности";
+"Fading letters — check low-contrast vision" = "Затухающие буквы — проверка зрения при низком контрасте";
+"Grid distortion — screen for macular issues" = "Искажение сетки — скрининг макулярных проблем";
+"OSDI questionnaire — rate your dry eye symptoms" = "Опросник OSDI — оценка симптомов сухости глаз";
+"~2 min" = "~2 мин";
+"~1 min" = "~1 мин";
+"~3 min" = "~3 мин";
+"This is a screening tool, not a medical diagnosis. Consult an eye care professional for a comprehensive exam." = "Это инструмент скрининга, а не медицинский диагноз. Обратитесь к офтальмологу для полного обследования.";
+
+/* User Enums */
+"No known condition" = "Нет известных заболеваний";
+"Nearsightedness" = "Близорукость";
+"Farsightedness" = "Дальнозоркость";
+"Astigmatism" = "Астигматизм";
+"Presbyopia" = "Пресбиопия";
+"Dry Eye" = "Сухость глаз";
+"Other" = "Другое";
+"Prevention" = "Профилактика";
+"Correction" = "Коррекция";
+"Keep your vision sharp and prevent future problems" = "Сохраните остроту зрения и предотвратите будущие проблемы";
+"Strengthen eye muscles and improve focus" = "Укрепите глазные мышцы и улучшите фокусировку";
+"Reduce eye strain and digital fatigue" = "Снизьте напряжение глаз и цифровую усталость";
+
+/* Course Data */
+"Digital Eye Relief" = "Цифровое облегчение глаз";
+"30-Day Digital Eye Strain Program" = "30-дневная программа против цифровой усталости глаз";
+"Designed for people who spend 6+ hours a day at a screen. Combines accommodation training, relaxation, and the 20-20-20 rule to reduce digital eye strain and prevent long-term damage." = "Разработана для людей, проводящих 6+ часов в день за экраном. Сочетает тренировку аккомодации, расслабление и правило 20-20-20 для снижения цифровой усталости глаз и предотвращения долгосрочного ущерба.";
+"Vision After 40" = "Зрение после 40";
+"45-Day Full Eye Fitness Program" = "45-дневная программа полной тренировки глаз";
+"A comprehensive program that progressively trains all six eye muscles, binocular vision, and accommodation. Based on AAO exercise therapy protocols for convergence insufficiency and accommodative dysfunction." = "Комплексная программа, последовательно тренирующая все шесть глазных мышц, бинокулярное зрение и аккомодацию. На основе протоколов лечебной гимнастики AAO при недостаточности конвергенции и аккомодационной дисфункции.";
+"30-Day Tear Film Restoration Program" = "30-дневная программа восстановления слёзной плёнки";
+"Follows TFOS DEWS II guidelines to restore tear film stability. Combines lid massage, warm compresses, intentional blinking, and relaxation exercises to manage dry eye symptoms." = "Следует рекомендациям TFOS DEWS II для восстановления стабильности слёзной плёнки. Сочетает массаж век, тёплые компрессы, осознанное моргание и упражнения на расслабление для управления симптомами сухости глаз.";
+"AAO Recommends" = "Рекомендовано AAO";
+"Office Workers" = "Офисные работники";
+"Beginner" = "Начальный";
+"Intermediate" = "Средний";
+"Advanced" = "Продвинутый";
+
+/* Profile — new */
+"Language" = "Язык";
+"Change profile photo" = "Изменить фото профиля";
+"The app will restart to apply the new language." = "Приложение перезапустится для применения нового языка.";
+"Permanently deletes all sessions, test results, and progress" = "Безвозвратно удаляет все занятия, результаты тестов и прогресс";
+"Reset all data" = "Сбросить все данные";
+
+/* Amsler Grid Test */
+"Cover your LEFT eye. Focus on the center dot with your RIGHT eye. Note if any lines appear wavy, broken, or missing." = "Закройте ЛЕВЫЙ глаз. Сфокусируйтесь на центральной точке ПРАВЫМ глазом. Обратите внимание, не выглядят ли линии волнистыми, прерывистыми или отсутствующими.";
+"Start — Right Eye First" = "Начать — Правый глаз";
+"Focus only on the center dot" = "Фокусируйтесь только на центральной точке";
+"All Lines Straight — No Issues" = "Все линии ровные — Нет проблем";
+"I See Distortion or Missing Areas" = "Вижу искажения или пропущенные области";
+
+/* Contrast Test extra */
+"Next" = "Далее";
+"What letter do you see?" = "Какую букву вы видите?";
+
+/* Paywall extra */
+"Full access to 17 exercises, all programs, and premium features" = "Полный доступ к 17 упражнениям, всем программам и премиум-функциям";
+"Payment is charged to your Apple ID account. Subscription auto-renews unless cancelled at least 24 hours before the current period ends." = "Оплата списывается с вашего Apple ID. Подписка автоматически продлевается, если не отменена минимум за 24 часа до окончания текущего периода.";
+
+/* Exercise Renderer Strings */
+"Focus on the dot" = "Сфокусируйтесь на точке";
+"Look at a distant object" = "Посмотрите на дальний объект";
+"Hold for 3 seconds" = "Удерживайте 3 секунды";
+"Relax your focus" = "Расслабьте фокус";
+"Follow the dot with your eyes" = "Следите за точкой глазами";
+"Breathe in…" = "Вдох…";
+"Breathe out…" = "Выдох…";
+"Cup warm palms over closed eyes" = "Приложите тёплые ладони к закрытым глазам";
+"Snap your gaze to the dot" = "Мгновенно переведите взгляд на точку";
+"Eyes open — relax" = "Глаза открыты — расслабьтесь";
+"Slowly close…" = "Медленно закройте…";
+"Slowly open…" = "Медленно откройте…";
+"Slow, deliberate blinks" = "Медленные, осознанные моргания";
+"Focus on something far away" = "Сфокусируйтесь на дальнем объекте";
+"s remaining" = "с осталось";
+"Keep the dot single and clear" = "Удерживайте точку единой и чёткой";
+"Slowly moving away…" = "Медленно отдаляется…";
+"If it doubles, relax your eyes" = "Если раздвоилась, расслабьте глаза";
+"Follow the dot smoothly" = "Плавно следите за точкой";
+"Up and down" = "Вверх и вниз";
+"Left and right" = "Влево и вправо";
+"Keep your head still" = "Голова неподвижна";
+"Keep the warm cloth over closed eyes" = "Держите тёплую ткань на закрытых глазах";
+"Relax your eyes — let the circles merge" = "Расслабьте глаза — пусть круги сольются";
+"Don't force it — let focus go soft" = "Не напрягайтесь — пусть фокус станет мягким";
+"Good — maintain fusion!" = "Хорошо — удерживайте слияние!";
+"Keep both circles as one" = "Держите оба круга как один";
+"Relax if you see double" = "Расслабьтесь, если видите двоение";
+"Breathe in ↑" = "Вдох ↑";
+"Hold…" = "Задержка…";
+"Breathe out ↓" = "Выдох ↓";
+"Follow the dot with your gaze" = "Следите за точкой взглядом";
+"seconds" = "секунд";
+"Look at something 20 feet away" = "Посмотрите на объект на расстоянии 6 метров";
+"Let your eye muscles fully relax" = "Дайте глазным мышцам полностью расслабиться";
+"Upper lid" = "Верхнее веко";
+"Lower lid" = "Нижнее веко";
+"Massage gently, temple to nose" = "Мягко массируйте от виска к носу";
+"Light pressure only" = "Только лёгкое нажатие";
+"Squeeze shut!" = "Зажмурьтесь!";
+"Open wide!" = "Широко откройте!";
+"Keep the rhythm steady" = "Сохраняйте ровный ритм";
+"Close slowly…" = "Закрывайте медленно…";
+"Hold closed — tears spreading" = "Удерживайте закрытыми — слёзы распределяются";
+"Open gently…" = "Откройте мягко…";
+"Look at something distant" = "Посмотрите на дальний объект";
+"Restoring tear film stability" = "Восстановление стабильности слёзной плёнки";
+
+// MARK: – Missing keys
+"Days" = "Дней";
+"Full session" = "Полная сессия";
+"Partial session" = "Частичная сессия";
+"Just completed an Axeo eye workout!" = "Только что завершил тренировку для глаз в Axeo!";
+"Train your eyes daily with Axeo — science-backed eye training." = "Тренируйте глаза ежедневно с Axeo — научно обоснованные упражнения.";
+"%dm %ds" = "%dм %dс";
+"m" = "м";
+
+/* Theme / Appearance */
+"Appearance" = "Оформление";
+"System" = "Системная";
+"Dark" = "Тёмная";
+"Light" = "Светлая";
