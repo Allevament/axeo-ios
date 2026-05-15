@@ -74,8 +74,8 @@ struct OnboardingView: View {
         OnboardingBrandPage(
             brandIcon: .landoltRing,
             iconAnimation: .rotating,
-            title: "Science-Backed\nEye Training",
-            subtitle: "17 exercises designed with AAO and COVD clinical guidelines. Train your eye muscles the way you train your body."
+            title: "Daily\nEye Training",
+            subtitle: "17 structured exercises for general eye wellness. Build a daily routine to give your eyes the rest and movement they need."
         )
     }
 

@@ -177,7 +177,7 @@ struct ProgramDetailView: View {
                         .font(.system(size: 10, weight: .bold))
                         .foregroundStyle(Color.aveoText3)
                         .kerning(0.8)
-                    Text("Clinically designed · Doctor-approved")
+                    Text("Daily structured eye routine")
                         .font(.system(size: 9))
                         .foregroundStyle(Color.aveoText3.opacity(0.7))
                         .lineLimit(1)

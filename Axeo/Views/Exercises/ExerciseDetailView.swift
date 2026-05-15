@@ -65,7 +65,7 @@ struct ExerciseDetailView: View {
             badge(String(format: NSLocalizedString("Takes about %d seconds", comment: ""), exercise.duration), icon: "clock", color: .aveoTeal)
             badge(exercise.cvEnabled ? NSLocalizedString("Eye Tracking", comment: "") : NSLocalizedString("Eye Tracking Coming Soon", comment: ""),
                   icon: "viewfinder", color: exercise.cvEnabled ? .aveoSuccess : .aveoText3)
-            badge(NSLocalizedString("Backed by AAO Guidelines", comment: ""), icon: "stethoscope", color: .aveoAccent2)
+            badge(NSLocalizedString("Educational eye-care content", comment: ""), icon: "stethoscope", color: .aveoAccent2)
         }
     }
 
@@ -154,7 +154,7 @@ struct ExerciseDetailView: View {
                 .font(.system(size: 14))
                 .foregroundStyle(Color.aveoText3)
 
-            Text("Based on AAO & COVD clinical guidelines. Consult an eye care professional if you have a pre-existing condition.")
+            Text("Educational eye-care content for general wellness. Not a medical device or treatment. Consult an eye care professional if you have a pre-existing condition.")
                 .font(.system(size: 12))
                 .foregroundStyle(Color.aveoText3)
         }

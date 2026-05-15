@@ -8,6 +8,7 @@ struct ProfileView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
     @Environment(\.requestReview) private var requestReview
+    @Environment(\.openURL) private var openURL
     @Query(sort: \Session.endedAt, order: .reverse) private var sessions: [Session]
 
     @State private var editingName = false
@@ -364,11 +365,23 @@ struct ProfileView: View {
                 .font(.aveoOverline)
                 .foregroundStyle(Color.aveoText3)
 
+            settingsRow(icon: "creditcard.fill", label: NSLocalizedString("Manage Subscription", comment: ""), detail: "", color: .aveoTeal) {
+                if let url = URL(string: "itms-apps://apps.apple.com/account/subscriptions") {
+                    openURL(url)
+                }
+            }
+
+            settingsRow(icon: "doc.plaintext.fill", label: NSLocalizedString("Terms of Service", comment: ""), detail: "") {
+                if let url = URL(string: "https://axeo.vision/terms") {
+                    openURL(url)
+                }
+            }
+
             settingsRow(icon: "lock.shield.fill", label: NSLocalizedString("Privacy Policy", comment: ""), detail: "") {
                 showPrivacyPolicy = true
             }
 
-            settingsRow(icon: "doc.text.fill", label: NSLocalizedString("Medical Disclaimer", comment: ""), detail: "") {
+            settingsRow(icon: "doc.text.fill", label: NSLocalizedString("Health Disclaimer", comment: ""), detail: "") {
                 showDisclaimer = true
             }
 
@@ -387,7 +400,7 @@ struct ProfileView: View {
                 .padding(.top, 4)
         }
         .sheet(isPresented: $showReferSheet) {
-            let shareText = NSLocalizedString("Train your eyes daily with Axeo — science-backed eye training. https://apps.apple.com/app/axeo", comment: "")
+            let shareText = NSLocalizedString("Train your eyes daily with Axeo — structured eye exercises and screening tests. https://apps.apple.com/app/axeo", comment: "")
             ShareLink(item: shareText) {
                 Text("Share Axeo")
             }

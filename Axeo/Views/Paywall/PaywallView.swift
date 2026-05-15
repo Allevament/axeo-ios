@@ -84,7 +84,7 @@ struct PaywallView: View {
 
     private var featuresSection: some View {
         VStack(alignment: .leading, spacing: 14) {
-            featureRow(NSLocalizedString("17 clinical exercises across 6 categories", comment: ""))
+            featureRow(NSLocalizedString("17 structured exercises across 6 categories", comment: ""))
             featureRow(NSLocalizedString("3 structured programs (30–45 days)", comment: ""))
             featureRow(NSLocalizedString("6 vision screening tests", comment: ""))
             featureRow(NSLocalizedString("ARKit eye-tracking with accuracy scoring", comment: ""))
@@ -335,16 +335,37 @@ struct PaywallView: View {
     }
 
     private var legalText: some View {
-        VStack(spacing: 8) {
-            Text("Cancel anytime. Billed by Apple.")
-                .font(.system(size: 12, weight: .medium))
-                .foregroundStyle(Color.aveoText2)
+        VStack(spacing: 10) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Subscription details")
+                    .font(.system(size: 12, weight: .semibold))
+                    .foregroundStyle(Color.aveoText2)
+                    .padding(.bottom, 2)
+                Text("• Weekly plan: $2.99/week, billed weekly after a 3-day free trial.")
+                Text("• Monthly plan: $5.99/month, billed monthly after a 7-day free trial.")
+                Text("• Annual plan: $29.99/year, billed yearly after a 7-day free trial.")
+                Text("• Lifetime: $79.99 one-time purchase, no renewal.")
+                Text("• Subscriptions auto-renew at the same price each period until cancelled.")
+                Text("• Cancel anytime in Settings > Apple ID > Subscriptions.")
+                Text("• Payment is charged to your Apple ID at confirmation of purchase.")
+                Text("• Trial converts to a paid subscription unless cancelled at least 24 hours before the trial ends.")
+            }
+            .font(.system(size: 11))
+            .foregroundStyle(Color.aveoText3)
+            .frame(maxWidth: .infinity, alignment: .leading)
 
-            Text("Payment is charged to your Apple ID account. Subscription auto-renews unless cancelled at least 24 hours before the current period ends.")
+            HStack(spacing: 18) {
+                Link("Terms of Service", destination: URL(string: "https://axeo.vision/terms")!)
+                Link("Privacy Policy", destination: URL(string: "https://axeo.vision/privacy")!)
+            }
+            .font(.system(size: 11, weight: .medium))
+            .foregroundStyle(Color.aveoAccent)
+
+            Text("By starting your subscription, you agree to the Terms of Service and Privacy Policy.")
                 .font(.system(size: 10))
                 .foregroundStyle(Color.aveoText3)
+                .multilineTextAlignment(.center)
         }
-        .multilineTextAlignment(.center)
     }
 
     // MARK: – Actions

@@ -229,10 +229,10 @@ struct ExerciseLibraryView: View {
         .buttonStyle(.pressScale)
     }
 
-    // MARK: – Medical Footer
+    // MARK: – Footer
 
     private var medicalFooter: some View {
-        Text("Based on AAO Clinical Guidelines & COVD Standards")
+        Text("Educational eye-care content. Not a substitute for professional medical advice.")
             .font(.system(size: 10))
             .foregroundStyle(Color.aveoText3)
             .multilineTextAlignment(.center)

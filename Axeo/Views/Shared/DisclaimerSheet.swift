@@ -21,20 +21,11 @@ struct DisclaimerSheet: View {
                 .font(.aveoLargeTitle)
                 .foregroundStyle(Color.aveoText)
 
-            Text("Axeo provides educational eye exercises based on AAO and COVD clinical guidelines. It is not a medical device and does not diagnose, treat, or replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition.")
+            Text("Axeo provides educational eye exercises for general wellness. It is not a medical device and does not diagnose, treat, cure, or prevent any disease. Axeo does not replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition or recent surgery.")
                 .font(.aveoBody)
                 .foregroundStyle(Color.aveoText2)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
-
-            // Source badges
-            HStack(spacing: 12) {
-                sourceBadge("AAO")
-                Text("·").foregroundStyle(Color.aveoText3)
-                sourceBadge("COVD")
-                Text("·").foregroundStyle(Color.aveoText3)
-                sourceBadge("TFOS DEWS II")
-            }
 
             Spacer()
 
@@ -60,11 +51,6 @@ struct DisclaimerSheet: View {
         .interactiveDismissDisabled()
     }
 
-    private func sourceBadge(_ text: String) -> some View {
-        Text(text)
-            .font(.system(size: 12, weight: .semibold))
-            .foregroundStyle(Color.aveoTeal)
-    }
 }
 
 #Preview {

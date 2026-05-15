@@ -150,7 +150,7 @@ struct OnboardingPaywallView: View {
             benefitCard(
                 icon: "eye.fill",
                 title: NSLocalizedString("17 Exercises", comment: ""),
-                subtitle: NSLocalizedString("Clinical-grade training", comment: ""),
+                subtitle: NSLocalizedString("Structured exercises", comment: ""),
                 gradient: [.aveoAccent, Color(hex: 0x0088CC)]
             )
             benefitCard(
@@ -338,10 +338,35 @@ struct OnboardingPaywallView: View {
     // MARK: – Legal
 
     private var legalText: some View {
-        Text("Cancel anytime. Payment charged to your Apple ID. Auto-renews unless cancelled 24h before period ends.")
-            .font(.system(size: 10))
-            .foregroundStyle(Color.aveoText3.opacity(0.7))
-            .multilineTextAlignment(.center)
+        VStack(spacing: 10) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Subscription details")
+                    .font(.system(size: 12, weight: .semibold))
+                    .foregroundStyle(Color.aveoText2)
+                    .padding(.bottom, 2)
+                Text("• Annual plan: $29.99/year, billed yearly after a 7-day free trial.")
+                Text("• Monthly plan: $5.99/month, billed monthly after a 7-day free trial.")
+                Text("• Subscription auto-renews at the same price each period until cancelled.")
+                Text("• Cancel anytime in Settings > Apple ID > Subscriptions.")
+                Text("• Payment is charged to your Apple ID at confirmation of purchase.")
+                Text("• Trial converts to a paid subscription unless cancelled at least 24 hours before the trial ends.")
+            }
+            .font(.system(size: 11))
+            .foregroundStyle(Color.aveoText3)
+            .frame(maxWidth: .infinity, alignment: .leading)
+
+            HStack(spacing: 18) {
+                Link("Terms of Service", destination: URL(string: "https://axeo.vision/terms")!)
+                Link("Privacy Policy", destination: URL(string: "https://axeo.vision/privacy")!)
+            }
+            .font(.system(size: 11, weight: .medium))
+            .foregroundStyle(Color.aveoAccent)
+
+            Text("By tapping \"Try 7 Days Free\", you agree to the Terms of Service and Privacy Policy.")
+                .font(.system(size: 10))
+                .foregroundStyle(Color.aveoText3)
+                .multilineTextAlignment(.center)
+        }
     }
 
     // MARK: – Purchase

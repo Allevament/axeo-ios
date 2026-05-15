@@ -40,7 +40,7 @@ struct ProgramsListView: View {
             Text("Training Programs")
                 .font(.system(size: 17, weight: .bold, design: .rounded))
                 .foregroundStyle(Color.aveoText)
-            Text("Clinically designed · Doctor-approved")
+            Text("Structured 30–45 day courses")
                 .font(.system(size: 10))
                 .foregroundStyle(Color.aveoText3)
         }
