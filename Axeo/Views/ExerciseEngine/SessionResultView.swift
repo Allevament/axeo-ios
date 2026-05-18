@@ -6,6 +6,7 @@ import UserNotifications
 struct SessionResultView: View {
     let session: Session
     let courseId: UUID?
+    var onDone: (() -> Void)? = nil
 
     @Environment(AppState.self) private var appState
     @Environment(\.dismiss) private var dismiss
@@ -282,7 +283,11 @@ struct SessionResultView: View {
     private var doneButton: some View {
         Button {
             HapticManager.medium()
-            dismiss()
+            if let onDone {
+                onDone()
+            } else {
+                dismiss()
+            }
         } label: {
             Text("Done")
                 .font(.system(size: 16, weight: .bold, design: .rounded))

@@ -51,15 +51,20 @@ struct ExerciseActiveView: View {
         ZStack {
             Color.aveoBg.ignoresSafeArea()
 
-            if showBetween {
+            if showResult, let session = resultSession {
+                // Inline result screen. Done → dismiss the whole exercise flow.
+                SessionResultView(session: session, courseId: courseId) {
+                    dismiss()
+                }
+                .transition(.opacity)
+            } else if showBetween {
                 betweenExerciseView
                     .transition(.opacity.combined(with: .scale(scale: 0.95)))
             } else {
                 exercisePlayerView
             }
 
-            // Pause overlay
-            if isPaused && !showBetween {
+            if isPaused && !showBetween && !showResult {
                 pauseOverlay
             }
         }
@@ -88,14 +93,6 @@ struct ExerciseActiveView: View {
             }
         } message: {
             Text("Your progress in this exercise will be saved.")
-        }
-        .fullScreenCover(isPresented: $showResult, onDismiss: {
-            // When result card is dismissed via Done, also dismiss the exercise player → back to home
-            dismiss()
-        }) {
-            if let session = resultSession {
-                SessionResultView(session: session, courseId: courseId)
-            }
         }
     }
 
