@@ -25,12 +25,12 @@ enum ExerciseCategoryType: String, CaseIterable, Identifiable {
 
     var subtitle: String {
         switch self {
-        case .accommodation:  NSLocalizedString("Ciliary muscle training — myopia prevention & accommodation relief", comment: "")
-        case .eyeMovement:    NSLocalizedString("Extraocular muscle training — all 6 directions of gaze", comment: "")
-        case .relaxation:     NSLocalizedString("Muscle and visual tension relief — 20-20-20 rule", comment: "")
-        case .binocular:      NSLocalizedString("Teamwork of both eyes — stereovision development", comment: "")
-        case .breathing:      NSLocalizedString("Breathing synchronized with eye movement — WHO protocol", comment: "")
-        case .dryEyeRelief:   NSLocalizedString("Tear film stabilization & eyelid health — TFOS DEWS II", comment: "")
+        case .accommodation:  NSLocalizedString("Focus-shift routines for tired eyes after screen time", comment: "")
+        case .eyeMovement:    NSLocalizedString("Range-of-motion routines across all gaze directions", comment: "")
+        case .relaxation:     NSLocalizedString("Calming routines — the 20-20-20 idea", comment: "")
+        case .binocular:      NSLocalizedString("Coordination routines for both eyes working together", comment: "")
+        case .breathing:      NSLocalizedString("Breathing synchronized with eye movement", comment: "")
+        case .dryEyeRelief:   NSLocalizedString("Eyelid warmth and blink-quality routines", comment: "")
         }
     }
 

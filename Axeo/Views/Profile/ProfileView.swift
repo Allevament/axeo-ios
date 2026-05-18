@@ -298,7 +298,7 @@ struct ProfileView: View {
                 showGoalPicker = true
             }
 
-            settingsRow(icon: "stethoscope", label: NSLocalizedString("Change Diagnosis", comment: ""), detail: user?.diagnosis?.displayName ?? NSLocalizedString("None", comment: "")) {
+            settingsRow(icon: "eye.trianglebadge.exclamationmark", label: NSLocalizedString("Eye Condition", comment: ""), detail: user?.diagnosis?.displayName ?? NSLocalizedString("None", comment: "")) {
                 showDiagnosisPicker = true
             }
 

@@ -75,7 +75,7 @@ struct PrivacyPolicyView: View {
 
         2.1 Data You Provide
         • Display name and profile photo (stored locally on your device)
-        • Your selected training goal and eye diagnosis
+        • Your selected training goal and (optional) self-reported eye condition
         • Notification preferences and reminder schedule
 
         2.2 Data Generated Through Use
@@ -93,7 +93,7 @@ struct PrivacyPolicyView: View {
         3. HOW WE USE YOUR DATA
 
         All personal data is stored exclusively on your device using Apple's SwiftData framework. We use your data to:
-        • Personalize exercise recommendations based on your goal and diagnosis
+        • Personalize exercise recommendations based on your goal and self-reported eye condition
         • Track your training progress, streaks, and achievements
         • Schedule notification reminders at your chosen time
         • Generate exportable progress reports (initiated by you)
@@ -235,7 +235,7 @@ struct PrivacyPolicyView: View {
 
         2.1 Datos proporcionados por usted
         • Nombre y foto de perfil (almacenados localmente)
-        • Objetivo de entrenamiento y diagnostico seleccionado
+        • Objetivo de entrenamiento y condición ocular autoinformada (opcional)
         • Preferencias de notificaciones
 
         2.2 Datos generados por el uso

@@ -76,12 +76,12 @@ extension CourseDefinition {
         id: "screen-warrior",
         name: NSLocalizedString("Digital Eye Relief", comment: ""),
         subtitle: NSLocalizedString("30-Day Digital Eye Strain Program", comment: ""),
-        description: NSLocalizedString("Designed for people who spend 6+ hours a day at a screen. Combines accommodation training, relaxation, and the 20-20-20 rule to reduce digital eye strain and prevent long-term damage.", comment: ""),
+        description: NSLocalizedString("A daily routine designed for people who spend long hours at a screen. Combines focus-shift routines, relaxation, and the 20-20-20 idea.", comment: ""),
         durationDays: 30,
         difficulty: .beginner,
         icon: "desktopcomputer",
         color: .aveoTeal,
-        badges: [NSLocalizedString("AAO Recommends", comment: ""), NSLocalizedString("Office Workers", comment: "")],
+        badges: [NSLocalizedString("Office Workers", comment: "")],
         dailyPlan: buildScreenWarriorPlan()
     )
 
@@ -91,12 +91,12 @@ extension CourseDefinition {
         id: "vision-builder",
         name: NSLocalizedString("Vision After 40", comment: ""),
         subtitle: NSLocalizedString("45-Day Full Eye Fitness Program", comment: ""),
-        description: NSLocalizedString("A comprehensive program that progressively trains all six eye muscles, binocular vision, and accommodation. Based on AAO exercise therapy protocols for convergence insufficiency and accommodative dysfunction.", comment: ""),
+        description: NSLocalizedString("A 45-day routine for adults 40+. Combines movement, coordination, and focus-shift exercises into a structured daily plan.", comment: ""),
         durationDays: 45,
         difficulty: .intermediate,
         icon: "eye.trianglebadge.exclamationmark.fill",
         color: .aveoAccent,
-        badges: [NSLocalizedString("AAO Recommends", comment: "")],
+        badges: [NSLocalizedString("Age 40+", comment: "")],
         dailyPlan: buildVisionBuilderPlan()
     )
 
@@ -106,12 +106,12 @@ extension CourseDefinition {
         id: "dry-eye-relief",
         name: NSLocalizedString("Dry Eye Relief", comment: ""),
         subtitle: NSLocalizedString("30-Day Tear Film Restoration Program", comment: ""),
-        description: NSLocalizedString("Follows TFOS DEWS II guidelines to restore tear film stability. Combines lid massage, warm compresses, intentional blinking, and relaxation exercises to manage dry eye symptoms.", comment: ""),
+        description: NSLocalizedString("A 30-day daily routine for dry-eye self-care. Combines eyelid warmth, intentional blinking, and relaxation routines.", comment: ""),
         durationDays: 30,
         difficulty: .beginner,
         icon: "drop.fill",
         color: .aveoWarning,
-        badges: [NSLocalizedString("AAO Recommends", comment: "")],
+        badges: [NSLocalizedString("Dry Eye Self-Care", comment: "")],
         dailyPlan: buildDryEyeReliefPlan()
     )
 }
