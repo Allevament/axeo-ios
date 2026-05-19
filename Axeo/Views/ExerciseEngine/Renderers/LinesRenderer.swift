@@ -88,6 +88,10 @@ struct LinesRenderer: View, ExerciseRendering {
                 }
                 .padding(.bottom, 40)
             }
+            .onChange(of: isVerticalPhase) { _, _ in
+                AudioManager.playPhaseChange()
+                HapticManager.medium()
+            }
         }
     }
 }

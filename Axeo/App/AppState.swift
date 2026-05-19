@@ -82,6 +82,21 @@ final class AppState {
         }
     }
 
+    // MARK: – Exercise audio cues
+
+    /// When true, exercises play short chimes to signal phase transitions
+    /// (focus shift, halfway, finish). Users in public places can turn this
+    /// off so the app doesn't disturb others.
+    var soundCuesBacking: Bool = UserDefaults.standard.object(forKey: "axeo_sound_cues") as? Bool ?? true
+
+    var soundCuesEnabled: Bool {
+        get { soundCuesBacking }
+        set {
+            soundCuesBacking = newValue
+            UserDefaults.standard.set(newValue, forKey: "axeo_sound_cues")
+        }
+    }
+
     // MARK: – Free Session Counter (for soft paywall)
 
     /// Number of completed sessions in free tier.

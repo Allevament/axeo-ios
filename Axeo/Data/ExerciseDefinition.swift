@@ -63,7 +63,7 @@ extension ExerciseDefinition {
         // 0 – Accommodation
         ExerciseDefinition(
             index: 0, name: NSLocalizedString("Focus Shift", comment: ""), duration: 60, motionType: .focus,
-            hint: NSLocalizedString("Keep the phone at arm's length. Focus on the dot for 3 seconds, then shift your gaze to a distant object (across the room). Head stays still throughout.", comment: ""),
+            hint: NSLocalizedString("Hold the phone at arm's length. Focus on the dot when it's large, then look at a distant object across the room when the dot shrinks. A soft chime cues each switch. Keep your head still.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A common eye-care routine for people who spend long hours at a screen. Gives your eyes a structured break from near focus.", comment: ""),
             sfSymbol: "scope"
@@ -71,7 +71,7 @@ extension ExerciseDefinition {
         // 1 – Eye Movement
         ExerciseDefinition(
             index: 1, name: NSLocalizedString("Figure Eight", comment: ""), duration: 42, motionType: .eight,
-            hint: NSLocalizedString("Follow the moving dot along the figure-eight path with your eyes only. Keep smooth, continuous movement — don't jump ahead.", comment: ""),
+            hint: NSLocalizedString("Follow the moving dot along the figure-eight path with your eyes only. The direction reverses automatically at the halfway mark — an arrow shows which way the dot is going. Keep smooth, continuous movement.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A flexibility routine for eye movement and coordination.", comment: ""),
             sfSymbol: "infinity"
@@ -79,7 +79,7 @@ extension ExerciseDefinition {
         // 2 – Relaxation
         ExerciseDefinition(
             index: 2, name: NSLocalizedString("Palming", comment: ""), duration: 60, motionType: .palm,
-            hint: NSLocalizedString("Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Breathe slowly and let your eyes relax in total darkness.", comment: ""),
+            hint: NSLocalizedString("Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Audio cues will signal start, halfway, and the end — you don't need to watch the timer.", comment: ""),
             cvEnabled: false,
             indications: NSLocalizedString("A relaxation routine for tired eyes after long screen sessions.", comment: ""),
             sfSymbol: "hand.raised.fill"
@@ -87,7 +87,7 @@ extension ExerciseDefinition {
         // 3 – Eye Movement
         ExerciseDefinition(
             index: 3, name: NSLocalizedString("Saccades", comment: ""), duration: 45, motionType: .fixate,
-            hint: NSLocalizedString("A dot lights up in one of 9 positions — jump your gaze to it immediately and hold for 2.5 seconds. Keep your head still; only move your eyes.", comment: ""),
+            hint: NSLocalizedString("A dot lights up in one of 9 positions. Snap your gaze to it as soon as it appears and hold until it moves to the next position. Keep your head still; only the eyes move.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A practice routine for quick, accurate eye movements during reading.", comment: ""),
             sfSymbol: "circle.grid.3x3.fill"
@@ -103,7 +103,7 @@ extension ExerciseDefinition {
         // 5 – Accommodation
         ExerciseDefinition(
             index: 5, name: NSLocalizedString("Window Dot", comment: ""), duration: 100, motionType: .mark,
-            hint: NSLocalizedString("Place a small sticker on a window at eye level. Stand arm's length away. Focus on the dot for 10 seconds, then shift to a distant object outside for 10 seconds.", comment: ""),
+            hint: NSLocalizedString("Hold the phone at arm's length. Focus on the dot on the screen while it's bright, then shift your gaze to the most distant object you can see (out a window if possible) when the scenery appears. A soft chime cues each switch.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A classic eye-care routine for focusing flexibility between near and far.", comment: ""),
             sfSymbol: "dot.circle.and.hand.point.up.left.fill"
@@ -119,7 +119,7 @@ extension ExerciseDefinition {
         // 7 – Eye Movement (PREMIUM)
         ExerciseDefinition(
             index: 7, name: NSLocalizedString("Square Tracing", comment: ""), duration: 64, motionType: .square,
-            hint: NSLocalizedString("Follow the dot as it traces a square with your eyes. Direction alternates clockwise then counterclockwise each lap.", comment: ""),
+            hint: NSLocalizedString("Follow the dot as it traces a square with your eyes. After each lap the dot automatically reverses direction — an arrow on screen always shows the current direction. Head still, only the eyes move.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A balanced movement routine across all gaze directions.", comment: ""),
             sfSymbol: "square.dashed"
@@ -127,7 +127,7 @@ extension ExerciseDefinition {
         // 8 – Eye Movement (PREMIUM)
         ExerciseDefinition(
             index: 8, name: NSLocalizedString("Vertical & Horizontal", comment: ""), duration: 50, motionType: .lines,
-            hint: NSLocalizedString("Follow the dot: slowly up — pause — down — pause. 10 repetitions. Then left — pause — right — pause. 10 repetitions.", comment: ""),
+            hint: NSLocalizedString("Follow the dot with your eyes. It moves up and down for the first half, then switches to left and right — the dot naturally pauses at each end position. Head still throughout.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A range-of-motion routine for the four cardinal gaze directions.", comment: ""),
             sfSymbol: "arrow.up.and.down.and.arrow.left.and.right"
@@ -212,35 +212,35 @@ extension ExerciseDefinition {
 private extension ExerciseDefinition {
     static let stepsMap: [Int: [String]] = [
         0:  [NSLocalizedString("Hold phone at arm's length", comment: ""),
-             NSLocalizedString("Focus on the on-screen dot for 3 seconds", comment: ""),
-             NSLocalizedString("Shift gaze to a distant object across the room", comment: ""),
-             NSLocalizedString("Hold distant focus for 3 seconds", comment: ""),
+             NSLocalizedString("Focus on the on-screen dot while it's large", comment: ""),
+             NSLocalizedString("When you hear the chime, look at a distant object across the room", comment: ""),
+             NSLocalizedString("Next chime — back to the dot. Repeat.", comment: ""),
              NSLocalizedString("Keep your head still — only your eyes move", comment: "")],
         1:  [NSLocalizedString("Look straight ahead and relax your eyes", comment: ""),
-             NSLocalizedString("Trace a figure-eight pattern in the air with your eyes", comment: ""),
+             NSLocalizedString("Follow the dot along the figure-eight path", comment: ""),
              NSLocalizedString("Keep the movement smooth and controlled", comment: ""),
-             NSLocalizedString("Reverse the direction halfway through", comment: ""),
+             NSLocalizedString("The direction automatically reverses at halftime — watch the arrow", comment: ""),
              NSLocalizedString("Keep your head still — only your eyes should move", comment: "")],
         2:  [NSLocalizedString("Rub your palms together until warm", comment: ""),
              NSLocalizedString("Cup warm palms gently over closed eyes", comment: ""),
              NSLocalizedString("No pressure on the eyeballs", comment: ""),
              NSLocalizedString("Breathe slowly and deeply", comment: ""),
-             NSLocalizedString("Let your eyes relax in total darkness", comment: "")],
+             NSLocalizedString("Audio cues mark the start, halfway, and end", comment: "")],
         3:  [NSLocalizedString("Keep your head still, face the screen", comment: ""),
              NSLocalizedString("A dot will appear in one of 9 positions", comment: ""),
-             NSLocalizedString("Jump your gaze to the dot immediately", comment: ""),
-             NSLocalizedString("Hold focus on the dot for 2.5 seconds", comment: ""),
-             NSLocalizedString("Wait for the next dot position", comment: "")],
+             NSLocalizedString("Snap your gaze to it as soon as it appears", comment: ""),
+             NSLocalizedString("Hold until the dot moves to the next position", comment: ""),
+             NSLocalizedString("Head still — only your eyes move", comment: "")],
         4:  [NSLocalizedString("Look straight ahead, face relaxed", comment: ""),
              NSLocalizedString("Slowly close your eyelids fully — no squinting", comment: ""),
              NSLocalizedString("Hold closed for 1 second", comment: ""),
              NSLocalizedString("Open slowly and gently", comment: ""),
              NSLocalizedString("Repeat every 5 seconds", comment: "")],
-        5:  [NSLocalizedString("Place a small dot or sticker on a window at eye level", comment: ""),
-             NSLocalizedString("Stand at arm's length from the window", comment: ""),
-             NSLocalizedString("Focus on the dot for 10 seconds", comment: ""),
-             NSLocalizedString("Shift focus to a distant object outside", comment: ""),
-             NSLocalizedString("Hold distant focus for 10 seconds", comment: "")],
+        5:  [NSLocalizedString("Hold phone at arm's length", comment: ""),
+             NSLocalizedString("Focus on the on-screen dot while it's bright", comment: ""),
+             NSLocalizedString("When the chime sounds, shift gaze to the most distant point you can see", comment: ""),
+             NSLocalizedString("Next chime — return to the dot. Keep alternating.", comment: ""),
+             NSLocalizedString("Head still throughout", comment: "")],
         6:  [NSLocalizedString("Hold phone at arm's length, focus on center dot", comment: ""),
              NSLocalizedString("Slowly bring the phone toward your nose", comment: ""),
              NSLocalizedString("Keep the dot single and clear", comment: ""),
@@ -248,11 +248,11 @@ private extension ExerciseDefinition {
              NSLocalizedString("Repeat the approach slowly", comment: "")],
         7:  [NSLocalizedString("Follow the dot as it traces a square path", comment: ""),
              NSLocalizedString("Keep your eyes on the dot at all times", comment: ""),
-             NSLocalizedString("Direction alternates each lap", comment: ""),
+             NSLocalizedString("After each lap the direction reverses automatically — the arrow shows which way", comment: ""),
              NSLocalizedString("Keep your head completely still", comment: "")],
         8:  [NSLocalizedString("Follow the dot as it moves up and down", comment: ""),
-             NSLocalizedString("Pause briefly at each end position", comment: ""),
-             NSLocalizedString("After 10 reps, follow left and right", comment: ""),
+             NSLocalizedString("The dot naturally slows at each end position", comment: ""),
+             NSLocalizedString("Halfway through, it switches to left-right movement", comment: ""),
              NSLocalizedString("Keep your head still throughout", comment: "")],
         9:  [NSLocalizedString("Apply a warm, damp cloth over closed eyes", comment: ""),
              NSLocalizedString("The warmth opens oil glands in your eyelids", comment: ""),

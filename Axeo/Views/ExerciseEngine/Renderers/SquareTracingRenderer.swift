@@ -76,11 +76,18 @@ struct SquareTracingRenderer: View, ExerciseRendering {
                         )
                 }
 
-                // Direction indicator
-                Image(systemName: isClockwise ? "arrow.clockwise" : "arrow.counterclockwise")
-                    .font(.system(size: 16))
-                    .foregroundStyle(Color.aveoText3.opacity(0.4))
-                    .position(x: cx, y: cy)
+                // Direction indicator — prominent so the user sees current direction
+                VStack(spacing: 4) {
+                    Image(systemName: isClockwise ? "arrow.clockwise" : "arrow.counterclockwise")
+                        .font(.system(size: 36, weight: .medium))
+                        .foregroundStyle(Color.aveoAccent.opacity(0.7))
+                        .contentTransition(.symbolEffect(.replace))
+                        .animation(.easeInOut(duration: 0.4), value: isClockwise)
+                    Text(isClockwise ? NSLocalizedString("Clockwise", comment: "") : NSLocalizedString("Counter-clockwise", comment: ""))
+                        .font(.system(size: 11, weight: .semibold))
+                        .foregroundStyle(Color.aveoText3)
+                }
+                .position(x: cx, y: cy)
 
                 // Tracking dot
                 Circle()
@@ -96,6 +103,10 @@ struct SquareTracingRenderer: View, ExerciseRendering {
                         .foregroundStyle(Color.aveoText3)
                 }
                 .padding(.bottom, 40)
+            }
+            .onChange(of: isClockwise) { _, _ in
+                AudioManager.playPhaseChange()
+                HapticManager.medium()
             }
         }
     }

@@ -66,6 +66,11 @@ struct Rule2020Renderer: View, ExerciseRendering {
                 }
                 .padding(.bottom, 40)
             }
+            .onAppear {
+                // Single start cue — tells user to look away from screen
+                AudioManager.playPhaseChange()
+                HapticManager.light()
+            }
         }
     }
 }

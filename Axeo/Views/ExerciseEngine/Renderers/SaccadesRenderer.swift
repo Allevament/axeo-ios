@@ -71,6 +71,13 @@ struct SaccadesRenderer: View, ExerciseRendering {
                 }
                 .padding(.bottom, 40)
             }
+            .onChange(of: currentSlot) { _, _ in
+                // Light tick on each new dot position — gives the user an
+                // auditory cue to snap their gaze. Respects the sound-cues
+                // toggle so users in public can silence it.
+                AudioManager.playSubtleTick()
+                HapticManager.light()
+            }
         }
     }
 }

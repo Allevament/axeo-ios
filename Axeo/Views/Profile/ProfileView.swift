@@ -318,6 +318,16 @@ struct ProfileView: View {
             ) {
                 showNotificationPicker = true
             }
+
+            settingsRow(
+                icon: appState.soundCuesEnabled ? "speaker.wave.2.fill" : "speaker.slash.fill",
+                label: NSLocalizedString("Exercise Sound Cues", comment: ""),
+                detail: appState.soundCuesEnabled ? NSLocalizedString("On", comment: "") : NSLocalizedString("Off", comment: ""),
+                color: .aveoSuccess
+            ) {
+                appState.soundCuesEnabled.toggle()
+                HapticManager.medium()
+            }
         }
     }
 

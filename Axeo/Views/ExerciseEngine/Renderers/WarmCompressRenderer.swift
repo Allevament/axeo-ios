@@ -6,6 +6,9 @@ struct WarmCompressRenderer: View, ExerciseRendering {
     let isPaused: Bool
     let duration: Int
 
+    @State private var didStart = false
+    @State private var didMidpoint = false
+
     // Breathing: 5s in, 5s out → 10s cycle
     private var breathPhase: Double {
         let elapsed = progress * Double(duration)
@@ -73,6 +76,18 @@ struct WarmCompressRenderer: View, ExerciseRendering {
                         .foregroundStyle(Color.aveoText3)
                 }
                 .padding(.bottom, 40)
+            }
+            .onAppear {
+                if !didStart {
+                    AudioManager.playPhaseChange()
+                    didStart = true
+                }
+            }
+            .onChange(of: progress) { _, p in
+                if !didMidpoint && p >= 0.5 {
+                    AudioManager.playMidpoint()
+                    didMidpoint = true
+                }
             }
         }
     }

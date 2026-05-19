@@ -6,9 +6,20 @@ struct FigureEightRenderer: View, ExerciseRendering {
     let isPaused: Bool
     let duration: Int
 
-    // Full loop every ~7 seconds
+    // Direction reverses at halfway through the exercise.
+    private var isForward: Bool { progress < 0.5 }
+
+    // Full loop every ~7 seconds. After midpoint, replay in reverse so the
+    // dot smoothly continues from where the first half ended.
     private var angle: Double {
-        progress * Double(duration) / 7.0 * 2.0 * .pi
+        if isForward {
+            return progress * Double(duration) / 7.0 * 2.0 * .pi
+        } else {
+            // Mirror time around the midpoint so trajectory reverses.
+            let mid = 0.5
+            let mirrored = mid - (progress - mid)
+            return mirrored * Double(duration) / 7.0 * 2.0 * .pi
+        }
     }
 
     private func dotPosition(in size: CGSize) -> CGPoint {
@@ -51,6 +62,20 @@ struct FigureEightRenderer: View, ExerciseRendering {
                     .shadow(color: .aveoTeal.opacity(0.5), radius: 12)
                     .position(dot)
 
+                // Direction badge (top-center) — flips at the midpoint
+                VStack(spacing: 4) {
+                    Image(systemName: isForward ? "arrow.forward.circle" : "arrow.backward.circle")
+                        .font(.system(size: 22, weight: .medium))
+                        .foregroundStyle(Color.aveoAccent.opacity(0.7))
+                        .contentTransition(.symbolEffect(.replace))
+                        .animation(.easeInOut(duration: 0.4), value: isForward)
+                    Text(isForward ? NSLocalizedString("Forward", comment: "") : NSLocalizedString("Reverse", comment: ""))
+                        .font(.system(size: 10, weight: .semibold))
+                        .foregroundStyle(Color.aveoText3)
+                }
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding(.top, 12)
+
                 // Instruction
                 VStack {
                     Spacer()
@@ -59,6 +84,10 @@ struct FigureEightRenderer: View, ExerciseRendering {
                         .foregroundStyle(Color.aveoText3)
                 }
                 .padding(.bottom, 40)
+            }
+            .onChange(of: isForward) { _, _ in
+                AudioManager.playPhaseChange()
+                HapticManager.medium()
             }
         }
     }

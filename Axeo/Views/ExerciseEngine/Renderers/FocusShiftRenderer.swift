@@ -80,6 +80,10 @@ struct FocusShiftRenderer: View, ExerciseRendering {
                 }
                 .padding(.bottom, 40)
             }
+            .onChange(of: isNearPhase) { _, _ in
+                AudioManager.playPhaseChange()
+                HapticManager.light()
+            }
         }
     }
 }

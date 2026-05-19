@@ -12,7 +12,7 @@ struct TearFilmRenderer: View, ExerciseRendering {
         return elapsed.truncatingRemainder(dividingBy: 6.0) / 6.0
     }
 
-    private enum Phase {
+    private enum Phase: Equatable {
         case closing, holdClosed, opening, distantGaze
     }
 
@@ -21,6 +21,14 @@ struct TearFilmRenderer: View, ExerciseRendering {
         if cyclePhase < 0.333 { return .holdClosed }    // 1s
         if cyclePhase < 0.5   { return .opening }       // 1s
         return .distantGaze                              // 3s
+    }
+
+    /// Coarse "look at screen vs. away" — used for audio cue trigger.
+    private var isDistantPhase: Bool { phase == .distantGaze }
+
+    /// Remove "Restoring tear film stability" wellness-jargon footer.
+    private var subtitleText: String {
+        NSLocalizedString("Slow complete blink + distant gaze cycle", comment: "")
     }
 
     private var eyeOpenness: CGFloat {
@@ -116,11 +124,15 @@ struct TearFilmRenderer: View, ExerciseRendering {
                         .contentTransition(.numericText())
                         .animation(.easeInOut(duration: 0.3), value: cyclePhase < 0.5)
 
-                    Text(NSLocalizedString("Restoring tear film stability", comment: ""))
+                    Text(subtitleText)
                         .font(.aveoCaption)
                         .foregroundStyle(Color.aveoText3)
                 }
                 .padding(.bottom, 40)
+            }
+            .onChange(of: isDistantPhase) { _, _ in
+                AudioManager.playPhaseChange()
+                HapticManager.light()
             }
         }
     }

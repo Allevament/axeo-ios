@@ -7,6 +7,9 @@ struct PalmingRenderer: View, ExerciseRendering {
     let isPaused: Bool
     let duration: Int
 
+    @State private var didStart = false
+    @State private var didMidpoint = false
+
     // Breathing: 4s in, 4s out → 8s cycle
     private var breathPhase: Double {
         let elapsed = progress * Double(duration)
@@ -63,6 +66,20 @@ struct PalmingRenderer: View, ExerciseRendering {
                         .foregroundStyle(Color.aveoText3)
                 }
                 .padding(.bottom, 40)
+            }
+            .onAppear {
+                // Start cue — tells user it's time to close eyes
+                if !didStart {
+                    AudioManager.playPhaseChange()
+                    didStart = true
+                }
+            }
+            .onChange(of: progress) { _, p in
+                // Mid-point cue
+                if !didMidpoint && p >= 0.5 {
+                    AudioManager.playMidpoint()
+                    didMidpoint = true
+                }
             }
         }
     }
