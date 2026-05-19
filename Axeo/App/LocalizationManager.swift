@@ -18,6 +18,9 @@ final class LocalizationManager {
     private static let chosenKey = "axeo_language_chosen"
 
     private(set) var currentLocale: Locale
+    /// True once the user has explicitly chosen a language via the picker.
+    /// Observable so ContentView can gate the Health Disclaimer on it.
+    private(set) var hasChosen: Bool
 
     private init() {
         let stored = UserDefaults.standard.stringArray(forKey: Self.appleLanguagesKey)?.first
@@ -25,6 +28,7 @@ final class LocalizationManager {
         let raw = stored ?? device ?? "en"
         let normalized = Self.normalize(raw)
         self.currentLocale = Locale(identifier: normalized)
+        self.hasChosen = UserDefaults.standard.bool(forKey: Self.chosenKey)
         Bundle.applyAxeoLanguage(normalized)
     }
 
@@ -33,16 +37,13 @@ final class LocalizationManager {
         return supportedCodes.contains(base) ? base : "en"
     }
 
-    static var hasChosen: Bool {
-        UserDefaults.standard.bool(forKey: chosenKey)
-    }
-
     func setLanguage(_ code: String) {
         let normalized = Self.normalize(code)
         UserDefaults.standard.set([normalized], forKey: Self.appleLanguagesKey)
         UserDefaults.standard.set(true, forKey: Self.chosenKey)
         Bundle.applyAxeoLanguage(normalized)
         currentLocale = Locale(identifier: normalized)
+        hasChosen = true
     }
 }
 

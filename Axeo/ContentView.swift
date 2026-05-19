@@ -8,11 +8,11 @@ struct ContentView: View {
     @State private var showLaunch = true
 
     /// Whether the mandatory Health Disclaimer must be shown right now.
-    /// Triggered when launch animation finishes and the user has not yet
-    /// acknowledged the disclaimer (covers both fresh installs and
-    /// returning users from old builds).
+    /// Gated on `hasChosen` so the disclaimer appears AFTER the user has
+    /// picked a language — that way the disclaimer text renders in the
+    /// chosen locale, not the system default.
     private var needsDisclaimer: Bool {
-        !showLaunch && !appState.hasSeenDisclaimer
+        !showLaunch && !appState.hasSeenDisclaimer && LocalizationManager.shared.hasChosen
     }
 
     var body: some View {

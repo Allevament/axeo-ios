@@ -367,14 +367,11 @@ struct ExerciseActiveView: View {
     }
 
     private func exerciseComplete() {
-        // Soft completion cue for closed-eye / relaxation exercises;
-        // standard beep for active ones.
-        let usesAmbient: Set<MotionType> = [.palm, .warmth, .breath, .tearfilm]
-        if usesAmbient.contains(currentExercise.motionType) {
-            AmbientAudioPlayer.playSoftEnd()
-        } else {
-            AudioManager.playBeep()
-        }
+        // Universal end cue: stops any ambient loop and plays the soft end
+        // bell via `.playback` category so it's audible even with the
+        // iPhone Silent switch on. Same cue for relaxation and active
+        // exercises (consistent UX, always reaches the user).
+        AmbientAudioPlayer.playEndOfExerciseCue()
         HapticManager.success()
 
         let nextIndex = currentIndex + 1

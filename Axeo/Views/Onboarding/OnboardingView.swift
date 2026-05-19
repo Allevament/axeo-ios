@@ -32,7 +32,7 @@ struct OnboardingView: View {
     ]
 
     private static func shouldShowLanguageStep() -> Bool {
-        !LocalizationManager.hasChosen
+        !LocalizationManager.shared.hasChosen
     }
 
     /// Preselect based on iOS device locale, defaulting to English when the
@@ -420,8 +420,11 @@ struct OnboardingView: View {
             Button {
                 HapticManager.medium()
                 if page == -1 {
-                    // Apply chosen language — the root .id() will re-render the whole tree.
+                    // Apply chosen language and advance — page change is explicit
+                    // because the root .id() may not flip if user picked the
+                    // same locale that was already active (e.g. RU default).
                     LocalizationManager.shared.setLanguage(pickedLanguage)
+                    withAnimation(.spring(duration: 0.4)) { page = 0 }
                 } else if page < totalPages - 1 {
                     withAnimation(.spring(duration: 0.4)) { page += 1 }
                 } else {

@@ -513,3 +513,99 @@
 "System" = "Жүйелік";
 "Dark" = "Қараңғы";
 "Light" = "Жарық";
+
+/* === v17/v18/v19 string updates: new hints, steps, compliance copy === */
+
+/* Hints — rewritten for mobile context + audio cues + auto direction reversal */
+"Hold the phone at arm's length. Focus on the dot when it's large, then look at a distant object across the room when the dot shrinks. A soft chime cues each switch. Keep your head still." = "Телефонды қол созым қашықтықта ұстаңыз. Нүкте үлкен болғанда оған назар салыңыз, кішірейгенде бөлмедегі алыс затқа қараңыз. Жұмсақ сигнал ауысуды білдіреді. Бас қозғалмауы керек.";
+"Follow the moving dot along the figure-eight path with your eyes only. The direction reverses automatically at the halfway mark — an arrow shows which way the dot is going. Keep smooth, continuous movement." = "Сегіздік траекториясымен қозғалатын нүктені тек көзбен қадағалаңыз. Жартысында бағыт автоматты түрде өзгереді — стрелка ағымдағы бағытты көрсетеді. Қозғалыс біркелкі әрі үздіксіз болсын.";
+"Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Audio cues will signal start, halfway, and the end — you don't need to watch the timer." = "Алақанды жылы болғанша уқалаңыз, содан кейін жұмулы көздерге ақырын тигізіңіз. Көз алмаларына қысым жасамаңыз. Дыбыс сигналдары басталу, орта және аяқталу кезеңдерін белгілейді — таймерді бақылау керек емес.";
+"A dot lights up in one of 9 positions. Snap your gaze to it as soon as it appears and hold until it moves to the next position. Keep your head still; only the eyes move." = "Нүкте 9 позицияның бірінде жанып тұрады. Көрінген сәтте бірден көзбен қарап, келесі позицияға өткенше ұстаңыз. Бас қозғалмауы керек, тек көздер қозғалады.";
+"Hold the phone at arm's length. Focus on the dot on the screen while it's bright, then shift your gaze to the most distant object you can see (out a window if possible) when the scenery appears. A soft chime cues each switch." = "Телефонды қол созым қашықтықта ұстаңыз. Нүкте жарқырап тұрғанда оған назар салыңыз, көрініс пайда болғанда көрінетін ең алыс затқа (мүмкіндігінше терезеден тысқары) қараңыз. Жұмсақ сигнал ауысуды білдіреді.";
+"Follow the dot as it traces a square with your eyes. After each lap the dot automatically reverses direction — an arrow on screen always shows the current direction. Head still, only the eyes move." = "Шаршыны сызатын нүктені көзбен қадағалаңыз. Әр шеңберден кейін бағыт автоматты түрде өзгереді — экрандағы стрелка ағымдағы бағытты көрсетеді. Бас қозғалмайды, тек көздер қозғалады.";
+"Follow the dot with your eyes. It moves up and down for the first half, then switches to left and right — the dot naturally pauses at each end position. Head still throughout." = "Нүктені көзбен қадағалаңыз. Бірінші жартысында ол жоғары-төмен қозғалады, содан кейін солға-оңға ауысады — нүкте әр шеткі позицияда табиғи түрде кідіреді. Бас үнемі қозғалмауы керек.";
+"Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out. — Skip this routine if you have strabismus, recent eye surgery, or any binocular-vision condition without your eye-care professional's approval." = "Телефонды қол созым қашықтықта ұстаңыз, орталық нүктеге назар салыңыз. Нүктені біртұтас әрі айқын ұстай отырып, ақырын мұрынға жақындатыңыз. Екіге бөлінсе, кері алып шығыңыз. — Қылилық, жақында жасалған көз операциясы немесе кез келген бинокулярлы көру бұзылысы бар болса, көз дәрігерінің рұқсатынсыз бұл жаттығуды өткізіп жіберіңіз.";
+
+/* Steps — rewritten */
+"Focus on the on-screen dot while it's large" = "Үлкен болғанда экрандағы нүктеге назар салыңыз";
+"When you hear the chime, look at a distant object across the room" = "Сигналды естігенде бөлмедегі алыс затқа қараңыз";
+"Next chime — back to the dot. Repeat." = "Келесі сигнал — нүктеге қайта оралыңыз. Қайталаңыз.";
+"Follow the dot along the figure-eight path" = "Сегіздік траекториясы бойынша нүктені қадағалаңыз";
+"The direction automatically reverses at halftime — watch the arrow" = "Жартысында бағыт автоматты түрде өзгереді — стрелкаға назар салыңыз";
+"Snap your gaze to it as soon as it appears" = "Көрінген бойда көзбен бірден қараңыз";
+"Hold until the dot moves to the next position" = "Нүкте келесі позицияға өткенше ұстаңыз";
+"Head still — only your eyes move" = "Бас қозғалмайды — тек көздер қозғалады";
+"Audio cues mark the start, halfway, and end" = "Дыбыс сигналдары басталу, орта және аяқталу кезеңдерін белгілейді";
+"Focus on the on-screen dot while it's bright" = "Жарқырап тұрғанда экрандағы нүктеге назар салыңыз";
+"When the chime sounds, shift gaze to the most distant point you can see" = "Сигнал шыққанда көрінетін ең алыс нүктеге көзіңізді бұрыңыз";
+"Next chime — return to the dot. Keep alternating." = "Келесі сигнал — нүктеге қайтыңыз. Кезектестіруді жалғастырыңыз.";
+"Head still throughout" = "Жаттығу бойы бас қозғалмайды";
+"After each lap the direction reverses automatically — the arrow shows which way" = "Әр шеңберден кейін бағыт автоматты түрде өзгереді — стрелка бағытты көрсетеді";
+"The dot naturally slows at each end position" = "Нүкте әр шеткі позицияда табиғи түрде баяулайды";
+"Halfway through, it switches to left-right movement" = "Жартысында солға-оңға қозғалысқа ауысады";
+
+/* Indications — softened wellness wording */
+"A common eye-care routine for people who spend long hours at a screen. Gives your eyes a structured break from near focus." = "Экран алдында ұзақ отыратындарға арналған кең таралған көз күтімі. Жақын фокустан құрылымды демалыс береді.";
+"A flexibility routine for eye movement and coordination." = "Көз қозғалысы мен координациясының икемділігіне арналған жаттығу.";
+"A relaxation routine for tired eyes after long screen sessions." = "Экран алдында ұзақ отырғаннан кейінгі шаршаған көзге арналған релаксация жаттығуы.";
+"A practice routine for quick, accurate eye movements during reading." = "Оқу барысында жылдам әрі дәл көз қозғалысын дамытатын жаттығу.";
+"Encourages natural blinking, which tends to slow down during screen use." = "Экранмен жұмыс істегенде баяулайтын табиғи көз жыпылықтауын ынталандырады.";
+"A classic eye-care routine for focusing flexibility between near and far." = "Жақын мен алыс арасындағы фокус икемділігі үшін классикалық көз күтімі жаттығуы.";
+"A coordination routine for eye teaming while reading at close range." = "Жақыннан оқу кезінде көздердің бірлескен жұмысы үшін координация жаттығуы.";
+"A balanced movement routine across all gaze directions." = "Барлық көру бағыттарын қамтитын теңгерімді қозғалыс жаттығуы.";
+"A range-of-motion routine for the four cardinal gaze directions." = "Төрт негізгі көру бағытының қозғалыс ауқымына арналған жаттығу.";
+"A warm-compress style routine often used in dry-eye self-care." = "Көздің құрғауына арналған өзін-өзі күту тәжірибесінде жиі қолданылатын жылы компресс жаттығуы.";
+"A practice routine for combining the views from both eyes." = "Екі көзден түскен бейнелерді біріктіруге арналған жаттығу.";
+"An advanced routine for shifting focus at changing distances." = "Өзгеретін қашықтықтарда фокусты ауыстыруға арналған озық жаттығу.";
+"Combines eye movement with breathing rhythm for a calming routine." = "Көз қозғалысын тыныс алу ырғағымен үйлестіретін тыныштандыратын жаттығу.";
+"A widely shared eye-care habit: every 20 minutes, look 20 feet away for 20 seconds." = "Кең таралған көз күтімі әдеті: әр 20 минут сайын 20 секунд бойы 6 метр қашықтыққа қараңыз.";
+"A gentle warming routine for the eyelids, common in dry-eye self-care." = "Қабақтарды жұмсақ жылыту жаттығуы, көздің құрғауына қарсы өзін-өзі күтуде кеңінен қолданылады.";
+"A practice routine for full, complete blinks." = "Толық, аяқталған көз жыпылықтауын жаттықтыруға арналған жаттығу.";
+"Combines intentional blinking with distance relaxation." = "Саналы көз жыпылықтауын алыс затқа қарап демалумен үйлестіреді.";
+
+/* In-exercise text and labels */
+"Hold for 5 seconds" = "5 секунд ұстаңыз";
+"Forward" = "Алға";
+"Reverse" = "Кері";
+"Clockwise" = "Сағат тілімен";
+"Counter-clockwise" = "Сағат тіліне қарсы";
+"Slow complete blink + distant gaze cycle" = "Баяу толық жыпылықтау + алыс қарау циклы";
+
+/* Settings labels */
+"Exercise Sound Cues" = "Жаттығудағы дыбыс сигналдары";
+"Manage Subscription" = "Жазылымды басқару";
+"Terms of Service" = "Қызмет шарттары";
+"Health Disclaimer" = "Медициналық ескерту";
+"Eye Condition" = "Көз жағдайы";
+"On" = "Қосулы";
+"Off" = "Өшірулі";
+
+/* Disclaimer copy */
+"I understand that Axeo is not a medical device and does not diagnose or treat any condition. I will consult a professional if needed." = "Axeo медициналық құрылғы емес екенін және ешқандай ауруды диагностикаламайтынын, емдемейтінін түсінемін. Қажет болса, маманмен кеңесемін.";
+"Used only to vary your routine. It is not a treatment plan or a recommendation for your condition. Consult an eye-care professional before starting." = "Жаттығуларды әртараптандыру үшін ғана пайдаланылады. Бұл емдеу жоспары немесе сіздің жағдайыңызға қатысты ұсыныс емес. Бастамас бұрын көз дәрігерімен кеңесіңіз.";
+
+/* Onboarding rewrite */
+"Daily\nEye Training" = "Күнделікті\nкөз жаттығуы";
+"17 structured exercises for general eye wellness. Build a daily routine to give your eyes the rest and movement they need." = "Жалпы көз саулығына арналған 17 құрылымды жаттығу. Көздеріңізге қажетті демалыс пен қозғалысты қамтамасыз ететін күнделікті әдетті қалыптастырыңыз.";
+
+/* Programs/Exercises copy */
+"Structured exercises" = "Құрылымды жаттығулар";
+"Structured 30–45 day courses" = "Құрылымды 30–45 күндік курстар";
+"Daily structured eye routine" = "Күнделікті құрылымды көз жаттығуы";
+"17 structured exercises across 6 categories" = "6 санаттағы 17 құрылымды жаттығу";
+"Educational eye-care content" = "Көзді күту туралы білім беретін материал";
+"Educational eye-care content. Not a substitute for professional medical advice." = "Көзді күту туралы білім беретін материал. Кәсіби медициналық кеңестің орнын алмастырмайды.";
+
+/* Subscription disclosure */
+"Subscription details" = "Жазылым мәліметтері";
+"• Annual plan: $29.99/year, billed yearly after a 7-day free trial." = "• Жылдық жоспар: $29.99/жыл, 7 күндік тегін кезеңнен кейін жыл сайын есепке алынады.";
+"• Monthly plan: $5.99/month, billed monthly after a 7-day free trial." = "• Айлық жоспар: $5.99/ай, 7 күндік тегін кезеңнен кейін ай сайын есепке алынады.";
+"• Weekly plan: $2.99/week, billed weekly after a 3-day free trial." = "• Апталық жоспар: $2.99/апта, 3 күндік тегін кезеңнен кейін апта сайын есепке алынады.";
+"• Lifetime: $79.99 one-time purchase, no renewal." = "• Lifetime: $79.99 бір реттік сатып алу, ұзартусыз.";
+"• Subscription auto-renews at the same price each period until cancelled." = "• Жазылым тоқтатылғанша әр кезеңде сол бағамен автоматты түрде ұзартылады.";
+"• Subscriptions auto-renew at the same price each period until cancelled." = "• Жазылымдар тоқтатылғанша әр кезеңде сол бағамен автоматты түрде ұзартылады.";
+"• Cancel anytime in Settings > Apple ID > Subscriptions." = "• Кез келген уақытта тоқтатуға болады: Параметрлер → Apple ID → Жазылымдар.";
+"• Payment is charged to your Apple ID at confirmation of purchase." = "• Төлем сатып алуды растау кезінде Apple ID-ден алынады.";
+"• Trial converts to a paid subscription unless cancelled at least 24 hours before the trial ends." = "• Тегін кезең аяқталғанға дейін кемінде 24 сағат бұрын тоқтатылмаса, төленетін жазылымға айналады.";
+"By tapping \"Try 7 Days Free\", you agree to the Terms of Service and Privacy Policy." = "«7 күн тегін көру» түймесін басу арқылы Қызмет шарттары мен Құпиялылық саясатына келісесіз.";
+"By starting your subscription, you agree to the Terms of Service and Privacy Policy." = "Жазылымды бастау арқылы Қызмет шарттары мен Құпиялылық саясатына келісесіз.";

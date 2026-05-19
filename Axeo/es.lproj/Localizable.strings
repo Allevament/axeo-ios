@@ -513,3 +513,99 @@
 "System" = "Sistema";
 "Dark" = "Oscuro";
 "Light" = "Claro";
+
+/* === v17/v18/v19 string updates: new hints, steps, compliance copy === */
+
+/* Hints — rewritten for mobile context + audio cues + auto direction reversal */
+"Hold the phone at arm's length. Focus on the dot when it's large, then look at a distant object across the room when the dot shrinks. A soft chime cues each switch. Keep your head still." = "Sostén el teléfono a la distancia del brazo. Fíjate en el punto cuando sea grande, luego mira un objeto lejano en la habitación cuando el punto se reduzca. Una señal suave indica cada cambio. Mantén la cabeza quieta.";
+"Follow the moving dot along the figure-eight path with your eyes only. The direction reverses automatically at the halfway mark — an arrow shows which way the dot is going. Keep smooth, continuous movement." = "Sigue solo con los ojos el punto en movimiento por el recorrido en forma de ocho. La dirección se invierte automáticamente a la mitad — una flecha muestra hacia dónde va el punto. Mantén un movimiento suave y continuo.";
+"Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Audio cues will signal start, halfway, and the end — you don't need to watch the timer." = "Frota las palmas hasta calentarlas, luego cúbrelas suavemente sobre los ojos cerrados. Sin presión sobre los globos oculares. Las señales de audio indicarán el inicio, la mitad y el final — no necesitas mirar el temporizador.";
+"A dot lights up in one of 9 positions. Snap your gaze to it as soon as it appears and hold until it moves to the next position. Keep your head still; only the eyes move." = "Un punto se enciende en una de 9 posiciones. Dirige rápidamente la mirada hacia él en cuanto aparezca y mantenla hasta que pase a la siguiente posición. Mantén la cabeza quieta; solo se mueven los ojos.";
+"Hold the phone at arm's length. Focus on the dot on the screen while it's bright, then shift your gaze to the most distant object you can see (out a window if possible) when the scenery appears. A soft chime cues each switch." = "Sostén el teléfono a la distancia del brazo. Fíjate en el punto en la pantalla mientras esté brillante, luego dirige la mirada al objeto más lejano que puedas ver (preferiblemente fuera de una ventana) cuando aparezca el paisaje. Una señal suave indica cada cambio.";
+"Follow the dot as it traces a square with your eyes. After each lap the dot automatically reverses direction — an arrow on screen always shows the current direction. Head still, only the eyes move." = "Sigue con los ojos el punto que traza un cuadrado. Tras cada vuelta, la dirección se invierte automáticamente — una flecha en pantalla siempre muestra la dirección actual. Cabeza quieta, solo los ojos se mueven.";
+"Follow the dot with your eyes. It moves up and down for the first half, then switches to left and right — the dot naturally pauses at each end position. Head still throughout." = "Sigue el punto con los ojos. En la primera mitad se mueve arriba y abajo, luego cambia a izquierda y derecha — el punto se detiene naturalmente en cada posición extrema. Cabeza quieta durante todo el ejercicio.";
+"Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out. — Skip this routine if you have strabismus, recent eye surgery, or any binocular-vision condition without your eye-care professional's approval." = "Sostén el teléfono a la distancia del brazo y fíjate en el punto central. Acércalo lentamente hacia la nariz manteniendo el punto único y claro. Cuando se duplique, retíralo. — Omite este ejercicio si tienes estrabismo, una cirugía ocular reciente o cualquier condición de visión binocular sin la aprobación de tu especialista ocular.";
+
+/* Steps — rewritten */
+"Focus on the on-screen dot while it's large" = "Fíjate en el punto en pantalla mientras sea grande";
+"When you hear the chime, look at a distant object across the room" = "Al oír la señal, mira un objeto lejano en la habitación";
+"Next chime — back to the dot. Repeat." = "Siguiente señal — vuelve al punto. Repite.";
+"Follow the dot along the figure-eight path" = "Sigue el punto por el recorrido en forma de ocho";
+"The direction automatically reverses at halftime — watch the arrow" = "La dirección se invierte automáticamente a la mitad — observa la flecha";
+"Snap your gaze to it as soon as it appears" = "Dirige la mirada en cuanto aparezca";
+"Hold until the dot moves to the next position" = "Mantén hasta que el punto pase a la siguiente posición";
+"Head still — only your eyes move" = "Cabeza quieta — solo los ojos se mueven";
+"Audio cues mark the start, halfway, and end" = "Las señales de audio marcan el inicio, la mitad y el final";
+"Focus on the on-screen dot while it's bright" = "Fíjate en el punto en pantalla mientras esté brillante";
+"When the chime sounds, shift gaze to the most distant point you can see" = "Cuando suene la señal, dirige la mirada al punto más lejano que veas";
+"Next chime — return to the dot. Keep alternating." = "Siguiente señal — vuelve al punto. Sigue alternando.";
+"Head still throughout" = "Cabeza quieta durante todo el ejercicio";
+"After each lap the direction reverses automatically — the arrow shows which way" = "Tras cada vuelta la dirección se invierte automáticamente — la flecha muestra hacia dónde";
+"The dot naturally slows at each end position" = "El punto se ralentiza naturalmente en cada posición extrema";
+"Halfway through, it switches to left-right movement" = "A la mitad, cambia al movimiento izquierda-derecha";
+
+/* Indications — softened wellness wording */
+"A common eye-care routine for people who spend long hours at a screen. Gives your eyes a structured break from near focus." = "Una rutina común de cuidado ocular para quienes pasan muchas horas frente a una pantalla. Da a tus ojos un descanso estructurado del enfoque cercano.";
+"A flexibility routine for eye movement and coordination." = "Una rutina de flexibilidad para el movimiento y la coordinación ocular.";
+"A relaxation routine for tired eyes after long screen sessions." = "Una rutina de relajación para los ojos cansados tras largas sesiones frente a la pantalla.";
+"A practice routine for quick, accurate eye movements during reading." = "Una rutina de práctica para movimientos oculares rápidos y precisos durante la lectura.";
+"Encourages natural blinking, which tends to slow down during screen use." = "Fomenta el parpadeo natural, que tiende a reducirse durante el uso de pantallas.";
+"A classic eye-care routine for focusing flexibility between near and far." = "Una rutina clásica de cuidado ocular para la flexibilidad del enfoque entre cerca y lejos.";
+"A coordination routine for eye teaming while reading at close range." = "Una rutina de coordinación para el trabajo conjunto de los ojos al leer de cerca.";
+"A balanced movement routine across all gaze directions." = "Una rutina de movimiento equilibrado en todas las direcciones de la mirada.";
+"A range-of-motion routine for the four cardinal gaze directions." = "Una rutina de amplitud de movimiento para las cuatro direcciones cardinales de la mirada.";
+"A warm-compress style routine often used in dry-eye self-care." = "Una rutina tipo compresa caliente usada habitualmente en el autocuidado de ojos secos.";
+"A practice routine for combining the views from both eyes." = "Una rutina de práctica para combinar las imágenes de ambos ojos.";
+"An advanced routine for shifting focus at changing distances." = "Una rutina avanzada para cambiar el enfoque a distancias variables.";
+"Combines eye movement with breathing rhythm for a calming routine." = "Combina el movimiento ocular con el ritmo respiratorio en una rutina relajante.";
+"A widely shared eye-care habit: every 20 minutes, look 20 feet away for 20 seconds." = "Un hábito de cuidado ocular muy difundido: cada 20 minutos, mira a 6 metros durante 20 segundos.";
+"A gentle warming routine for the eyelids, common in dry-eye self-care." = "Una suave rutina de calentamiento para los párpados, común en el autocuidado del ojo seco.";
+"A practice routine for full, complete blinks." = "Una rutina de práctica para parpadeos completos.";
+"Combines intentional blinking with distance relaxation." = "Combina el parpadeo intencional con la relajación a distancia.";
+
+/* In-exercise text and labels */
+"Hold for 5 seconds" = "Mantén durante 5 segundos";
+"Forward" = "Adelante";
+"Reverse" = "Reverso";
+"Clockwise" = "Sentido horario";
+"Counter-clockwise" = "Sentido antihorario";
+"Slow complete blink + distant gaze cycle" = "Parpadeo lento completo + ciclo de mirada lejana";
+
+/* Settings labels */
+"Exercise Sound Cues" = "Señales de sonido en ejercicios";
+"Manage Subscription" = "Gestionar suscripción";
+"Terms of Service" = "Términos del servicio";
+"Health Disclaimer" = "Aviso de salud";
+"Eye Condition" = "Condición ocular";
+"On" = "Activado";
+"Off" = "Desactivado";
+
+/* Disclaimer copy */
+"I understand that Axeo is not a medical device and does not diagnose or treat any condition. I will consult a professional if needed." = "Entiendo que Axeo no es un dispositivo médico y no diagnostica ni trata ninguna condición. Consultaré a un profesional si es necesario.";
+"Used only to vary your routine. It is not a treatment plan or a recommendation for your condition. Consult an eye-care professional before starting." = "Se usa únicamente para variar tu rutina. No es un plan de tratamiento ni una recomendación para tu condición. Consulta a un especialista ocular antes de comenzar.";
+
+/* Onboarding rewrite */
+"Daily\nEye Training" = "Entrenamiento\nocular diario";
+"17 structured exercises for general eye wellness. Build a daily routine to give your eyes the rest and movement they need." = "17 ejercicios estructurados para el bienestar ocular general. Crea una rutina diaria para dar a tus ojos el descanso y movimiento que necesitan.";
+
+/* Programs/Exercises copy */
+"Structured exercises" = "Ejercicios estructurados";
+"Structured 30–45 day courses" = "Cursos estructurados de 30–45 días";
+"Daily structured eye routine" = "Rutina ocular estructurada diaria";
+"17 structured exercises across 6 categories" = "17 ejercicios estructurados en 6 categorías";
+"Educational eye-care content" = "Contenido educativo de cuidado ocular";
+"Educational eye-care content. Not a substitute for professional medical advice." = "Contenido educativo de cuidado ocular. No sustituye el consejo médico profesional.";
+
+/* Subscription disclosure */
+"Subscription details" = "Detalles de la suscripción";
+"• Annual plan: $29.99/year, billed yearly after a 7-day free trial." = "• Plan anual: $29.99/año, cobro anual tras una prueba gratuita de 7 días.";
+"• Monthly plan: $5.99/month, billed monthly after a 7-day free trial." = "• Plan mensual: $5.99/mes, cobro mensual tras una prueba gratuita de 7 días.";
+"• Weekly plan: $2.99/week, billed weekly after a 3-day free trial." = "• Plan semanal: $2.99/semana, cobro semanal tras una prueba gratuita de 3 días.";
+"• Lifetime: $79.99 one-time purchase, no renewal." = "• Lifetime: $79.99 compra única, sin renovación.";
+"• Subscription auto-renews at the same price each period until cancelled." = "• La suscripción se renueva automáticamente al mismo precio cada período hasta su cancelación.";
+"• Subscriptions auto-renew at the same price each period until cancelled." = "• Las suscripciones se renuevan automáticamente al mismo precio cada período hasta su cancelación.";
+"• Cancel anytime in Settings > Apple ID > Subscriptions." = "• Cancela en cualquier momento en Ajustes → Apple ID → Suscripciones.";
+"• Payment is charged to your Apple ID at confirmation of purchase." = "• El pago se cobra a tu Apple ID al confirmar la compra.";
+"• Trial converts to a paid subscription unless cancelled at least 24 hours before the trial ends." = "• La prueba pasa a una suscripción de pago si no se cancela al menos 24 horas antes de su finalización.";
+"By tapping \"Try 7 Days Free\", you agree to the Terms of Service and Privacy Policy." = "Al tocar «Probar 7 días gratis», aceptas los Términos del servicio y la Política de privacidad.";
+"By starting your subscription, you agree to the Terms of Service and Privacy Policy." = "Al iniciar tu suscripción, aceptas los Términos del servicio y la Política de privacidad.";

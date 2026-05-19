@@ -93,4 +93,28 @@ enum AmbientAudioPlayer {
             return
         }
     }
+
+    /// Universal end-of-exercise cue. Stops any active ambient loop and
+    /// plays the soft end bell using `.playback` category so it bypasses
+    /// the iPhone Silent switch — call after EVERY exercise completion
+    /// (relaxation or active). Always plays regardless of the
+    /// `musicEnabled` toggle: this is a UX cue, not background music.
+    static func playEndOfExerciseCue() {
+        guard let url = Bundle.main.url(forResource: Track.endSoft.rawValue, withExtension: "m4a") else {
+            return
+        }
+        loopPlayer?.stop()
+        loopPlayer = nil
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [])
+            try AVAudioSession.sharedInstance().setActive(true, options: [])
+            let p = try AVAudioPlayer(contentsOf: url)
+            p.volume = 1.0
+            p.prepareToPlay()
+            p.play()
+            cuePlayer = p
+        } catch {
+            return
+        }
+    }
 }
