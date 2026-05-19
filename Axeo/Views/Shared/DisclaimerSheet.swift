@@ -67,16 +67,13 @@ struct DisclaimerSheet: View {
                     .foregroundStyle(acknowledged ? Color.aveoBg : Color.aveoText3)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
-                    .background(
-                        Group {
-                            if acknowledged {
-                                LinearGradient.aveoAccentGradient
-                            } else {
-                                Color.aveoText3.opacity(0.15)
-                            }
-                        },
-                        in: Capsule()
-                    )
+                    .background {
+                        if acknowledged {
+                            Capsule().fill(LinearGradient.aveoAccentGradient)
+                        } else {
+                            Capsule().fill(Color.aveoText3.opacity(0.15))
+                        }
+                    }
                     .shadow(color: acknowledged ? Color.aveoAccent.opacity(0.3) : .clear, radius: 12, y: 4)
             }
             .disabled(!acknowledged)
