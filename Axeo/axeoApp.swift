@@ -5,6 +5,7 @@ import SwiftData
 struct axeoApp: App {
     @State private var appState = AppState()
     @State private var storeManager = StoreManager()
+    @State private var localization = LocalizationManager.shared
 
     init() {
         HapticManager.prepare()
@@ -15,6 +16,8 @@ struct axeoApp: App {
             ContentView()
                 .environment(appState)
                 .environment(storeManager)
+                .environment(\.locale, localization.currentLocale)
+                .id(localization.currentLocale.identifier)
                 .preferredColorScheme(appState.theme.colorScheme)
                 .task {
                     await storeManager.loadProducts()

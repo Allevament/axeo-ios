@@ -12,7 +12,37 @@ struct OnboardingView: View {
     @State private var dragOffset: CGSize = .zero
     @State private var showOnboardingPaywall = false
 
+    // Show language picker as page 0 only when the user hasn't picked one yet.
+    @State private var needsLanguageStep = OnboardingView.shouldShowLanguageStep()
+    @State private var pickedLanguage: String = OnboardingView.preselectedLanguage()
+
     private let totalPages = 5
+
+    private struct LanguageOption: Identifiable {
+        let id: String      // BCP-47 code: en, ru, kk, es
+        let flag: String
+        let label: String   // self-name in that language
+    }
+
+    private static let languages: [LanguageOption] = [
+        .init(id: "en", flag: "🇺🇸", label: "English"),
+        .init(id: "ru", flag: "🇷🇺", label: "Русский"),
+        .init(id: "kk", flag: "🇰🇿", label: "Қазақша"),
+        .init(id: "es", flag: "🇪🇸", label: "Español"),
+    ]
+
+    private static func shouldShowLanguageStep() -> Bool {
+        !LocalizationManager.hasChosen
+    }
+
+    /// Preselect based on iOS device locale, defaulting to English when the
+    /// device language is something we don't translate.
+    private static func preselectedLanguage() -> String {
+        let supported = languages.map(\.id)
+        let device = Locale.preferredLanguages.first?
+            .components(separatedBy: "-").first ?? "en"
+        return supported.contains(device) ? device : "en"
+    }
 
     var body: some View {
         if showOnboardingPaywall {
@@ -33,10 +63,10 @@ struct OnboardingView: View {
                 Rectangle().fill(.ultraThinMaterial).ignoresSafeArea()
 
                 VStack(spacing: 0) {
-                    // Skip
+                    // Skip (welcome pages only — language step must be acknowledged)
                     HStack {
                         Spacer()
-                        if page < 3 {
+                        if !needsLanguageStep && page < 3 {
                             Button {
                                 HapticManager.soft()
                                 withAnimation(.spring(duration: 0.4)) { page = 3 }
@@ -52,6 +82,9 @@ struct OnboardingView: View {
 
                     // Content
                     TabView(selection: $page) {
+                        if needsLanguageStep {
+                            languagePage.tag(-1)
+                        }
                         welcomePage1.tag(0)
                         welcomePage2.tag(1)
                         welcomePage3.tag(2)
@@ -64,8 +97,89 @@ struct OnboardingView: View {
                     // Bottom
                     bottomSection
                 }
+                .onAppear {
+                    if needsLanguageStep { page = -1 }
+                }
             }
         }
+    }
+
+    // MARK: – Language Page
+
+    private var languagePage: some View {
+        VStack(spacing: 24) {
+            Spacer()
+
+            Text(verbatim: "Choose your language")
+                .font(.aveoLargeTitle)
+                .foregroundStyle(Color.aveoText)
+                .multilineTextAlignment(.center)
+
+            Text(verbatim: "Выберите · Таңдаңыз · Elige")
+                .font(.aveoCaption)
+                .foregroundStyle(Color.aveoText3)
+
+            VStack(spacing: 12) {
+                ForEach(Self.languages) { lang in
+                    languageOption(lang)
+                }
+            }
+            .padding(.horizontal, 24)
+
+            Spacer()
+        }
+    }
+
+    private func languageOption(_ lang: LanguageOption) -> some View {
+        let isSelected = pickedLanguage == lang.id
+
+        return Button {
+            HapticManager.selection()
+            withAnimation(.spring(duration: 0.25)) {
+                pickedLanguage = lang.id
+            }
+        } label: {
+            HStack(spacing: 14) {
+                Text(verbatim: lang.flag)
+                    .font(.system(size: 30))
+                    .frame(width: 44, height: 44)
+
+                Text(verbatim: lang.label)
+                    .font(.aveoHeadline)
+                    .foregroundStyle(isSelected ? Color.aveoText : Color.aveoText2)
+
+                Spacer()
+
+                if isSelected {
+                    Image(systemName: "checkmark.circle.fill")
+                        .font(.system(size: 20))
+                        .foregroundStyle(Color.aveoRetinal)
+                        .transition(.scale.combined(with: .opacity))
+                }
+            }
+            .padding(14)
+            .background {
+                if isSelected {
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(Color.aveoAccent.opacity(0.06))
+                } else {
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(.ultraThinMaterial)
+                }
+            }
+            .overlay {
+                if !isSelected {
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(Color.aveoGlass)
+                }
+            }
+            .overlay {
+                RoundedRectangle(cornerRadius: 16)
+                    .strokeBorder(isSelected ? Color.aveoAccent.opacity(0.3) : Color.aveoGlassBorder, lineWidth: 0.5)
+            }
+            .aveoShadowMd()
+        }
+        .buttonStyle(.plain)
     }
 
     // MARK: – Welcome Pages with Brand Icons
@@ -288,22 +402,27 @@ struct OnboardingView: View {
 
     private var bottomSection: some View {
         VStack(spacing: 16) {
-            // Bar indicators instead of dots
-            HStack(spacing: 6) {
-                ForEach(0..<totalPages, id: \.self) { i in
-                    Capsule()
-                        .fill(i == page ? Color.aveoAccent : Color.aveoText3.opacity(0.2))
-                        .frame(width: i == page ? 24 : 8, height: 4)
-                        .animation(.spring(duration: 0.3), value: page)
+            // Bar indicators (hidden on language picker step)
+            if page >= 0 {
+                HStack(spacing: 6) {
+                    ForEach(0..<totalPages, id: \.self) { i in
+                        Capsule()
+                            .fill(i == page ? Color.aveoAccent : Color.aveoText3.opacity(0.2))
+                            .frame(width: i == page ? 24 : 8, height: 4)
+                            .animation(.spring(duration: 0.3), value: page)
+                    }
                 }
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel("Page \(page + 1) of \(totalPages)")
             }
-            .accessibilityElement(children: .ignore)
-            .accessibilityLabel("Page \(page + 1) of \(totalPages)")
 
             // Button
             Button {
                 HapticManager.medium()
-                if page < totalPages - 1 {
+                if page == -1 {
+                    // Apply chosen language — the root .id() will re-render the whole tree.
+                    LocalizationManager.shared.setLanguage(pickedLanguage)
+                } else if page < totalPages - 1 {
                     withAnimation(.spring(duration: 0.4)) { page += 1 }
                 } else {
                     completeOnboarding()
