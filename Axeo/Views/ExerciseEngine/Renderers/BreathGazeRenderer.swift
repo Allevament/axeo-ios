@@ -109,7 +109,7 @@ struct BreathGazeRenderer: View, ExerciseRendering {
                 }
                 .padding(.bottom, 40)
             }
-            .onAppear { AmbientAudioPlayer.startLoop(.softBreath) }
+            .onAppear { AmbientAudioPlayer.startLoop(.gentlePiano) }
             .onDisappear { AmbientAudioPlayer.stopLoop() }
         }
     }

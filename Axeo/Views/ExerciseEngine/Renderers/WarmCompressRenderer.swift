@@ -80,7 +80,7 @@ struct WarmCompressRenderer: View, ExerciseRendering {
             .onAppear {
                 if !didStart {
                     AudioManager.playPhaseChange()
-                    AmbientAudioPlayer.startLoop(.deepDrone)
+                    AmbientAudioPlayer.startLoop(.gentlePiano)
                     didStart = true
                 }
             }
