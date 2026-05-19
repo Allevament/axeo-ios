@@ -7,11 +7,11 @@ struct FocusShiftRenderer: View, ExerciseRendering {
     let isPaused: Bool
     let duration: Int
 
-    // One full near-far cycle = 6 seconds (3s near + 3s far)
+    // One full near-far cycle = 10 seconds (5s near + 5s far)
     private var cyclePhase: Double {
         let elapsed = progress * Double(duration)
-        let inCycle = elapsed.truncatingRemainder(dividingBy: 6.0)
-        return inCycle / 6.0 // 0→0.5 = near, 0.5→1 = far
+        let inCycle = elapsed.truncatingRemainder(dividingBy: 10.0)
+        return inCycle / 10.0 // 0→0.5 = near, 0.5→1 = far
     }
 
     private var isNearPhase: Bool { cyclePhase < 0.5 }
@@ -74,7 +74,7 @@ struct FocusShiftRenderer: View, ExerciseRendering {
                         .contentTransition(.numericText())
                         .animation(.easeInOut(duration: 0.3), value: isNearPhase)
 
-                    Text(isNearPhase ? NSLocalizedString("Hold for 3 seconds", comment: "") : NSLocalizedString("Relax your focus", comment: ""))
+                    Text(isNearPhase ? NSLocalizedString("Hold for 5 seconds", comment: "") : NSLocalizedString("Relax your focus", comment: ""))
                         .font(.aveoCaption)
                         .foregroundStyle(Color.aveoText3)
                 }

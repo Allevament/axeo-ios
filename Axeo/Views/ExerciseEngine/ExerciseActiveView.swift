@@ -131,6 +131,30 @@ struct ExerciseActiveView: View {
 
             Spacer()
 
+            // In-exercise mute toggle — silences both phase-change cues and
+            // ambient music in one tap, no need to dive into Profile.
+            Button {
+                let newValue = !appState.soundCuesEnabled
+                appState.soundCuesEnabled = newValue
+                // Mirror to ambient music toggle so a single tap silences
+                // everything when the user enters a public place mid-exercise.
+                AmbientAudioPlayer.musicEnabled = newValue
+                if !newValue {
+                    AmbientAudioPlayer.stopLoop(fadeOut: 0.4)
+                }
+                HapticManager.medium()
+            } label: {
+                Image(systemName: appState.soundCuesEnabled ? "speaker.wave.2.fill" : "speaker.slash.fill")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(appState.soundCuesEnabled ? Color.aveoSuccess : Color.aveoText3)
+                    .frame(width: 32, height: 32)
+                    .background {
+                        Circle().fill(.ultraThinMaterial)
+                    }
+                    .overlay { Circle().strokeBorder(Color.aveoGlassBorder, lineWidth: 0.5) }
+            }
+            .accessibilityLabel(appState.soundCuesEnabled ? "Mute exercise audio" : "Unmute exercise audio")
+
             // Eye tracking indicator
             if eyeTracker.isTracking {
                 HStack(spacing: 4) {
@@ -343,7 +367,14 @@ struct ExerciseActiveView: View {
     }
 
     private func exerciseComplete() {
-        AudioManager.playBeep()
+        // Soft completion cue for closed-eye / relaxation exercises;
+        // standard beep for active ones.
+        let usesAmbient: Set<MotionType> = [.palm, .warmth, .breath, .tearfilm]
+        if usesAmbient.contains(currentExercise.motionType) {
+            AmbientAudioPlayer.playSoftEnd()
+        } else {
+            AudioManager.playBeep()
+        }
         HapticManager.success()
 
         let nextIndex = currentIndex + 1

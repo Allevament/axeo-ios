@@ -80,8 +80,12 @@ struct WarmCompressRenderer: View, ExerciseRendering {
             .onAppear {
                 if !didStart {
                     AudioManager.playPhaseChange()
+                    AmbientAudioPlayer.startLoop(.deepDrone)
                     didStart = true
                 }
+            }
+            .onDisappear {
+                AmbientAudioPlayer.stopLoop()
             }
             .onChange(of: progress) { _, p in
                 if !didMidpoint && p >= 0.5 {

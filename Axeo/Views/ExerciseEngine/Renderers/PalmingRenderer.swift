@@ -68,11 +68,15 @@ struct PalmingRenderer: View, ExerciseRendering {
                 .padding(.bottom, 40)
             }
             .onAppear {
-                // Start cue — tells user it's time to close eyes
+                // Start cue + ambient loop — tells user it's time to close eyes
                 if !didStart {
                     AudioManager.playPhaseChange()
+                    AmbientAudioPlayer.startLoop(.deepDrone)
                     didStart = true
                 }
+            }
+            .onDisappear {
+                AmbientAudioPlayer.stopLoop()
             }
             .onChange(of: progress) { _, p in
                 // Mid-point cue

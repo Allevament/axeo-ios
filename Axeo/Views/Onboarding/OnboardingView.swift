@@ -236,6 +236,17 @@ struct OnboardingView: View {
                 .padding(.horizontal, 24)
             }
 
+            // Mini disclaimer shown only when a condition is selected.
+            if selectedDiagnosis != nil && selectedDiagnosis != User.Diagnosis.none {
+                Text(NSLocalizedString("Used only to vary your routine. It is not a treatment plan or a recommendation for your condition. Consult an eye-care professional before starting.", comment: ""))
+                    .font(.system(size: 11))
+                    .foregroundStyle(Color.aveoText3)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 24)
+                    .padding(.top, 4)
+                    .transition(.opacity)
+            }
+
             Spacer()
         }
     }

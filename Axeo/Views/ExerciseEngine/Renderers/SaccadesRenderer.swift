@@ -7,10 +7,11 @@ struct SaccadesRenderer: View, ExerciseRendering {
     let isPaused: Bool
     let duration: Int
 
-    // Change position every 2.5 seconds
+    // Change position every 2.0 seconds (slightly faster than before for
+    // a more natural saccadic rhythm).
     private var currentSlot: Int {
         let elapsed = progress * Double(duration)
-        return Int(elapsed / 2.5) % 9
+        return Int(elapsed / 2.0) % 9
     }
 
     // Fixed grid positions (3×3)

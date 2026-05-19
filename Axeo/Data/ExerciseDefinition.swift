@@ -70,7 +70,7 @@ extension ExerciseDefinition {
         ),
         // 1 – Eye Movement
         ExerciseDefinition(
-            index: 1, name: NSLocalizedString("Figure Eight", comment: ""), duration: 42, motionType: .eight,
+            index: 1, name: NSLocalizedString("Figure Eight", comment: ""), duration: 60, motionType: .eight,
             hint: NSLocalizedString("Follow the moving dot along the figure-eight path with your eyes only. The direction reverses automatically at the halfway mark — an arrow shows which way the dot is going. Keep smooth, continuous movement.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A flexibility routine for eye movement and coordination.", comment: ""),
@@ -78,7 +78,7 @@ extension ExerciseDefinition {
         ),
         // 2 – Relaxation
         ExerciseDefinition(
-            index: 2, name: NSLocalizedString("Palming", comment: ""), duration: 60, motionType: .palm,
+            index: 2, name: NSLocalizedString("Palming", comment: ""), duration: 90, motionType: .palm,
             hint: NSLocalizedString("Rub your palms together until warm, then gently cup them over your closed eyes. No pressure on the eyeballs. Audio cues will signal start, halfway, and the end — you don't need to watch the timer.", comment: ""),
             cvEnabled: false,
             indications: NSLocalizedString("A relaxation routine for tired eyes after long screen sessions.", comment: ""),
@@ -111,7 +111,7 @@ extension ExerciseDefinition {
         // 6 – Binocular (PREMIUM)
         ExerciseDefinition(
             index: 6, name: NSLocalizedString("Convergence", comment: ""), duration: 80, motionType: .converge,
-            hint: NSLocalizedString("Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out.", comment: ""),
+            hint: NSLocalizedString("Hold phone at arm's length, focus on the center dot. Slowly bring it toward your nose, keeping the dot single and clear. When it doubles, move back out. — Skip this routine if you have strabismus, recent eye surgery, or any binocular-vision condition without your eye-care professional's approval.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A coordination routine for eye teaming while reading at close range.", comment: ""),
             sfSymbol: "arrow.triangle.merge"
@@ -126,7 +126,7 @@ extension ExerciseDefinition {
         ),
         // 8 – Eye Movement (PREMIUM)
         ExerciseDefinition(
-            index: 8, name: NSLocalizedString("Vertical & Horizontal", comment: ""), duration: 50, motionType: .lines,
+            index: 8, name: NSLocalizedString("Vertical & Horizontal", comment: ""), duration: 60, motionType: .lines,
             hint: NSLocalizedString("Follow the dot with your eyes. It moves up and down for the first half, then switches to left and right — the dot naturally pauses at each end position. Head still throughout.", comment: ""),
             cvEnabled: true,
             indications: NSLocalizedString("A range-of-motion routine for the four cardinal gaze directions.", comment: ""),
@@ -134,7 +134,7 @@ extension ExerciseDefinition {
         ),
         // 9 – Relaxation (PREMIUM)
         ExerciseDefinition(
-            index: 9, name: NSLocalizedString("Warm Compress", comment: ""), duration: 180, motionType: .warmth,
+            index: 9, name: NSLocalizedString("Warm Compress", comment: ""), duration: 300, motionType: .warmth,
             hint: NSLocalizedString("Apply a warm, damp cloth over closed eyes. The heat helps open oil glands in your eyelids. Breathe deeply and relax for 3 minutes.", comment: ""),
             cvEnabled: false,
             indications: NSLocalizedString("A warm-compress style routine often used in dry-eye self-care.", comment: ""),
@@ -150,7 +150,7 @@ extension ExerciseDefinition {
         ),
         // 11 – Binocular (PREMIUM)
         ExerciseDefinition(
-            index: 11, name: NSLocalizedString("Image Fusion", comment: ""), duration: 60, motionType: .fusion,
+            index: 11, name: NSLocalizedString("Image Fusion", comment: ""), duration: 90, motionType: .fusion,
             hint: NSLocalizedString("Similar to stereogram, but the circles move apart and back together. Try to maintain fusion (single image) as long as possible.", comment: ""),
             cvEnabled: false,
             indications: NSLocalizedString("An advanced routine for shifting focus at changing distances.", comment: ""),
@@ -158,7 +158,7 @@ extension ExerciseDefinition {
         ),
         // 12 – Breathing (PREMIUM)
         ExerciseDefinition(
-            index: 12, name: NSLocalizedString("Breath + Gaze", comment: ""), duration: 75, motionType: .breath,
+            index: 12, name: NSLocalizedString("Breath + Gaze", comment: ""), duration: 90, motionType: .breath,
             hint: NSLocalizedString("Sit upright, relax shoulders. Inhale 6 seconds — slowly raise your gaze. Hold 2 seconds at top. Exhale 7 seconds — lower your gaze. Repeat.", comment: ""),
             cvEnabled: false,
             indications: NSLocalizedString("Combines eye movement with breathing rhythm for a calming routine.", comment: ""),
@@ -190,7 +190,7 @@ extension ExerciseDefinition {
         ),
         // 16 – Dry Eye Relief (PREMIUM)
         ExerciseDefinition(
-            index: 16, name: NSLocalizedString("Tear Film", comment: ""), duration: 60, motionType: .tearfilm,
+            index: 16, name: NSLocalizedString("Tear Film", comment: ""), duration: 90, motionType: .tearfilm,
             hint: NSLocalizedString("Perform a slow, complete blink — close fully, hold 1 second, open. Then look at a distant point for 4 seconds. Repeat.", comment: ""),
             cvEnabled: false,
             indications: NSLocalizedString("Combines intentional blinking with distance relaxation.", comment: ""),
