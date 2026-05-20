@@ -130,7 +130,7 @@ struct TearFilmRenderer: View, ExerciseRendering {
                 }
                 .padding(.bottom, 40)
             }
-            .onAppear { AmbientAudioPlayer.startLoop(.distantRain) }
+            .onAppear { AmbientAudioPlayer.startLoop(.gentlePiano) }
             .onDisappear { AmbientAudioPlayer.stopLoop() }
             .onChange(of: isDistantPhase) { _, _ in
                 AudioManager.playPhaseChange()

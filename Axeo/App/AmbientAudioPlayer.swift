@@ -11,9 +11,9 @@ enum AmbientAudioPlayer {
 
     /// Named tracks bundled with the app. Matches files in Axeo/Resources/Audio.
     enum Track: String {
-        case deepDrone = "deep-drone"
-        case softBreath = "soft-breath"
-        case distantRain = "distant-rain"
+        /// Unified relaxation ambient: soft C-E-G arpeggio with long reverb,
+        /// used uniformly across all 4 relaxation exercises.
+        case gentlePiano = "gentle-piano"
         case endSoft = "end-soft"
     }
 
