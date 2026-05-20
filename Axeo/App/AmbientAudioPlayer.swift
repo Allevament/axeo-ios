@@ -11,9 +11,9 @@ enum AmbientAudioPlayer {
 
     /// Named tracks bundled with the app. Matches files in Axeo/Resources/Audio.
     enum Track: String {
-        /// Unified relaxation ambient: soft C-E-G arpeggio with long reverb
-        /// (replaces deep-drone/soft-breath/distant-rain from earlier builds).
-        case gentlePiano = "gentle-piano"
+        case deepDrone = "deep-drone"
+        case softBreath = "soft-breath"
+        case distantRain = "distant-rain"
         case endSoft = "end-soft"
     }
 
@@ -27,10 +27,16 @@ enum AmbientAudioPlayer {
     // MARK: – Loop player
 
     private static var loopPlayer: AVAudioPlayer?
+    /// Most recent track requested by a renderer's `onAppear`. Persists across
+    /// mute/unmute so `resumeLoopIfPossible()` can restart the right track when
+    /// the user re-enables sound mid-exercise.
+    private static var lastTrack: Track?
 
     /// Start looping the given track. Crossfades from current track if one is
-    /// already playing. No-op when ambient music is disabled.
+    /// already playing. No-op when ambient music is disabled, but the requested
+    /// track is still remembered so a later resume picks it up.
     static func startLoop(_ track: Track, fadeIn: TimeInterval = 1.5) {
+        lastTrack = track
         guard musicEnabled else { return }
         guard let url = Bundle.main.url(forResource: track.rawValue, withExtension: "m4a") else {
             return // File not bundled — silently skip
@@ -59,6 +65,10 @@ enum AmbientAudioPlayer {
     }
 
     /// Fade out and stop the loop. Safe to call when nothing is playing.
+    /// Intentionally does NOT clear `lastTrack` — a follow-up
+    /// `resumeLoopIfPossible()` (e.g. from the mute toggle) should be able
+    /// to restart the same track. New exercises overwrite `lastTrack` via
+    /// their own `startLoop` call.
     static func stopLoop(fadeOut: TimeInterval = 1.0) {
         guard let p = loopPlayer else { return }
         p.setVolume(0, fadeDuration: fadeOut)
@@ -68,6 +78,15 @@ enum AmbientAudioPlayer {
                 loopPlayer = nil
             }
         }
+    }
+
+    /// Re-engage the most recently requested ambient loop. Used by the
+    /// in-exercise mute toggle: when the user re-enables sound, this restarts
+    /// the loop for the exercise currently on screen — no need to leave and
+    /// re-enter the exercise.
+    static func resumeLoopIfPossible() {
+        guard musicEnabled, let track = lastTrack else { return }
+        startLoop(track)
     }
 
     // MARK: – Soft end cue

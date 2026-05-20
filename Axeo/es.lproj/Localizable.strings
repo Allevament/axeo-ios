@@ -609,3 +609,9 @@
 "• Trial converts to a paid subscription unless cancelled at least 24 hours before the trial ends." = "• La prueba pasa a una suscripción de pago si no se cancela al menos 24 horas antes de su finalización.";
 "By tapping \"Try 7 Days Free\", you agree to the Terms of Service and Privacy Policy." = "Al tocar «Probar 7 días gratis», aceptas los Términos del servicio y la Política de privacidad.";
 "By starting your subscription, you agree to the Terms of Service and Privacy Policy." = "Al iniciar tu suscripción, aceptas los Términos del servicio y la Política de privacidad.";
+
+/* === Compliance-clean disclaimer body + session-result strings (build #26) === */
+"Axeo provides educational eye exercises for general wellness. It is not a medical device and does not diagnose, treat, cure, or prevent any disease. Axeo does not replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition or recent surgery." = "Axeo proporciona ejercicios oculares educativos para el bienestar general. No es un dispositivo médico — la aplicación no diagnostica, trata, cura ni previene ninguna enfermedad. Axeo no sustituye el cuidado ocular profesional. Consulta a un oftalmólogo u optometrista licenciado antes de comenzar cualquier programa de ejercicios — especialmente si tienes una condición preexistente o una cirugía reciente.";
+"Workout Complete!" = "¡Entrenamiento completado!";
+"Your eyes will thank you" = "Tus ojos te lo agradecerán";
+"COMPLETED" = "COMPLETADO";

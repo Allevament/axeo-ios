@@ -356,6 +356,7 @@ struct OnboardingView: View {
                     .font(.system(size: 11))
                     .foregroundStyle(Color.aveoText3)
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
                     .padding(.horizontal, 24)
                     .padding(.top, 4)
                     .transition(.opacity)
@@ -486,8 +487,11 @@ struct OnboardingView: View {
 struct OnboardingBrandPage: View {
     let brandIcon: BrandIcon.Icon
     let iconAnimation: IconAnimation
-    let title: String
-    let subtitle: String
+    /// LocalizedStringKey so welcome pages localize via Bundle.main.localizedString.
+    /// Caller passes String literals which auto-convert to LocalizedStringKey at the
+    /// call site (no caller changes needed).
+    let title: LocalizedStringKey
+    let subtitle: LocalizedStringKey
 
     enum IconAnimation { case rotating, drawing, shimmer }
 

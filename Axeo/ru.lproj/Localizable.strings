@@ -612,3 +612,9 @@
 "By tapping \"Try 7 Days Free\", you agree to the Terms of Service and Privacy Policy." = "Нажимая «Попробовать 7 дней бесплатно», вы соглашаетесь с Условиями использования и Политикой конфиденциальности.";
 "By starting your subscription, you agree to the Terms of Service and Privacy Policy." = "Начиная подписку, вы соглашаетесь с Условиями использования и Политикой конфиденциальности.";
 "Privacy Policy" = "Политика конфиденциальности";
+
+/* === Compliance-clean disclaimer body + session-result strings (build #26) === */
+"Axeo provides educational eye exercises for general wellness. It is not a medical device and does not diagnose, treat, cure, or prevent any disease. Axeo does not replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition or recent surgery." = "Axeo предоставляет обучающие упражнения для глаз для общего благополучия. Это не медицинское устройство — приложение не диагностирует, не лечит, не вылечивает и не предотвращает заболевания. Axeo не заменяет профессиональную офтальмологическую помощь. Перед началом любой программы упражнений проконсультируйтесь с лицензированным офтальмологом или оптометристом — особенно при наличии заболевания или недавней операции.";
+"Workout Complete!" = "Тренировка завершена!";
+"Your eyes will thank you" = "Ваши глаза скажут вам спасибо";
+"COMPLETED" = "ВЫПОЛНЕНО";

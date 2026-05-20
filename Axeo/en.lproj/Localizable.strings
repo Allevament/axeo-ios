@@ -513,3 +513,9 @@
 "System" = "System";
 "Dark" = "Dark";
 "Light" = "Light";
+
+/* === Compliance-clean disclaimer body + session-result strings (build #26) === */
+"Axeo provides educational eye exercises for general wellness. It is not a medical device and does not diagnose, treat, cure, or prevent any disease. Axeo does not replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition or recent surgery." = "Axeo provides educational eye exercises for general wellness. It is not a medical device and does not diagnose, treat, cure, or prevent any disease. Axeo does not replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition or recent surgery.";
+"Workout Complete!" = "Workout Complete!";
+"Your eyes will thank you" = "Your eyes will thank you";
+"COMPLETED" = "COMPLETED";

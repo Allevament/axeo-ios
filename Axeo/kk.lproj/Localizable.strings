@@ -609,3 +609,9 @@
 "• Trial converts to a paid subscription unless cancelled at least 24 hours before the trial ends." = "• Тегін кезең аяқталғанға дейін кемінде 24 сағат бұрын тоқтатылмаса, төленетін жазылымға айналады.";
 "By tapping \"Try 7 Days Free\", you agree to the Terms of Service and Privacy Policy." = "«7 күн тегін көру» түймесін басу арқылы Қызмет шарттары мен Құпиялылық саясатына келісесіз.";
 "By starting your subscription, you agree to the Terms of Service and Privacy Policy." = "Жазылымды бастау арқылы Қызмет шарттары мен Құпиялылық саясатына келісесіз.";
+
+/* === Compliance-clean disclaimer body + session-result strings (build #26) === */
+"Axeo provides educational eye exercises for general wellness. It is not a medical device and does not diagnose, treat, cure, or prevent any disease. Axeo does not replace professional eye care. Consult a licensed ophthalmologist or optometrist before starting any exercise program — especially if you have a pre-existing condition or recent surgery." = "Axeo жалпы саулыққа арналған көзге арналған білім беретін жаттығуларды ұсынады. Бұл медициналық құрылғы емес — қосымша ауруды диагностикаламайды, емдемейді, жазбайды және алдын алмайды. Axeo кәсіби көз күтімін алмастырмайды. Кез келген жаттығу бағдарламасын бастамас бұрын лицензиясы бар офтальмолог немесе оптометристпен кеңесіңіз — әсіресе бұрыннан бар ауру немесе жақында жасалған операция болса.";
+"Workout Complete!" = "Жаттығу аяқталды!";
+"Your eyes will thank you" = "Көздеріңіз сізге рахмет айтады";
+"COMPLETED" = "ОРЫНДАЛДЫ";

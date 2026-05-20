@@ -139,7 +139,12 @@ struct ExerciseActiveView: View {
                 // Mirror to ambient music toggle so a single tap silences
                 // everything when the user enters a public place mid-exercise.
                 AmbientAudioPlayer.musicEnabled = newValue
-                if !newValue {
+                if newValue {
+                    // Restart the loop for the current exercise — without this
+                    // the user could mute → unmute and end up with permanent
+                    // silence until they navigate out and back in.
+                    AmbientAudioPlayer.resumeLoopIfPossible()
+                } else {
                     AmbientAudioPlayer.stopLoop(fadeOut: 0.4)
                 }
                 HapticManager.medium()
@@ -367,11 +372,17 @@ struct ExerciseActiveView: View {
     }
 
     private func exerciseComplete() {
-        // Universal end cue: stops any ambient loop and plays the soft end
-        // bell via `.playback` category so it's audible even with the
-        // iPhone Silent switch on. Same cue for relaxation and active
-        // exercises (consistent UX, always reaches the user).
-        AmbientAudioPlayer.playEndOfExerciseCue()
+        // Differentiated end cue per user feedback: relaxing exercises
+        // (closed-eye / mindful) get the soft gentle-piano bell via
+        // `.playback` (audible past Silent switch); active exercises
+        // get the standard system gong (1025) — preserves the energetic
+        // "rep done" feel for kinetic routines.
+        let usesAmbient: Set<MotionType> = [.palm, .warmth, .breath, .tearfilm]
+        if usesAmbient.contains(currentExercise.motionType) {
+            AmbientAudioPlayer.playEndOfExerciseCue()
+        } else {
+            AudioManager.playEndCue()
+        }
         HapticManager.success()
 
         let nextIndex = currentIndex + 1
