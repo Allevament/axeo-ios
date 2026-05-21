@@ -546,16 +546,13 @@ struct ProfileView: View {
         user?.updatedAt = .now
         try? modelContext.save()
 
-        // Apply language override via Apple's standard mechanism
-        UserDefaults.standard.set([code], forKey: "AppleLanguages")
-        UserDefaults.standard.synchronize()
-
+        // Apply language via LocalizationManager — handles AppleLanguages
+        // UserDefaults + Bundle swizzle + root `.id()` hot-reload so the
+        // whole view hierarchy re-renders in the chosen locale without
+        // restarting the app. `exit(0)` would crash the app on the user
+        // and is prohibited by Apple Review Guideline 2.4.5.
+        LocalizationManager.shared.setLanguage(code)
         showLanguagePicker = false
-
-        // Terminate & relaunch to apply
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
-            exit(0)
-        }
     }
 
     // MARK: – Theme Picker

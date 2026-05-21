@@ -34,8 +34,11 @@ extension View {
 // MARK: – Dynamic Type Scaling
 
 extension Font {
-    /// Scales a fixed size relative to the user's Dynamic Type preference.
+    /// Scales a fixed point size by the user's Dynamic Type setting using
+    /// UIKit's `UIFontMetrics`. Previous implementation was a no-op and
+    /// silently broke Dynamic Type app-wide.
     static func aveoScaled(size: CGFloat, weight: Font.Weight = .regular, design: Font.Design = .default) -> Font {
-        .system(size: size, weight: weight, design: design)
+        let scaled = UIFontMetrics.default.scaledValue(for: size)
+        return .system(size: scaled, weight: weight, design: design)
     }
 }

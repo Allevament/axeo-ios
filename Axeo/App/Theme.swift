@@ -147,20 +147,41 @@ extension LinearGradient {
 // MARK: – Typography
 
 extension Font {
-    /// Display heading — 24pt, light weight.
-    static let aveoLargeTitle = Font.system(size: 24, weight: .light, design: .default)
-    /// Section heading — 17pt, light weight.
-    static let aveoTitle      = Font.system(size: 17, weight: .light, design: .default)
-    /// Card heading — 15pt, medium.
-    static let aveoHeadline   = Font.system(size: 15, weight: .medium, design: .default)
-    /// Body text — 13pt regular.
-    static let aveoBody       = Font.system(size: 13, weight: .regular, design: .default)
-    /// Caption / secondary — 11pt medium.
-    static let aveoCaption    = Font.system(size: 11, weight: .medium, design: .default)
-    /// Overline / tiny label — 10pt semibold.
-    static let aveoOverline   = Font.system(size: 10, weight: .semibold, design: .default)
-    /// Data / timers — 48pt bold monospaced.
-    static let aveoMono       = Font.system(size: 48, weight: .bold, design: .monospaced)
+    /// All Axeo typography scales with Dynamic Type via `UIFontMetrics`. The
+    /// previous `static let` definitions captured the size once at process
+    /// start and ignored the user's Larger Text setting — that broke
+    /// accessibility for our 40+ target audience. Computed properties
+    /// re-read `UIFontMetrics.default.scaledValue` on every access, so
+    /// SwiftUI views re-render in the right size when the environment
+    /// `dynamicTypeSize` changes.
+    /// Display heading — 24pt base, light weight.
+    static var aveoLargeTitle: Font {
+        .system(size: UIFontMetrics.default.scaledValue(for: 24), weight: .light, design: .default)
+    }
+    /// Section heading — 17pt base, light weight.
+    static var aveoTitle: Font {
+        .system(size: UIFontMetrics.default.scaledValue(for: 17), weight: .light, design: .default)
+    }
+    /// Card heading — 15pt base, medium.
+    static var aveoHeadline: Font {
+        .system(size: UIFontMetrics.default.scaledValue(for: 15), weight: .medium, design: .default)
+    }
+    /// Body text — 13pt base regular.
+    static var aveoBody: Font {
+        .system(size: UIFontMetrics.default.scaledValue(for: 13), weight: .regular, design: .default)
+    }
+    /// Caption / secondary — 11pt base medium.
+    static var aveoCaption: Font {
+        .system(size: UIFontMetrics.default.scaledValue(for: 11), weight: .medium, design: .default)
+    }
+    /// Overline / tiny label — 10pt base semibold.
+    static var aveoOverline: Font {
+        .system(size: UIFontMetrics.default.scaledValue(for: 10), weight: .semibold, design: .default)
+    }
+    /// Data / timers — 48pt base bold monospaced.
+    static var aveoMono: Font {
+        .system(size: UIFontMetrics.default.scaledValue(for: 48), weight: .bold, design: .monospaced)
+    }
 }
 
 // MARK: – Shadow Modifiers (adaptive: softer on light, deeper on dark)

@@ -19,6 +19,19 @@ struct BrandIcon: View {
     private var strokeColor: Color { isActive ? .aveoAccent : Color(hex: 0x8A90A4) }
     private var dotColor: Color { .aveoRetinal }
 
+    /// VoiceOver label describing the icon. Each case maps to a localized
+    /// eye-chart name so blind/low-vision users hear the meaning of each
+    /// brand icon rather than silence.
+    private var accessibilityLabelText: String {
+        switch icon {
+        case .landoltRing:      return NSLocalizedString("Landolt ring eye chart", comment: "")
+        case .amslerGrid:       return NSLocalizedString("Amsler grid", comment: "")
+        case .tumblingE:        return NSLocalizedString("Tumbling E chart", comment: "")
+        case .astigmatismDial:  return NSLocalizedString("Astigmatism dial", comment: "")
+        case .duochrome:        return NSLocalizedString("Duochrome test", comment: "")
+        }
+    }
+
     var body: some View {
         Canvas { context, canvasSize in
             let s = canvasSize.width
@@ -31,6 +44,7 @@ struct BrandIcon: View {
             }
         }
         .frame(width: size, height: size)
+        .accessibilityLabel(accessibilityLabelText)
     }
 
     // MARK: – 1. Landolt Ring (ISO 8596)

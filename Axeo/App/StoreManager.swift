@@ -28,29 +28,39 @@ final class StoreManager {
 
     func loadProducts() async {
         guard products.isEmpty else {
+            #if DEBUG
             print("[StoreManager] Products already loaded: \(products.map(\.id))")
+            #endif
             return
         }
         isLoading = true
         defer { isLoading = false }
 
+        #if DEBUG
         print("[StoreManager] Loading products for IDs: \(Self.allProductIDs)")
+        #endif
         do {
             let loaded = try await Product.products(for: Self.allProductIDs)
             products = loaded
+            #if DEBUG
             print("[StoreManager] Loaded \(loaded.count) products: \(loaded.map { "\($0.id) → \($0.displayPrice)" })")
             if loaded.isEmpty {
                 print("[StoreManager] ⚠️ No products returned. Check that Axeo.storekit is set in Scheme → Run → Options → StoreKit Configuration.")
             }
+            #endif
         } catch {
+            #if DEBUG
             print("[StoreManager] ❌ Failed to load products: \(error)")
+            #endif
         }
     }
 
     // MARK: – Purchase
 
     func purchase(_ product: Product) async -> Bool {
+        #if DEBUG
         print("[StoreManager] Purchasing: \(product.id) (\(product.displayPrice))")
+        #endif
         do {
             let result = try await product.purchase()
             switch result {
@@ -67,7 +77,9 @@ final class StoreManager {
                 return false
             }
         } catch {
+            #if DEBUG
             print("[StoreManager] Purchase error: \(error)")
+            #endif
             return false
         }
     }
@@ -75,23 +87,39 @@ final class StoreManager {
     // MARK: – Restore
 
     func restorePurchases() async {
+        // Refresh from canonical entitlement list. Clears revoked entitlements
+        // so a refunded user no longer sees Premium after a manual Restore.
+        var refreshed: Set<String> = []
         for await result in Transaction.currentEntitlements {
-            if let transaction = try? checkVerified(result) {
-                purchasedProductIDs.insert(transaction.productID)
+            if let transaction = try? checkVerified(result),
+               transaction.revocationDate == nil {
+                refreshed.insert(transaction.productID)
             }
         }
+        purchasedProductIDs = refreshed
     }
 
     // MARK: – Listen for Updates
 
     func listenForTransactions(onChange: (@Sendable (Bool) -> Void)? = nil) async {
         for await result in Transaction.updates {
-            if let transaction = try? checkVerified(result) {
+            guard let transaction = try? checkVerified(result) else { continue }
+            // Handle revocation (refund / chargeback / expiry surfaced via
+            // update). Without this branch, `isPremium` stayed `true` in
+            // memory until the next cold launch even after a refund.
+            if transaction.revocationDate != nil {
+                purchasedProductIDs.remove(transaction.productID)
+                #if DEBUG
+                print("[StoreManager] Transaction revoked: \(transaction.productID), premium=\(isPremium)")
+                #endif
+            } else {
                 purchasedProductIDs.insert(transaction.productID)
-                await transaction.finish()
+                #if DEBUG
                 print("[StoreManager] Transaction update: \(transaction.productID), premium=\(isPremium)")
-                onChange?(isPremium)
+                #endif
             }
+            await transaction.finish()
+            onChange?(isPremium)
         }
     }
 

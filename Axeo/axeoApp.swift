@@ -26,10 +26,14 @@ struct axeoApp: App {
                     // UserDefaults is only a cache for instant UI on launch.
                     let verified = storeManager.isPremium
                     if appState.isPremium != verified {
+                        #if DEBUG
                         print("[App] Premium cache mismatch — cached=\(appState.isPremium), actual=\(verified). Correcting.")
+                        #endif
                         appState.isPremium = verified
                     }
+                    #if DEBUG
                     print("[App] Premium status: \(appState.isPremium)")
+                    #endif
                 }
                 .task {
                     // listenForTransactions() is an infinite async sequence —
@@ -40,7 +44,9 @@ struct axeoApp: App {
                     await storeManager.listenForTransactions { isPremium in
                         Task { @MainActor in
                             state.isPremium = isPremium
+                            #if DEBUG
                             print("[App] Premium status updated via transaction: \(isPremium)")
+                            #endif
                         }
                     }
                 }
