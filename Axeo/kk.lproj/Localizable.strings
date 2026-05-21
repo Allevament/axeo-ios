@@ -632,3 +632,19 @@
 "Mute exercise audio" = "Жаттығу дыбысын өшіру";
 "Unmute exercise audio" = "Жаттығу дыбысын қосу";
 "Profile" = "Профиль";
+
+/* === Build #32: OnboardingPaywall missing strings === */
+"Based on your prevention goal, we've prepared\na daily routine to protect your vision" = "Профилактика мақсатыңызды ескере отырып,\nкөруді қорғайтын күнделікті бағдарлама әзірледік";
+"Based on your correction goal, we've designed\nexercises to strengthen your eye muscles" = "Түзету мақсатыңызды ескере отырып,\nкөз бұлшықеттерін нығайтуға арналған жаттығулар әзірледік";
+"Based on your relaxation goal, we've curated\ncalming exercises to relieve eye strain" = "Демалу мақсатыңызды ескере отырып,\nкөз шаршауын басатын тыныштандыратын жаттығулар таңдадық";
+"Loved by thousands" = "Мыңдаған қолданушы таңдады";
+"17 Exercises" = "17 жаттығу";
+"3 Programs" = "3 бағдарлама";
+"6 Tests" = "6 тест";
+"Vision screening suite" = "Көру скрининг жинағы";
+"ARKit accuracy scoring" = "ARKit дәлдік бағасы";
+"SAVE 58%" = "58% ҮНЕМДЕУ";
+"Try 7 Days Free" = "7 күн тегін көру";
+"Start Free with Limited Access" = "Шектеулі қолжетімділікпен тегін бастау";
+"30–45 day courses" = "30–45 күндік курстар";
+"$2.49/mo" = "$2.49/ай";

@@ -536,3 +536,19 @@
 "Mute exercise audio" = "Mute exercise audio";
 "Unmute exercise audio" = "Unmute exercise audio";
 "Profile" = "Profile";
+
+/* === Build #32: OnboardingPaywall missing strings === */
+"Based on your prevention goal, we've prepared\na daily routine to protect your vision" = "Based on your prevention goal, we've prepared\na daily routine to protect your vision";
+"Based on your correction goal, we've designed\nexercises to strengthen your eye muscles" = "Based on your correction goal, we've designed\nexercises to strengthen your eye muscles";
+"Based on your relaxation goal, we've curated\ncalming exercises to relieve eye strain" = "Based on your relaxation goal, we've curated\ncalming exercises to relieve eye strain";
+"Loved by thousands" = "Loved by thousands";
+"17 Exercises" = "17 Exercises";
+"3 Programs" = "3 Programs";
+"6 Tests" = "6 Tests";
+"Vision screening suite" = "Vision screening suite";
+"ARKit accuracy scoring" = "ARKit accuracy scoring";
+"SAVE 58%" = "SAVE 58%";
+"Try 7 Days Free" = "Try 7 Days Free";
+"Start Free with Limited Access" = "Start Free with Limited Access";
+"30–45 day courses" = "30–45 day courses";
+"$2.49/mo" = "$2.49/mo";

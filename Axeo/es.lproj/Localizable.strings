@@ -632,3 +632,19 @@
 "Mute exercise audio" = "Silenciar audio del ejercicio";
 "Unmute exercise audio" = "Activar audio del ejercicio";
 "Profile" = "Perfil";
+
+/* === Build #32: OnboardingPaywall missing strings === */
+"Based on your prevention goal, we've prepared\na daily routine to protect your vision" = "Basándonos en tu objetivo de prevención,\nhemos preparado una rutina diaria para proteger tu visión";
+"Based on your correction goal, we've designed\nexercises to strengthen your eye muscles" = "Basándonos en tu objetivo de corrección,\nhemos diseñado ejercicios para fortalecer tus músculos oculares";
+"Based on your relaxation goal, we've curated\ncalming exercises to relieve eye strain" = "Basándonos en tu objetivo de relajación,\nhemos seleccionado ejercicios relajantes para aliviar la fatiga ocular";
+"Loved by thousands" = "Adorado por miles";
+"17 Exercises" = "17 Ejercicios";
+"3 Programs" = "3 Programas";
+"6 Tests" = "6 Pruebas";
+"Vision screening suite" = "Suite de detección visual";
+"ARKit accuracy scoring" = "Precisión con ARKit";
+"SAVE 58%" = "AHORRA 58%";
+"Try 7 Days Free" = "Probar 7 días gratis";
+"Start Free with Limited Access" = "Comenzar gratis con acceso limitado";
+"30–45 day courses" = "Cursos de 30–45 días";
+"$2.49/mo" = "$2.49/mes";

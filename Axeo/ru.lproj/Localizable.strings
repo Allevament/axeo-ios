@@ -635,3 +635,19 @@
 "Mute exercise audio" = "Выключить звук упражнения";
 "Unmute exercise audio" = "Включить звук упражнения";
 "Profile" = "Профиль";
+
+/* === Build #32: OnboardingPaywall missing strings === */
+"Based on your prevention goal, we've prepared\na daily routine to protect your vision" = "Исходя из вашей цели профилактики, мы подготовили\nежедневную программу для защиты зрения";
+"Based on your correction goal, we've designed\nexercises to strengthen your eye muscles" = "Исходя из вашей цели коррекции, мы разработали\nупражнения для укрепления глазных мышц";
+"Based on your relaxation goal, we've curated\ncalming exercises to relieve eye strain" = "Исходя из вашей цели расслабления, мы подобрали\nуспокаивающие упражнения для снятия напряжения";
+"Loved by thousands" = "Тысячи довольных пользователей";
+"17 Exercises" = "17 упражнений";
+"3 Programs" = "3 программы";
+"6 Tests" = "6 тестов";
+"Vision screening suite" = "Набор тестов зрения";
+"ARKit accuracy scoring" = "Оценка точности ARKit";
+"SAVE 58%" = "ЭКОНОМИЯ 58%";
+"Try 7 Days Free" = "Попробовать 7 дней бесплатно";
+"Start Free with Limited Access" = "Начать бесплатно с ограниченным доступом";
+"30–45 day courses" = "Курсы 30–45 дней";
+"$2.49/mo" = "$2.49/мес";
