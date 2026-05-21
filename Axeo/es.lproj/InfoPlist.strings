@@ -1,0 +1,5 @@
+/* Cadenas de descripción de uso de Info.plist — español.
+   iOS elige el .lproj adecuado según el idioma del dispositivo. */
+
+"NSCameraUsageDescription" = "Axeo usa la cámara frontal para rastrear el movimiento ocular y los parpadeos durante los ejercicios y dar una puntuación precisa de enfoque.";
+"NSPhotoLibraryUsageDescription" = "Se usa para configurar tu foto de perfil.";

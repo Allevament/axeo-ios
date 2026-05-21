@@ -1,0 +1,7 @@
+/* Localized Info.plist usage description strings.
+   iOS picks the right .lproj based on the device's language preference
+   (Settings → General → Language). The development-region default lives
+   in INFOPLIST_KEY_* in project.pbxproj. */
+
+"NSCameraUsageDescription" = "Axeo uses the front camera to track your eye movements and blinks during exercises for accurate focus scoring.";
+"NSPhotoLibraryUsageDescription" = "Used to set your profile photo.";
