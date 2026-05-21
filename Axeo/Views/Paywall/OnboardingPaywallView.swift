@@ -302,7 +302,7 @@ struct OnboardingPaywallView: View {
                     VStack(spacing: 2) {
                         Text(NSLocalizedString("Try 7 Days Free", comment: ""))
                             .font(.system(size: 18, weight: .bold))
-                        Text(NSLocalizedString("then \(selectedPlan == .annual ? "$29.99/year" : "$5.99/month")", comment: ""))
+                        Text(trialAfterText)
                             .font(.system(size: 11, weight: .medium))
                             .opacity(0.8)
                     }
@@ -367,6 +367,21 @@ struct OnboardingPaywallView: View {
                 .foregroundStyle(Color.aveoText3)
                 .multilineTextAlignment(.center)
         }
+    }
+
+    /// Localised price-after-trial text. Uses StoreKit's auto-localised
+    /// `displayPrice` for the currency formatting and an NSLocalizedString
+    /// format key for the surrounding language. Previously this was a
+    /// hardcoded `"then $29.99/year"` literal which broke localisation for
+    /// non-English locales.
+    private var trialAfterText: String {
+        let format = selectedPlan == .annual
+            ? NSLocalizedString("then %@/year", comment: "")
+            : NSLocalizedString("then %@/month", comment: "")
+        let price = selectedPlan == .annual
+            ? (storeManager.annualProduct?.displayPrice ?? "$29.99")
+            : (storeManager.monthlyProduct?.displayPrice ?? "$5.99")
+        return String(format: format, price)
     }
 
     // MARK: – Purchase

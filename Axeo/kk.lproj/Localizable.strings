@@ -615,3 +615,13 @@
 "Workout Complete!" = "Жаттығу аяқталды!";
 "Your eyes will thank you" = "Көздеріңіз сізге рахмет айтады";
 "COMPLETED" = "ОРЫНДАЛДЫ";
+
+/* === Build #30: OnboardingPaywall hero + trial price format + BrandIcon a11y === */
+"Your Personal Plan\nis Ready" = "Сіздің жеке жоспарыңыз\nдайын";
+"then %@/year" = "содан кейін %@ жылына";
+"then %@/month" = "содан кейін %@ айына";
+"Landolt ring eye chart" = "Ландольт сақинасы";
+"Amsler grid" = "Амслер торы";
+"Tumbling E chart" = "Е әрпі диаграммасы";
+"Astigmatism dial" = "Астигматизм циферблаты";
+"Duochrome test" = "Дуохром тесті";

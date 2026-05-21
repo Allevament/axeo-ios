@@ -519,3 +519,13 @@
 "Workout Complete!" = "Workout Complete!";
 "Your eyes will thank you" = "Your eyes will thank you";
 "COMPLETED" = "COMPLETED";
+
+/* === Build #30: OnboardingPaywall hero + trial price format + BrandIcon a11y === */
+"Your Personal Plan\nis Ready" = "Your Personal Plan\nis Ready";
+"then %@/year" = "then %@/year";
+"then %@/month" = "then %@/month";
+"Landolt ring eye chart" = "Landolt ring eye chart";
+"Amsler grid" = "Amsler grid";
+"Tumbling E chart" = "Tumbling E chart";
+"Astigmatism dial" = "Astigmatism dial";
+"Duochrome test" = "Duochrome test";

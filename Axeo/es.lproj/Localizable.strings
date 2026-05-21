@@ -615,3 +615,13 @@
 "Workout Complete!" = "¡Entrenamiento completado!";
 "Your eyes will thank you" = "Tus ojos te lo agradecerán";
 "COMPLETED" = "COMPLETADO";
+
+/* === Build #30: OnboardingPaywall hero + trial price format + BrandIcon a11y === */
+"Your Personal Plan\nis Ready" = "Tu plan personal\nestá listo";
+"then %@/year" = "luego %@/año";
+"then %@/month" = "luego %@/mes";
+"Landolt ring eye chart" = "Anillo de Landolt";
+"Amsler grid" = "Cuadrícula de Amsler";
+"Tumbling E chart" = "Tabla de la E";
+"Astigmatism dial" = "Disco de astigmatismo";
+"Duochrome test" = "Test duocromático";
