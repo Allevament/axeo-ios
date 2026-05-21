@@ -40,7 +40,7 @@ struct PalmingRenderer: View, ExerciseRendering {
                             height: CGFloat(60 + i * 50)
                         )
                         .scaleEffect(breathScale)
-                        .animation(.easeInOut(duration: 4.0), value: isInhale)
+                        .aveoAnimation(.easeInOut(duration: 4.0), value: isInhale)
                         .position(center)
                 }
 
@@ -49,7 +49,7 @@ struct PalmingRenderer: View, ExerciseRendering {
                     .font(.system(size: 50))
                     .foregroundStyle(Color.aveoGold.opacity(0.4))
                     .scaleEffect(breathScale * 0.8)
-                    .animation(.easeInOut(duration: 4.0), value: isInhale)
+                    .aveoAnimation(.easeInOut(duration: 4.0), value: isInhale)
                     .position(center)
 
                 VStack(spacing: 8) {

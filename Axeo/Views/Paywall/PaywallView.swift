@@ -138,7 +138,7 @@ struct PaywallView: View {
                 title: NSLocalizedString("Annual", comment: ""),
                 price: storeManager.annualProduct?.displayPrice ?? "$29.99",
                 detail: NSLocalizedString("$2.49/mo · SAVE 58%", comment: ""),
-                badge: "BEST VALUE",
+                badge: NSLocalizedString("BEST VALUE", comment: ""),
                 trial: NSLocalizedString("7-day free trial", comment: "")
             )
 
@@ -234,6 +234,7 @@ struct PaywallView: View {
             }
         }
         .buttonStyle(.pressScale)
+        .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 
     private func planCardCompact(plan: PlanType, title: String, price: String, detail: String) -> some View {
@@ -277,6 +278,7 @@ struct PaywallView: View {
             }
         }
         .buttonStyle(.pressScale)
+        .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 
     // MARK: – Purchase Button

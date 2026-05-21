@@ -625,3 +625,10 @@
 "Tumbling E chart" = "Е әрпі диаграммасы";
 "Astigmatism dial" = "Астигматизм циферблаты";
 "Duochrome test" = "Дуохром тесті";
+
+/* === Build #31: paywall a11y traits + touch target labels === */
+"BEST VALUE" = "ЕҢ ТИІМДІ";
+"Selected" = "Таңдалды";
+"Mute exercise audio" = "Жаттығу дыбысын өшіру";
+"Unmute exercise audio" = "Жаттығу дыбысын қосу";
+"Profile" = "Профиль";

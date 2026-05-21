@@ -154,8 +154,12 @@ struct HomeView: View {
                 HapticManager.light()
             } label: {
                 profileAvatar
+                    // 44×44 minimum touch target per Apple HIG. The visual
+                    // avatar stays 38pt via inner frame in `profileAvatar`.
+                    .frame(minWidth: 44, minHeight: 44)
+                    .contentShape(Circle())
             }
-            .accessibilityLabel("Profile")
+            .accessibilityLabel(NSLocalizedString("Profile", comment: ""))
         }
         .padding(.top, 8)
     }

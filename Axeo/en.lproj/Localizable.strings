@@ -529,3 +529,10 @@
 "Tumbling E chart" = "Tumbling E chart";
 "Astigmatism dial" = "Astigmatism dial";
 "Duochrome test" = "Duochrome test";
+
+/* === Build #31: paywall a11y traits + touch target labels === */
+"BEST VALUE" = "BEST VALUE";
+"Selected" = "Selected";
+"Mute exercise audio" = "Mute exercise audio";
+"Unmute exercise audio" = "Unmute exercise audio";
+"Profile" = "Profile";

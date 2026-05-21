@@ -69,10 +69,14 @@ extension Color {
             : UIColor(Color(hex: 0x2563EB))
     })
 
-    // Text — light: ink + grey hierarchy, dark: snow + muted
+    // Text — light: ink + grey hierarchy, dark: snow + muted.
+    // text3 was 0x9298AD (light) / 0x4A5068 (dark) — failed WCAG 1.4.3
+    // body-text contrast (2.0:1 dark, 3.0:1 light vs aveoBg). Darkened the
+    // light value and brightened the dark value to ≥4.5:1 for our 40+
+    // target audience, who use this as caption/detail text everywhere.
     static let aveoText  = adaptive(light: 0x1C1E26, dark: 0xEAECF0)
     static let aveoText2 = adaptive(light: 0x5A5E70, dark: 0x8A90A4)
-    static let aveoText3 = adaptive(light: 0x9298AD, dark: 0x4A5068)
+    static let aveoText3 = adaptive(light: 0x6F7588, dark: 0x7A819A)
 
     // Semantic (adaptive for contrast on light surfaces)
     static let aveoSuccess = Color(UIColor { traits in
@@ -222,26 +226,37 @@ struct GlassCardModifier: ViewModifier {
     var cornerRadius: CGFloat = 20
     var padding: CGFloat = 16
 
+    /// Respects the system "Reduce Transparency" accessibility setting.
+    /// When ON, replaces `.ultraThinMaterial` + glass overlay with a fully
+    /// opaque `aveoCard` fill so low-vision users get readable surfaces
+    /// instead of see-through cards.
+    @Environment(\.accessibilityReduceTransparency) private var reduceTransparency
+
     func body(content: Content) -> some View {
         content
             .padding(padding)
             .background {
-                RoundedRectangle(cornerRadius: cornerRadius)
-                    .fill(.ultraThinMaterial)
-                    .overlay {
-                        RoundedRectangle(cornerRadius: cornerRadius)
-                            .fill(Color.aveoGlass)
-                    }
-                    .overlay(alignment: .top) {
-                        RoundedRectangle(cornerRadius: cornerRadius)
-                            .fill(
-                                LinearGradient(
-                                    colors: [Color.aveoGlassHighlight, .clear],
-                                    startPoint: .top,
-                                    endPoint: .center
+                if reduceTransparency {
+                    RoundedRectangle(cornerRadius: cornerRadius)
+                        .fill(Color.aveoCard)
+                } else {
+                    RoundedRectangle(cornerRadius: cornerRadius)
+                        .fill(.ultraThinMaterial)
+                        .overlay {
+                            RoundedRectangle(cornerRadius: cornerRadius)
+                                .fill(Color.aveoGlass)
+                        }
+                        .overlay(alignment: .top) {
+                            RoundedRectangle(cornerRadius: cornerRadius)
+                                .fill(
+                                    LinearGradient(
+                                        colors: [Color.aveoGlassHighlight, .clear],
+                                        startPoint: .top,
+                                        endPoint: .center
+                                    )
                                 )
-                            )
-                    }
+                        }
+                }
             }
             .overlay(
                 RoundedRectangle(cornerRadius: cornerRadius)

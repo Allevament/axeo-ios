@@ -546,7 +546,10 @@ struct OnboardingBrandPage: View {
             Spacer()
         }
         .onAppear {
-            withAnimation(.spring(response: 0.7, dampingFraction: 0.7).delay(0.1)) {
+            // `Animation.aveo` returns an instant easeOut fallback when the
+            // user has Reduce Motion enabled — important for the dramatic
+            // 3D rotation on this hero icon.
+            withAnimation(.aveo(.spring(response: 0.7, dampingFraction: 0.7).delay(0.1))) {
                 appeared = true
             }
         }

@@ -29,6 +29,11 @@ struct ExerciseActiveView: View {
 
     // Timer
     @State private var timer: Timer?
+    /// Cancellable "Up next" auto-advance after exercise completion.
+    /// Without storage we couldn't cancel a stale dispatch, and a user
+    /// ending the session early during the 3-second between-exercise
+    /// pause would mutate state on a dismissed view.
+    @State private var betweenWorkItem: DispatchWorkItem?
     private let tickInterval: TimeInterval = 1.0 / 60.0 // 60 fps
 
     private var currentExercise: ExerciseDefinition {
@@ -152,13 +157,19 @@ struct ExerciseActiveView: View {
                 Image(systemName: appState.soundCuesEnabled ? "speaker.wave.2.fill" : "speaker.slash.fill")
                     .font(.system(size: 16, weight: .semibold))
                     .foregroundStyle(appState.soundCuesEnabled ? Color.aveoSuccess : Color.aveoText3)
+                    // Visual circle stays 32pt for the existing card layout;
+                    // outer 44×44 ensures Apple HIG minimum touch target.
                     .frame(width: 32, height: 32)
                     .background {
                         Circle().fill(.ultraThinMaterial)
                     }
                     .overlay { Circle().strokeBorder(Color.aveoGlassBorder, lineWidth: 0.5) }
+                    .frame(minWidth: 44, minHeight: 44)
+                    .contentShape(Circle())
             }
-            .accessibilityLabel(appState.soundCuesEnabled ? "Mute exercise audio" : "Unmute exercise audio")
+            .accessibilityLabel(appState.soundCuesEnabled
+                ? NSLocalizedString("Mute exercise audio", comment: "")
+                : NSLocalizedString("Unmute exercise audio", comment: ""))
 
             // Eye tracking indicator
             if eyeTracker.isTracking {
@@ -354,7 +365,11 @@ struct ExerciseActiveView: View {
 
     private func startTimer() {
         sessionStartedAt = .now
-        timer = Timer.scheduledTimer(withTimeInterval: tickInterval, repeats: true) { _ in
+        // Build the Timer ourselves and add it to RunLoop.main with
+        // `.common` so it keeps firing during UI tracking (scroll, etc.)
+        // and stays on the main RunLoop — keeps state mutations on the
+        // main thread under Swift 6 strict concurrency.
+        let t = Timer(timeInterval: tickInterval, repeats: true) { _ in
             guard !isPaused && !showBetween else { return }
 
             let increment = tickInterval / Double(currentExercise.duration)
@@ -364,11 +379,17 @@ struct ExerciseActiveView: View {
                 exerciseComplete()
             }
         }
+        RunLoop.main.add(t, forMode: .common)
+        timer = t
     }
 
     private func stopTimer() {
         timer?.invalidate()
         timer = nil
+        // Cancel any pending auto-advance so a session ended during the
+        // between-exercise pause doesn't mutate state on a dismissed view.
+        betweenWorkItem?.cancel()
+        betweenWorkItem = nil
     }
 
     private func exerciseComplete() {
@@ -413,12 +434,17 @@ struct ExerciseActiveView: View {
             showBetween = true
         }
 
-        // Auto-continue after 3 seconds
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+        // Auto-continue after 3 seconds — wrapped in a cancellable
+        // DispatchWorkItem so endSessionEarly / stopTimer can abort it.
+        betweenWorkItem?.cancel()
+        let item = DispatchWorkItem {
             withAnimation(.spring(duration: 0.4)) {
                 showBetween = false
             }
+            betweenWorkItem = nil
         }
+        betweenWorkItem = item
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: item)
     }
 
     private func skipToNext() {

@@ -4,6 +4,12 @@ import SwiftUI
 
 /// Manages real-time eye & face tracking via ARKit TrueDepth camera.
 ///
+/// `@MainActor` so all @Observable state mutations run on the main thread
+/// (Swift 6 strict concurrency). ARKit delivers `session(_:didUpdate:)`
+/// on a background queue — the delegate method is marked `nonisolated`,
+/// extracts primitive blend-shape floats (cheap, Sendable), then hops to
+/// the main actor to apply them via `applyBlendShapes(...)`.
+///
 /// Published properties:
 /// - `isTracking` — session is running
 /// - `blinkCount` — total blinks detected this session
@@ -15,6 +21,7 @@ import SwiftUI
 /// 2. Read published values from SwiftUI views
 /// 3. Call `stop()` when finished
 /// 4. Call `computeAccuracy()` to get a 0–100 focus score
+@MainActor
 @Observable
 final class EyeTrackingManager: NSObject {
 
@@ -58,6 +65,12 @@ final class EyeTrackingManager: NSObject {
     func start() {
         guard isSupported else { return }
 
+        // Tear down any prior session before starting a new one — prevents
+        // a dangling ARSession if start() is called twice without stop()
+        // (e.g. exercise transition with cvEnabled across two views).
+        arSession?.pause()
+        arSession = nil
+
         let config = ARFaceTrackingConfiguration()
         config.isLightEstimationEnabled = false // save battery
 
@@ -98,17 +111,40 @@ final class EyeTrackingManager: NSObject {
 
 extension EyeTrackingManager: ARSessionDelegate {
 
-    func session(_ session: ARSession, didUpdate anchors: [ARAnchor]) {
+    /// ARKit delivers this callback on a background queue. We extract the
+    /// blend-shape floats synchronously (they're Sendable primitives) and
+    /// hop to the main actor to apply them to `@Observable` state.
+    nonisolated func session(_ session: ARSession, didUpdate anchors: [ARAnchor]) {
         guard let faceAnchor = anchors.compactMap({ $0 as? ARFaceAnchor }).first else { return }
-        let blendShapes = faceAnchor.blendShapes
+        let shapes = faceAnchor.blendShapes
+        let leftBlink  = shapes[.eyeBlinkLeft]?.floatValue  ?? 0
+        let rightBlink = shapes[.eyeBlinkRight]?.floatValue ?? 0
+        let lookInL    = shapes[.eyeLookInLeft]?.floatValue  ?? 0
+        let lookOutL   = shapes[.eyeLookOutLeft]?.floatValue ?? 0
+        let lookUpL    = shapes[.eyeLookUpLeft]?.floatValue  ?? 0
+        let lookDownL  = shapes[.eyeLookDownLeft]?.floatValue ?? 0
+        let lookInR    = shapes[.eyeLookInRight]?.floatValue  ?? 0
+        let lookOutR   = shapes[.eyeLookOutRight]?.floatValue ?? 0
+        let lookUpR    = shapes[.eyeLookUpRight]?.floatValue  ?? 0
+        let lookDownR  = shapes[.eyeLookDownRight]?.floatValue ?? 0
 
+        Task { @MainActor [weak self] in
+            self?.applyBlendShapes(
+                leftBlink: leftBlink, rightBlink: rightBlink,
+                lookInL: lookInL, lookOutL: lookOutL, lookUpL: lookUpL, lookDownL: lookDownL,
+                lookInR: lookInR, lookOutR: lookOutR, lookUpR: lookUpR, lookDownR: lookDownR
+            )
+        }
+    }
+
+    private func applyBlendShapes(
+        leftBlink: Float, rightBlink: Float,
+        lookInL: Float, lookOutL: Float, lookUpL: Float, lookDownL: Float,
+        lookInR: Float, lookOutR: Float, lookUpR: Float, lookDownR: Float
+    ) {
         // ── Eye openness ──
-        if let leftBlink = blendShapes[.eyeBlinkLeft]?.floatValue {
-            leftEyeOpenness = 1.0 - leftBlink
-        }
-        if let rightBlink = blendShapes[.eyeBlinkRight]?.floatValue {
-            rightEyeOpenness = 1.0 - rightBlink
-        }
+        leftEyeOpenness  = 1.0 - leftBlink
+        rightEyeOpenness = 1.0 - rightBlink
 
         // ── Blink detection (edge trigger) ──
         let currentlyBlinking = leftEyeOpenness < blinkThreshold && rightEyeOpenness < blinkThreshold
@@ -119,20 +155,10 @@ extension EyeTrackingManager: ARSessionDelegate {
         wasBlinking = currentlyBlinking
 
         // ── Gaze direction ──
-        if let lookInL  = blendShapes[.eyeLookInLeft]?.floatValue,
-           let lookOutL = blendShapes[.eyeLookOutLeft]?.floatValue,
-           let lookUpL  = blendShapes[.eyeLookUpLeft]?.floatValue,
-           let lookDownL = blendShapes[.eyeLookDownLeft]?.floatValue {
-            leftEyeYaw   = lookOutL - lookInL     // positive = looking left
-            leftEyePitch  = lookUpL - lookDownL    // positive = looking up
-        }
-        if let lookInR  = blendShapes[.eyeLookInRight]?.floatValue,
-           let lookOutR = blendShapes[.eyeLookOutRight]?.floatValue,
-           let lookUpR  = blendShapes[.eyeLookUpRight]?.floatValue,
-           let lookDownR = blendShapes[.eyeLookDownRight]?.floatValue {
-            rightEyeYaw  = lookOutR - lookInR
-            rightEyePitch = lookUpR - lookDownR
-        }
+        leftEyeYaw    = lookOutL - lookInL    // positive = looking left
+        leftEyePitch  = lookUpL - lookDownL   // positive = looking up
+        rightEyeYaw   = lookOutR - lookInR
+        rightEyePitch = lookUpR - lookDownR
 
         // ── Focus scoring ──
         let avgYaw   = (abs(leftEyeYaw) + abs(rightEyeYaw)) / 2

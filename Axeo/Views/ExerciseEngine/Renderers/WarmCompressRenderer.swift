@@ -38,7 +38,7 @@ struct WarmCompressRenderer: View, ExerciseRendering {
                             height: CGFloat(50 + i * 45)
                         )
                         .scaleEffect(glowScale)
-                        .animation(.easeInOut(duration: 5.0), value: isInhale)
+                        .aveoAnimation(.easeInOut(duration: 5.0), value: isInhale)
                         .position(center)
                 }
 
@@ -53,7 +53,7 @@ struct WarmCompressRenderer: View, ExerciseRendering {
                         )
                     )
                     .scaleEffect(glowScale * 0.9)
-                    .animation(.easeInOut(duration: 5.0), value: isInhale)
+                    .aveoAnimation(.easeInOut(duration: 5.0), value: isInhale)
                     .position(center)
 
                 VStack(spacing: 8) {

@@ -285,6 +285,7 @@ struct OnboardingPaywallView: View {
             }
         }
         .buttonStyle(.pressScale)
+        .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 
     // MARK: – Trial Button
